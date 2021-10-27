@@ -1,5 +1,9 @@
-Hello stranger 👋
-============
+<div align=center>
+
+ --- 
+  
+# 👨‍💻Whoami
+
 
 I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write clean, maintainable, and reliable software.
 
@@ -10,10 +14,12 @@ I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write cle
 ![](https://komarev.com/ghpvc/?username=aldecode&color=brightgreen&style=flat)
 ![githubbadge](https://img.shields.io/github/followers/aldecode?style=social)
 
-Tech stack 🔧
-------------
+---
 
-### Languages
+Tech stack 🔧
+---
+
+#### Languages
 
 ![CSharp](https://img.shields.io/badge/-CSharp-fff?&logo=c-sharp&logoColor=blue)
 ![dotNET](https://img.shields.io/badge/.NET-fff?&logo=.net&logoColor=5C2D91)
@@ -23,7 +29,8 @@ Tech stack 🔧
 ![TypeScript](https://img.shields.io/badge/-TypeScript-fff?&logo=TypeScript&logoColor=007ACC)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-fff?&logo=JavaScript&logoColor=ddc508)
   
-### Technlogies
+  
+#### Technlogies
   
 ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-fff?style=flat&logo=.net&logoColor=blue)
 ![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-fff?style=flat&logo=Microsoft&logoColor=0078D7)
@@ -33,10 +40,16 @@ Tech stack 🔧
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-fff?style=flat&logo=bootstrap&logoColor=563D7C)
 ![Azure](https://img.shields.io/badge/-Azure-fff?&logo=Microsoft-Azure&logoColor=blue)
 
-Git Stats 📈
-----------------
+---
 
-  <a href="https://gitstats.me/aldecode" align=center>
+
+Git Stats 📈
+---
+
+  </div>
+  <a href="https://gitstats.me/aldecode" align=center >
   <img height="150px" src="https://github-readme-stats.vercel.app/api?username=aldecode&show_icons=true&theme=nord&hide_title=true&hide=contribs,issues&include_all_commits=true&count_private=true&hide_border=true" />
   <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldecode&layout=compact&exclude_repo=WebResume&hide=,&theme=nord&hide_border=true" /> 
 </a>
+
+---
