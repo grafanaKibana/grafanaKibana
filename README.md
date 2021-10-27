@@ -1,15 +1,17 @@
-Hi there 👋
+Hello stranger 👋
 ============
 
 I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write clean, maintainable, and reliable software.
 
-  
 [![dev.to badge](https://img.shields.io/badge/-nikitareshetnik-%230177B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/nikitareshetnik/)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:reshetnik.nikita@gmail.com)](mailto:reshetnik.nikita@gmail.com)
 [![telegrambadge](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://telegram.im/@reshetnigram)
 [![Ask me here!](https://img.shields.io/badge/Query-Ask_Me_Anything-1DA1F2)](https://github.com/aldecode/aldecode/issues/new)
 ![](https://komarev.com/ghpvc/?username=aldecode&color=brightgreen&style=flat)
 ![githubbadge](https://img.shields.io/github/followers/aldecode?style=social)
+
+Tech stack 🔧
+------------
 
 ### Languages
 
@@ -31,9 +33,10 @@ I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write cle
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-fff?style=flat&logo=bootstrap&logoColor=563D7C)
 ![Azure](https://img.shields.io/badge/-Azure-fff?&logo=Microsoft-Azure&logoColor=blue)
 
+Git Stats 📈
+----------------
 
-
-  <p align=left>
+  <a href="https://gitstats.me/aldecode" align=center>
   <img height="150px" src="https://github-readme-stats.vercel.app/api?username=aldecode&show_icons=true&theme=nord&hide_title=true&hide=contribs,issues&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldecode&layout=compact&exclude_repo=WebResume&hide=,&theme=nord&hide_border=true" />
-</p>
+  <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldecode&layout=compact&exclude_repo=WebResume&hide=,&theme=nord&hide_border=true" /> 
+</a>
