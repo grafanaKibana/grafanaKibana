@@ -1,16 +1,21 @@
-### Hi there 👋
+Hi there 👋
+============
 
-<!--
-**aldecode/aldecode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a software engineering student, aiming to write clean, maintainable, and reliable software.
 
-Here are some ideas to get you started:
+Mainly writing code in .NET (C#).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔭 I’m currently working on internship training project. 
+
+🌱 I’m currently learning:
+---------------------------
+- ASP.NET Web API
+- RESTful API
+- Entity Framework Core
+- N-Tier Architecture
+
+📫 How to reach me: 
+---------------------------
+- [LinkedIn](https://www.linkedin.com/in/nikitareshetnik)
+- [E-Mail](reshetnik.nikita@gmail.com)
+- Telegram: @reshetnigram
