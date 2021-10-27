@@ -1,21 +1,30 @@
 Hi there 👋
 ============
 
-I'm a software engineering student, aiming to write clean, maintainable, and reliable software.
+I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write clean, maintainable, and reliable software.
 
-Mainly writing code in .NET (C#).
+[![dev.to badge](https://img.shields.io/badge/-nikitareshetnik-%230177B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/nikitareshetnik/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:reshetnik.nikita@gmail.com)](mailto:reshetnik.nikita@gmail.com)
+![githubbadge](https://img.shields.io/github/followers/aldecode?style=social)
+[![telegrambadge](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://telegram.im/@reshetnigram)
+[![Ask me here!](https://img.shields.io/badge/Query-Ask_Me_Anything-1DA1F2)](https://github.com/aldecode/aldecode/issues/new)
+![](https://komarev.com/ghpvc/?username=aldecode&color=brightgreen&style=flat)
 
-🔭 I’m currently working on internship training project. 
+#### Languages
+![CSharp](https://img.shields.io/badge/-CSharp-fff?&logo=c-sharp&logoColor=blue)
+![dotNET](https://img.shields.io/badge/.NET-5C2D91?&logo=.net&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML-fff?&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-fff?&logo=CSS3&logoColor=blue)
+![C++](https://img.shields.io/badge/-C++-fff?&logo=c%2b%2b&logoColor=00599C)
+![TypeScript](https://img.shields.io/badge/-TypeScript-fff?&logo=TypeScript&logoColor=007ACC)
+![JavaScript](https://img.shields.io/badge/-JavaScript-fff?&logo=JavaScript&logoColor=ddc508)
 
-🌱 I’m currently learning:
----------------------------
-- ASP.NET Web API
-- RESTful API
-- Entity Framework Core
-- N-Tier Architecture
+#### Technlogies
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-fff?style=flat&logo=.net&logoColor=blue)
+![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-fff?style=flat&logo=Microsoft&logoColor=0078D7)
+![Git](https://img.shields.io/badge/-Git-fff?style=flat&logo=git)
+![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+![xUnit](https://img.shields.io/badge/-xUnit-fff?style=flat&logo=xunit&logoColor=blue)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-fff?style=flat&logo=bootstrap&logoColor=563D7C)
+![Azure](https://img.shields.io/badge/-Azure-fff?&logo=Microsoft-Azure&logoColor=blue)
 
-📫 How to reach me: 
----------------------------
-- [LinkedIn](https://www.linkedin.com/in/nikitareshetnik)
-- [E-Mail](reshetnik.nikita@gmail.com)
-- Telegram: @reshetnigram
