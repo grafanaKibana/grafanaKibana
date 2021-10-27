@@ -44,8 +44,19 @@ I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write cle
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   <a href="https://gitstats.me/aldecode" align=center >
-  <img height="130px" src="https://github-readme-stats.vercel.app/api?username=aldecode&show_icons=true&theme=nord&hide_title=true&hide=contribs,issues&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="130px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldecode&layout=compact&exclude_repo=WebResume&hide=,&theme=nord&hide_border=true" /> 
+  <img height="130px" src="https://github-readme-stats.vercel.app/api?username=aldecode&show_icons=true&theme=vue&hide_title=true&hide=contribs,issues&include_all_commits=true&count_private=true&hide_border=true" />
+  <img height="130px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldecode&layout=compact&exclude_repo=WebResume&hide=,&theme=vue&hide_border=true" /> 
 </a>  
   
+
+
+Projects that i currentry working on
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aldecode&repo=AutohubAPI" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=WebResume" />
+</a>
 </div>
