@@ -9,9 +9,9 @@ I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write cle
 ![](https://komarev.com/ghpvc/?username=aldecode&color=brightgreen&style=flat)
 ![githubbadge](https://img.shields.io/github/followers/aldecode?style=social)
 
-[![dev.to badge](https://img.shields.io/badge/-nikitareshetnik-%230177B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/nikitareshetnik/)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:reshetnik.nikita@gmail.com)](mailto:reshetnik.nikita@gmail.com)
-[![telegrambadge](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://telegram.im/@reshetnigram)
+[![dev.to badge](https://img.shields.io/badge/-Nikita_Reshetnik-%230177B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/nikitareshetnik/)
+[![Gmail Badge](https://img.shields.io/badge/-reshetnik.nikita@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:reshetnik.nikita@gmail.com)](mailto:reshetnik.nikita@gmail.com)
+[![telegrambadge](https://img.shields.io/badge/reshetnigram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://telegram.im/@reshetnigram)
   
 
 
@@ -41,7 +41,10 @@ I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write cle
 ![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-fff?style=flat&logo=microsoft-sql-server&logoColor=red)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-fff?style=flat&logo=bootstrap&logoColor=563D7C)
 ![Azure](https://img.shields.io/badge/-Azure-fff?&logo=Microsoft-Azure&logoColor=blue)
-
+  
+![VS](https://img.shields.io/badge/-VisualStudio-fff?&logo=VisualStudio&logoColor=5C2D91)
+![Rider](https://img.shields.io/badge/-Rider-fff?&logo=Rider&logoColor=black)
+![DataGrip](https://img.shields.io/badge/-DataGrip-fff?&logo=DataGrip&logoColor=black)
   
 📈Git Stats 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
