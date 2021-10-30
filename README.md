@@ -6,12 +6,12 @@
 I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write clean, maintainable, and reliable software.
   
 [![Ask me here!](https://img.shields.io/badge/Ask_Me_Anything-yellow?style=flat)](https://github.com/aldecode/aldecode/issues/new)
-![](https://komarev.com/ghpvc/?username=aldecode&color=brightgreen&style=flat)
-![githubbadge](https://img.shields.io/github/followers/aldecode?style=social)
+[![git profile views](https://komarev.com/ghpvc/?username=aldecode&color=brightgreen&style=flat)](https://github.com/aldecode)
+[![git followers](https://img.shields.io/github/followers/aldecode?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Faldecode)
 
-[![dev.to badge](https://img.shields.io/badge/-Nikita_Reshetnik-%230177B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/nikitareshetnik/)
+[![LinkedIn Badge](https://img.shields.io/badge/-Nikita_Reshetnik-%230177B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/nikitareshetnik/)
 [![Gmail Badge](https://img.shields.io/badge/-reshetnik.nikita@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:reshetnik.nikita@gmail.com)](mailto:reshetnik.nikita@gmail.com)
-[![telegrambadge](https://img.shields.io/badge/reshetnigram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://telegram.im/@reshetnigram)
+[![Telegram Badge](https://img.shields.io/badge/reshetnigram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://telegram.im/@reshetnigram)
   
 
 
