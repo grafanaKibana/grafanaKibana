@@ -50,7 +50,7 @@ I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write cle
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   <a href="https://gitstats.me/aldecode" align=center >
-  <img height="120px" src="https://github-readme-stats.vercel.app/api?username=aldecode&show_icons=true&theme=vue&hide_title=true&hide=contribs,issues&include_all_commits=true&count_private=true&hide_border=true" />
+  <img height="120px" src="https://github-readme-stats.vercel.app/api?username=aldecode&include_all_commits=true&count_private=true&hide_border=true&theme=vue&hide=contribs,issues&show_icons=true&hide_title=true" />
   <img height="120px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldecode&layout=compact&&hide=javascript,&theme=vue&hide_border=true" /> 
 </a>  
  
