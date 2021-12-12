@@ -3,7 +3,7 @@
 👨‍💻Who.am.I
 ============================================================================================================================
   
-I'm a 3rd-year Software Engineering/CS student from Ukraine, aiming to write clean, maintainable, and reliable software.
+I'm a 3rd-year Software Engineering/CS student and .NET Software Developer from Ukraine, aiming to write clean, maintainable, and reliable software.
   
 [![Ask me here!](https://img.shields.io/badge/Ask_Me_Anything-yellow?style=flat)](https://github.com/aldecode/aldecode/issues/new)
 [![git profile views](https://komarev.com/ghpvc/?username=aldecode&color=brightgreen&style=flat)](https://github.com/aldecode)
