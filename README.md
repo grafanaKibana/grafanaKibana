@@ -20,31 +20,36 @@ I'm a 3rd-year Software Engineering/CS student and .NET Software Developer from 
 
 #### Languages
 
-![CSharp](https://img.shields.io/badge/-CSharp-fff?&logo=c-sharp&logoColor=blue)
-![dotNET](https://img.shields.io/badge/.NET-fff?&logo=.net&logoColor=5C2D91)
-![HTML](https://img.shields.io/badge/-HTML-fff?&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-fff?&logo=CSS3&logoColor=blue)
- 
+![CSharp](https://img.shields.io/badge/-CSharp-fff?&logo=sharp&logoColor=0078D4)
+![dotNET](https://img.shields.io/badge/.NET-fff?&logo=.net&logoColor=512BD4)
 ![C++](https://img.shields.io/badge/-C++-fff?&logo=c%2b%2b&logoColor=00599C)
-![TypeScript](https://img.shields.io/badge/-TypeScript-fff?&logo=TypeScript&logoColor=007ACC)
-![JavaScript](https://img.shields.io/badge/-JavaScript-fff?&logo=JavaScript&logoColor=ddc508)
-  
+
+ 
+![HTML](https://img.shields.io/badge/-HTML-fff?&logo=HTML5&logoColor=E34F26)
+![CSS](https://img.shields.io/badge/-CSS-fff?&logo=CSS3&logoColor=1572B6)
+![SCSS](https://img.shields.io/badge/-SCSS-fff?&logo=sass&logoColor=CC6699)
+![TypeScript](https://img.shields.io/badge/-TypeScript-fff?&logo=TypeScript&logoColor=3178C6)
+
   
 #### Technlogies
   
 ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-fff?style=flat&logo=.net&logoColor=blue)
 ![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-fff?style=flat&logo=Microsoft&logoColor=0078D7)
-![Git](https://img.shields.io/badge/-Git-fff?style=flat&logo=git)
-![xUnit](https://img.shields.io/badge/-xUnit-fff?style=flat&logo=xunit&logoColor=blue)
+![Git](https://img.shields.io/badge/-Git-fff?style=flat&logo=git&logoColor=F05032)
+![Angular](https://img.shields.io/badge/-Angular-fff?style=flat&logo=angular&logoColor=DD0031)
+![Blazor](https://img.shields.io/badge/-Blazor-fff?style=flat&logo=blazor&logoColor=512BD4)
 
   
-![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-fff?style=flat&logo=microsoft-sql-server&logoColor=red)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-fff?style=flat&logo=bootstrap&logoColor=563D7C)
-![Azure](https://img.shields.io/badge/-Azure-fff?&logo=Microsoft-Azure&logoColor=blue)
+![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-fff?style=flat&logo=microsoft-sql-server&logoColor=CC2927)
+![AWS](https://img.shields.io/badge/-AWS-fff?style=flat&logo=amazonaws&logoColor=FF9900)
+![Azure](https://img.shields.io/badge/-Azure-fff?&logo=Microsoft-Azure&logoColor=0078D4)
+![Jenkins](https://img.shields.io/badge/-Jenkins-fff?&logo=jenkins&logoColor=D24939)
+![Kibana](https://img.shields.io/badge/-Kibana-fff?&logo=kibana&logoColor=005571)
+![Grafana](https://img.shields.io/badge/-Grafana-fff?&logo=grafana&logoColor=F46800)
   
 ![VS](https://img.shields.io/badge/-VisualStudio-fff?&logo=VisualStudio&logoColor=5C2D91)
-![Rider](https://img.shields.io/badge/-Rider-fff?&logo=Rider&logoColor=black)
-![DataGrip](https://img.shields.io/badge/-DataGrip-fff?&logo=DataGrip&logoColor=black)
+![Rider](https://img.shields.io/badge/-Rider-fff?&logo=Rider&logoColor=000000)
+![DataGrip](https://img.shields.io/badge/-DataGrip-fff?&logo=DataGrip&logoColor=000000)
   
 📈Git Stats 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
