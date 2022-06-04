@@ -1,6 +1,6 @@
 <div align=center>
   
-👨‍💻Who.am.I
+👨‍💻Who.I.am
 ============================================================================================================================
   
 I'm a 3rd-year Software Engineering/CS student and .NET Software Developer from Ukraine, aiming to write clean, maintainable, and reliable software.
