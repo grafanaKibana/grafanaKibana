@@ -20,7 +20,8 @@ I'm a 3rd-year Software Engineering/CS student and .NET Software Developer from 
 
 #### Languages
 
-![CSharp](https://img.shields.io/badge/-CSharp-fff?&logo=sharp&logoColor=0078D4)
+![C#](https://img.shields.io/badge/-CSharp-fff?&logo=sharp&logoColor=0078D4)
+![F#](https://img.shields.io/badge/-FSharp-fff?&logo=sharp&logoColor=5D3FD3)
 ![dotNET](https://img.shields.io/badge/.NET-fff?&logo=.net&logoColor=512BD4)
 ![C++](https://img.shields.io/badge/-C++-fff?&logo=c%2b%2b&logoColor=00599C)
 
