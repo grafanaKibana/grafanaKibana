@@ -20,37 +20,37 @@ I'm a 4th-year Software Engineering/CS student and .NET Software Developer from 
 
 #### Languages
 
-![C#](https://img.shields.io/badge/-CSharp-fff?&logo=sharp&logoColor=0078D4)
-![F#](https://img.shields.io/badge/-FSharp-fff?&logo=sharp&logoColor=5D3FD3)
-![dotNET](https://img.shields.io/badge/.NET-fff?&logo=.net&logoColor=512BD4)
-![C++](https://img.shields.io/badge/-C++-fff?&logo=c%2b%2b&logoColor=00599C)
+![C#](https://img.shields.io/badge/-CSharp-0078D4?logo=sharp&logoColor=fff)
+![F#](https://img.shields.io/badge/-FSharp-5D3FD3?logo=sharp&logoColor=fff)
+![dotNET](https://img.shields.io/badge/.NET-512BD4?logo=.net&logoColor=fff)
+![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2b%2b&logoColor=fff)
 
  
-![HTML](https://img.shields.io/badge/-HTML-fff?&logo=HTML5&logoColor=E34F26)
-![CSS](https://img.shields.io/badge/-CSS-fff?&logo=CSS3&logoColor=1572B6)
-![SCSS](https://img.shields.io/badge/-SCSS-fff?&logo=sass&logoColor=CC6699)
-![TypeScript](https://img.shields.io/badge/-TypeScript-fff?&logo=TypeScript&logoColor=3178C6)
+![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=HTML5&logoColor=fff)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=CSS3&logoColor=fff)
+![SCSS](https://img.shields.io/badge/-SCSS-CC6699?logo=sass&logoColor=fff)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=TypeScript&logoColor=fff)
 
   
 #### Technlogies
   
-![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-fff?style=flat&logo=.net&logoColor=blue)
-![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-fff?style=flat&logo=Microsoft&logoColor=0078D7)
-![Git](https://img.shields.io/badge/-Git-fff?style=flat&logo=git&logoColor=F05032)
-![Angular](https://img.shields.io/badge/-Angular-fff?style=flat&logo=angular&logoColor=DD0031)
-![Blazor](https://img.shields.io/badge/-Blazor-fff?style=flat&logo=blazor&logoColor=512BD4)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-blue?logo=.net&logoColor=fff)
+![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-0078D7?logo=Microsoft&logoColor=fff)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=fff)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?logo=angular&logoColor=fff)
+![Blazor](https://img.shields.io/badge/-Blazor-512BD4?logo=blazor&logoColor=fff)
 
   
-![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-fff?style=flat&logo=microsoft-sql-server&logoColor=CC2927)
-![AWS](https://img.shields.io/badge/-AWS-fff?style=flat&logo=amazonaws&logoColor=FF9900)
-![Azure](https://img.shields.io/badge/-Azure-fff?&logo=Microsoft-Azure&logoColor=0078D4)
-![Jenkins](https://img.shields.io/badge/-Jenkins-fff?&logo=jenkins&logoColor=D24939)
-![Kibana](https://img.shields.io/badge/-Kibana-fff?&logo=kibana&logoColor=005571)
-![Grafana](https://img.shields.io/badge/-Grafana-fff?&logo=grafana&logoColor=F46800)
+![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=fff)
+![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonaws&logoColor=fff)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?&logo=Microsoft-Azure&logoColor=fff)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?&logo=jenkins&logoColor=fff)
+![Kibana](https://img.shields.io/badge/-Kibana-005571?&logo=kibana&logoColor=fff)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?&logo=grafana&logoColor=fff)
   
-![VS](https://img.shields.io/badge/-VisualStudio-fff?&logo=VisualStudio&logoColor=5C2D91)
-![Rider](https://img.shields.io/badge/-Rider-fff?&logo=Rider&logoColor=000000)
-![DataGrip](https://img.shields.io/badge/-DataGrip-fff?&logo=DataGrip&logoColor=000000)
+![VS](https://img.shields.io/badge/-VisualStudio-5C2D91?&logo=VisualStudio&logoColor=fff)
+![Rider](https://img.shields.io/badge/-Rider-000000?&logo=Rider&logoColor=fff)
+![DataGrip](https://img.shields.io/badge/-DataGrip-000000?&logo=DataGrip&logoColor=fff)
   
 📈Git Stats 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
