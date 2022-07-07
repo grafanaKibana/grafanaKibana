@@ -23,9 +23,6 @@ I'm a 4th-year Software Engineering/CS student and .NET Software Developer from 
 ![C#](https://img.shields.io/badge/-CSharp-0078D4?logo=sharp&logoColor=fff)
 ![F#](https://img.shields.io/badge/-FSharp-5D3FD3?logo=sharp&logoColor=fff)
 ![dotNET](https://img.shields.io/badge/.NET-512BD4?logo=.net&logoColor=fff)
-![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2b%2b&logoColor=fff)
-
- 
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=HTML5&logoColor=fff)
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=CSS3&logoColor=fff)
 ![SCSS](https://img.shields.io/badge/-SCSS-CC6699?logo=sass&logoColor=fff)
@@ -40,7 +37,6 @@ I'm a 4th-year Software Engineering/CS student and .NET Software Developer from 
 ![Angular](https://img.shields.io/badge/-Angular-DD0031?logo=angular&logoColor=fff)
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?logo=blazor&logoColor=fff)
 
-  
 ![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=fff)
 ![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonaws&logoColor=fff)
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?&logo=Microsoft-Azure&logoColor=fff)
