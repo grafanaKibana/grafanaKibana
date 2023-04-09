@@ -33,6 +33,7 @@ I'm a 4th-year Software Engineering/CS student and .NET Software Developer from 
   
 ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-blue?logo=.net&logoColor=fff)
 ![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-0078D7?logo=Microsoft&logoColor=fff)
+![WPF](https://img.shields.io/badge/-WPF-0078D7?logo=Microsoft&logoColor=fff)
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=fff)
 ![Angular](https://img.shields.io/badge/-Angular-DD0031?logo=angular&logoColor=fff)
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?logo=blazor&logoColor=fff)
