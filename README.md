@@ -52,8 +52,8 @@ I'm a 4th-year Software Engineering/CS student and .NET Software Developer from 
 📈Git Stats 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  <a href="https://gitstats.me/aldecode" align=center >
-  <img height="120px" src="https://github-readme-stats.vercel.app/api?username=aldecode&include_all_commits=true&count_private=true&hide_border=true&theme=default&hide=contribs,issues&show_icons=true&hide_title=true" />
-  <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldecode&layout=compact&&hide=javascript&langs_count=8&theme=default&hide_border=true" /> 
+  <a href="https://gitstats.me/grafanaKibana" align=center >
+  <img height="120px" src="https://github-readme-stats.vercel.app/api?username=grafanaKibana&include_all_commits=true&count_private=true&hide_border=true&theme=default&hide=contribs,issues&show_icons=true&hide_title=true" />
+  <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=grafanaKibana&layout=compact&&hide=javascript&langs_count=8&theme=default&hide_border=true" /> 
 </a>  
  
