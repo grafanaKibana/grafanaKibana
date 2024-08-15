@@ -44,7 +44,9 @@ I'm a 4th-year Software Engineering/CS student and .NET Software Developer from 
 ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?&logo=jenkins&logoColor=fff)
 ![Kibana](https://img.shields.io/badge/-Kibana-005571?&logo=kibana&logoColor=fff)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?&logo=grafana&logoColor=fff)
-  
+
+#### IDEs
+
 ![VS](https://img.shields.io/badge/-VisualStudio-5C2D91?&logo=VisualStudio&logoColor=fff)
 ![Rider](https://img.shields.io/badge/-Rider-000000?&logo=Rider&logoColor=fff)
 ![DataGrip](https://img.shields.io/badge/-DataGrip-000000?&logo=DataGrip&logoColor=fff)
