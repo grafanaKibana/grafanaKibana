@@ -3,7 +3,7 @@
 👨‍💻Who.I.am
 ============================================================================================================================
   
-I'm a 5th-year Software Engineering/CS student and .NET Software Developer from Ukraine, aiming to write clean, maintainable, and reliable software.
+I'm a 6th-year Software Engineering/CS student and .NET Software Developer from Ukraine, aiming to write clean, maintainable, and reliable software.
   
 [![Ask me here!](https://img.shields.io/badge/Ask_Me_Anything-yellow?style=flat)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
 [![git profile views](https://komarev.com/ghpvc/?username=grafanaKibana&color=brightgreen&style=flat)](https://github.com/grafanaKibana)
