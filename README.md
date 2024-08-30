@@ -53,9 +53,19 @@ I'm a 6th-year Software Engineering/CS student and .NET Software Developer from 
   
 📈Git Stats 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-  <a href="https://gitstats.me/grafanaKibana" align=center >
-  <img height="120px" src="https://github-readme-stats.vercel.app/api?username=grafanaKibana&include_all_commits=true&count_private=true&hide_border=true&theme=default&hide=contribs,issues&show_icons=true&hide_title=true" />
-  <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=grafanaKibana&layout=compact&&hide=javascript&langs_count=8&theme=default&hide_border=true" /> 
-</a>  
- 
+  <table>
+    <tr>
+        <td align=center width="500px">
+            <a href="https://gitstats.me/grafanaKibana">
+                <img height="110px" src="https://github-readme-stats.vercel.app/api?username=grafanaKibana&include_all_commits=true&count_private=true&hide_border=true&theme=default&hide=contribs,issues&show_icons=true&hide_title=true" />
+            </a>
+             <a href="https://gitstats.me/grafanaKibana">
+                <img height="275px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=grafanaKibana&layout=compact&&hide=javascript&langs_count=8&theme=default&hide_border=true" /> 
+            </a>
+        </td>
+        <td>
+          <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66d1c6e1553501e3c32755f0?variant=light&roadmaps=66c34203837d383f4a09246b%2Cai-data-scientist%2Cbackend%2Cblockchain" alt="roadmap.sh"/></a>
+        </td>
+    </tr>
+</table>
+</div>
