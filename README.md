@@ -59,7 +59,7 @@ I'm a 6th-year Software Engineering/CS student and .NET Software Developer from 
             </a>
         </td>
         <td>
-          <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66d1c6e1553501e3c32755f0?variant=light&roadmaps=66c34203837d383f4a09246b%2Cai-data-scientist%2Cblockchain%2Capi-design" alt="roadmap.sh"/></a>
+          <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66d1c6e1553501e3c32755f0?variant=light&roadmaps=ai-engineer%2Cprompt-engineering%2Cdatastructures-and-algorithms" alt="roadmap.sh"/></a>
         </td>
     </tr>
   </table>
