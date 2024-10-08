@@ -13,32 +13,33 @@
 
 ---
 ### 💻 Tech stack
-#### - Languages -
-  ![C#](https://img.shields.io/badge/-CSharp-0078D4?logo=sharp&logoColor=fff&style=flat-square) 
-  ![F#](https://img.shields.io/badge/-FSharp-5D3FD3?logo=fsharp&logoColor=fff&style=flat-square) 
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=TypeScript&logoColor=fff&style=flat-square) 
+#### Languages:
+![C#](https://img.shields.io/badge/-CSharp-0078D4?logo=sharp&logoColor=fff&style=flat-square) 
+![F#](https://img.shields.io/badge/-FSharp-5D3FD3?logo=fsharp&logoColor=fff&style=flat-square) 
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=TypeScript&logoColor=fff&style=flat-square) 
 
-#### - Technologies -
-  ![dotNET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=flat-square) 
-  ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-blue?logo=.net&logoColor=fff&style=flat-square)
-  ![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-0078D7?logo=dotnet&logoColor=fff&style=flat-square)
-  ![WPF](https://img.shields.io/badge/-WPF-0078D7?logo=dotnet&logoColor=fff&style=flat-square)
-  ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?logo=blazor&logoColor=fff&style=flat-square)
-  ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=fff&style=flat-square)
-  
-  ![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=fff&style=flat-square)
-  ![Azure](https://img.shields.io/badge/-Azure-0078D4?&logo=Microsoft-Azure&logoColor=fff&style=flat-square)
-  ![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonwebservices&logoColor=fff&style=flat-square)
-  ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?&logo=jenkins&logoColor=fff&style=flat-square)
-  ![Kibana](https://img.shields.io/badge/-Kibana-005571?&logo=kibana&logoColor=fff&style=flat-square)
-  ![Grafana](https://img.shields.io/badge/-Grafana-F46800?&logo=grafana&logoColor=fff&style=flat-square)
+#### Technologies:
+![dotNET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=flat-square) 
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-blue?logo=.net&logoColor=fff&style=flat-square)
+![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-0078D7?logo=dotnet&logoColor=fff&style=flat-square)
+![WPF](https://img.shields.io/badge/-WPF-0078D7?logo=dotnet&logoColor=fff&style=flat-square)
+![Blazor](https://img.shields.io/badge/-Blazor-512BD4?logo=blazor&logoColor=fff&style=flat-square)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=fff&style=flat-square)
 
-#### - Software -
-  ![VS](https://img.shields.io/badge/-VisualStudio-5C2D91?&logo=VisualStudio&logoColor=fff&style=flat-square)
-  ![Rider](https://img.shields.io/badge/-Rider-000000?&logo=Rider&logoColor=fff&style=flat-square)
-  ![DataGrip](https://img.shields.io/badge/-DataGrip-000000?&logo=DataGrip&logoColor=fff&style=flat-square)
-  ![Postman](https://img.shields.io/badge/-Postman-F46800?&logo=Postman&logoColor=fff&style=flat-square)
-  ![Fiddler](https://img.shields.io/badge/-Fiddler-008000?&logo=Fiddler&logoColor=fff&style=flat-square)
+#### Infrastructure:
+![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=fff&style=flat-square)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?&logo=Microsoft-Azure&logoColor=fff&style=flat-square)
+![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonwebservices&logoColor=fff&style=flat-square)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?&logo=jenkins&logoColor=fff&style=flat-square)
+![Kibana](https://img.shields.io/badge/-Kibana-005571?&logo=kibana&logoColor=fff&style=flat-square)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?&logo=grafana&logoColor=fff&style=flat-square)
+
+#### Software:
+![VS](https://img.shields.io/badge/-VisualStudio-5C2D91?&logo=VisualStudio&logoColor=fff&style=flat-square)
+![Rider](https://img.shields.io/badge/-Rider-000000?&logo=Rider&logoColor=fff&style=flat-square)
+![DataGrip](https://img.shields.io/badge/-DataGrip-000000?&logo=DataGrip&logoColor=fff&style=flat-square)
+![Postman](https://img.shields.io/badge/-Postman-F46800?&logo=Postman&logoColor=fff&style=flat-square)
+![Fiddler](https://img.shields.io/badge/-Fiddler-008000?&logo=Fiddler&logoColor=fff&style=flat-square)
 
 ---
 ### 📈 My Stats
