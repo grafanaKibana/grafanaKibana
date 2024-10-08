@@ -11,7 +11,8 @@
 
 </div>
 
-## 💻 Tech stack
+---
+### 💻 Tech stack
 #### - Languages -
   ![C#](https://img.shields.io/badge/-CSharp-0078D4?logo=sharp&logoColor=fff&style=flat-square) 
   ![F#](https://img.shields.io/badge/-FSharp-5D3FD3?logo=fsharp&logoColor=fff&style=flat-square) 
@@ -39,8 +40,8 @@
   ![Postman](https://img.shields.io/badge/-Postman-F46800?&logo=Postman&logoColor=fff&style=flat-square)
   ![Fiddler](https://img.shields.io/badge/-Fiddler-008000?&logo=Fiddler&logoColor=fff&style=flat-square)
 
-
-### 📈My Stats
+---
+### 📈 My Stats
 <table borderColor="white">
   <tr>
       <td align=center width="400px">
