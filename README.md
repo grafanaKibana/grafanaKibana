@@ -1,8 +1,11 @@
 <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=60&duration=2000&pause=100&color=45CF27&background=000000&center=true&vCenter=true&multiline=true&repeat=false&width=1920&height=220&lines=Hi+there!;+My+name+is+Nikita;Welcome+to+my+GitHub" alt="Typing SVG" />
 </a>
+
+---
+
 <div align="center">
-    
+
   [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-%230177B5?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/nikitareshetnik/)
   [![Gmail Badge](https://img.shields.io/badge/-reshetnik.nikita@gmail.com-c14438?logo=Gmail&logoColor=white&link=mailto:reshetnik.nikita@gmail.com&style=for-the-badge)](mailto:reshetnik.nikita@gmail.com)
   [![Telegram Badge](https://img.shields.io/badge/reshetnigram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)](https://telegram.im/@reshetnigram)
