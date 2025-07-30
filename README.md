@@ -52,11 +52,13 @@
 ### 📈 My Stats
 <table>
   <tr>
+    <!--
     <td align="center">
       <a href="https://gitstats.me/grafanaKibana">
         <img src="https://github-readme-stats.vercel.app/api?username=grafanaKibana&include_all_commits=true&count_private=true&hide_border=true&theme=default" alt="GitHub Stats" />
       </a>
     </td>
+    -->
     <td align="center">
       <a href="https://gitstats.me/grafanaKibana">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=grafanaKibana&layout=compact&langs_count=8&theme=default&hide_border=true" alt="Top Languages" />
