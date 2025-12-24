@@ -30,8 +30,6 @@
 ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-blue?logo=.net&logoColor=fff&style=flat-square)
 ![Entity Framework Core](https://img.shields.io/badge/-Entity_Framework_Core-0078D7?logo=dotnet&logoColor=fff&style=flat-square)
 ![SK](https://img.shields.io/badge/Semantic_Kernel-512BD4?logo=dotnet&logoColor=fff&style=flat-square) 
-![Blazor](https://img.shields.io/badge/-Blazor-512BD4?logo=blazor&logoColor=fff&style=flat-square)
-![WPF](https://img.shields.io/badge/-WPF-0078D7?logo=dotnet&logoColor=fff&style=flat-square)
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=fff&style=flat-square)
 
 **Infrastructure:**
@@ -46,7 +44,6 @@
 ![Rider](https://img.shields.io/badge/-Rider-000000?&logo=Rider&logoColor=fff&style=flat-square)
 ![DataGrip](https://img.shields.io/badge/-DataGrip-000000?&logo=DataGrip&logoColor=fff&style=flat-square)
 ![Postman](https://img.shields.io/badge/-Postman-F46800?&logo=Postman&logoColor=fff&style=flat-square)
-![Fiddler](https://img.shields.io/badge/-Fiddler-008000?&logo=Fiddler&logoColor=fff&style=flat-square)
 
 ---
 ### 📈 Page Stats
