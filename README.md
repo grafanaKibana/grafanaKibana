@@ -49,32 +49,5 @@
 ![Fiddler](https://img.shields.io/badge/-Fiddler-008000?&logo=Fiddler&logoColor=fff&style=flat-square)
 
 ---
-### 📈 My Stats
-<table>
-  <tr>
-    <!--
-    <td align="center">
-      <a href="https://gitstats.me/grafanaKibana">
-        <img src="https://github-readme-stats.vercel.app/api?username=grafanaKibana&include_all_commits=true&count_private=true&hide_border=true&theme=default" alt="GitHub Stats" />
-      </a>
-    </td>
-    -->
-    <td align="center">
-      <a href="https://gitstats.me/grafanaKibana">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=grafanaKibana&layout=compact&langs_count=8&theme=default&hide_border=true" alt="Top Languages" />
-      </a>
-    </td>
-  </tr>
-<!--
-  <tr>
-    <td align="center">
-      <a href="https://roadmap.sh">
-        <img src="https://roadmap.sh/card/tall/66d1c6e1553501e3c32755f0?variant=light&roadmaps=aspnet-core%2Cprompt-engineering%2Cai-engineer%2Csql" alt="Roadmap.sh" />
-      </a>
-    </td>
-    <td align="center">
-      <img src="https://leetcard.jacoblin.cool/grafanaKibana?theme=light&font=Fira%20Code&ext=activity" alt="LeetCode Activity Card" />
-    </td>
-  </tr>
- -->
-</table>
+### 📈 Page Stats
+[![Nikita Reshetnik profile views](https://u8views.com/api/v1/github/profiles/45916288/views/day-week-month-total-count.svg)](https://u8views.com/github/grafanaKibana)
