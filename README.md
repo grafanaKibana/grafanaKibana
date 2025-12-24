@@ -1,5 +1,5 @@
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=60&duration=2000&pause=100&color=45CF27&background=000000&center=true&vCenter=true&multiline=true&repeat=false&width=1920&height=220&lines=Hi+there!;+My+name+is+Nikita;Welcome+to+my+GitHub" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=60&duration=2000&pause=100&color=45CF27&background=000000&center=true&vCenter=true&multiline=true&repeat=false&width=1920&height=256&lines=Hi+there!;+My+name+is+Nikita;I+am+AI+E" alt="Typing SVG" />
 </a>
 
 ---
@@ -11,7 +11,6 @@
   [![Telegram Badge](https://img.shields.io/badge/reshetnigram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)](https://telegram.im/@reshetnigram)
   
   [![Ask me here!](https://img.shields.io/badge/Ask_Me_Here-yellow?style=for-the-badge)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
-  [![git profile views](https://komarev.com/ghpvc/?username=grafanaKibana&color=green&style=for-the-badge)](https://github.com/grafanaKibana)
   [![git followers](https://img.shields.io/github/followers/grafanaKibana?style=for-the-badge)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FgrafanaKibana)
 
 </div>
