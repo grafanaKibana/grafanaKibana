@@ -10,6 +10,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-c14438?logo=gmail&logoColor=white&style=for-the-badge)](mailto:reshetnik.nikita@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)](https://telegram.im/@reshetnigram)
 
+[![My Blog](https://img.shields.io/badge/My%20Blog-green?style=for-the-badge)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
 [![Ask Me Anything](https://img.shields.io/badge/Ask%20Me-Here-yellow?style=for-the-badge)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
 [![GitHub followers](https://img.shields.io/github/followers/grafanaKibana?style=for-the-badge)](https://github.com/grafanaKibana)
 
