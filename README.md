@@ -7,7 +7,7 @@
 <div align="center">
 
 [![My Blog](https://img.shields.io/badge/My%20Blog-green?style=for-the-badge)](https://reshetnik.vercel.app)
-[![My Knowledge Sanctuary](https://img.shields.io/badge/My%20Knowledge-Sanctuary-green?style=for-the-badge)](https://dev-sanctuary.vercel.app)
+[![My Knowledge Sanctuary](https://img.shields.io/badge/My%20Knowledge-Sanctuary-green?style=for-the-badge)](https://devbook.zip)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0177B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/nikitareshetnik/)
 [![Gmail](https://img.shields.io/badge/Gmail-c14438?logo=gmail&logoColor=white&style=for-the-badge)](mailto:reshetnik.nikita@gmail.com)
