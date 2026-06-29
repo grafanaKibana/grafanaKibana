@@ -1,62 +1,126 @@
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=60&duration=2000&pause=100&color=45CF27&background=000000&center=true&vCenter=true&multiline=true&repeat=false&width=1920&height=225&lines=Hi+there!;+My+name+is+Nikita;I+am+AI+Engineer" alt="Typing SVG" />
-</a>
-
----
-
 <div align="center">
 
-[![My Blog](https://img.shields.io/badge/My%20Blog-green?style=for-the-badge)](https://reshetnik.vercel.app)
-[![My Knowledge Sanctuary](https://img.shields.io/badge/My%20Knowledge-Sanctuary-green?style=for-the-badge)](https://devbook.zip)
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=42&duration=2200&pause=500&color=22C55E&background=00000000&center=true&vCenter=true&repeat=false&width=1000&height=140&lines=Hi%2C+I'm+Nikita+Reshetnik;AI+Engineer+%7C+.NET+%7C+Azure+%7C+Agents"
+    alt="Typing SVG"
+  />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0177B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/nikitareshetnik/)
-[![Gmail](https://img.shields.io/badge/Gmail-c14438?logo=gmail&logoColor=white&style=for-the-badge)](mailto:reshetnik.nikita@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)](https://telegram.im/@reshetnigram)
+[![GitHub followers](https://img.shields.io/github/followers/grafanaKibana?style=for-the-badge&logo=github&logoColor=white&labelColor=111827&color=22c55e)](https://github.com/grafanaKibana)
+[![GitHub stars](https://img.shields.io/github/stars/grafanaKibana?style=for-the-badge&logo=github&logoColor=white&labelColor=111827&color=38bdf8)](https://github.com/grafanaKibana?tab=repositories)
 
-[![Ask Me Anything](https://img.shields.io/badge/Ask%20Me-Here-yellow?style=for-the-badge)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
-[![GitHub followers](https://img.shields.io/github/followers/grafanaKibana?style=for-the-badge)](https://github.com/grafanaKibana)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827)](https://www.linkedin.com/in/nikitareshetnik/)
+[![Gmail](https://img.shields.io/badge/Gmail-Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827)](mailto:reshetnik.nikita@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=111827)](https://telegram.im/@reshetnigram)
+[![Ask Me](https://img.shields.io/badge/Ask%20Me-Anything-F59E0B?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
 
 </div>
 
 ---
 
-## 💻 Tech stack
+## About me
 
-### Languages
-![C#](https://img.shields.io/badge/C%23-512BD4?logo=sharp&logoColor=white&style=flat-square) 
-![F#](https://img.shields.io/badge/F%23-512BD4?logo=fsharp&logoColor=white&style=flat-square) 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=TypeScript&logoColor=white&style=flat-square)
-![SQL](https://img.shields.io/badge/SQL-CC2927?logo=postgresql&logoColor=white&style=flat-square)
+I work on AI systems, backend engineering, and observability-heavy platforms.
 
-### Backend
-![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white&style=flat-square) 
-![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?logo=.net&logoColor=white&style=flat-square)
-![Entity Framework](https://img.shields.io/badge/-Entity_Framework-512BD4?logo=dotnet&logoColor=white&style=flat-square)
-
-### AI
-![Microsoft Agent Framework](https://img.shields.io/badge/Microsoft_Agent_Framework-512BD4?logo=dotnet&logoColor=white&style=flat-square) 
-![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-512BD4?logo=dotnet&logoColor=white&style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=robotframework&logoColor=white&style=flat-square)
-![LangFuse](https://img.shields.io/badge/LangFuse-FF2D55?&logo=langchain&logoColor=white&style=flat-square)
-
-### Cloud & Observability
-![Azure](https://img.shields.io/badge/-Azure-0078D4?&logo=icloud&logoColor=white&style=flat-square)
-![Azure DevOps](https://img.shields.io/badge/-Azure_DevOps-0078D4?&logo=Microsoft-Azure&logoColor=white&style=flat-square)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square)
-
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?&logo=grafana&logoColor=white&style=flat-square)
-![Kibana](https://img.shields.io/badge/-Kibana-005571?&logo=kibana&logoColor=white&style=flat-square)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white&style=flat-square)
-![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?&logo=jenkins&logoColor=white&style=flat-square)
-<!--![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonwebservices&logoColor=fff&style=flat-square)-->
-
-### Tools
-![Rider](https://img.shields.io/badge/-Rider-000000?&logo=Rider&logoColor=white&style=flat-square)
-![DataGrip](https://img.shields.io/badge/-DataGrip-000000?&logo=DataGrip&logoColor=white&style=flat-square)
-![Visual Studio](https://img.shields.io/badge/-Visual_Studio-5C2D91?&logo=VisualStudio&logoColor=white&style=flat-square)
-![Postman](https://img.shields.io/badge/-Postman-F46800?&logo=Postman&logoColor=white&style=flat-square)
+- Building agentic workflows and LLM-powered developer tools
+- Designing backend systems with .NET, Azure, and SQL
+- Exploring Semantic Kernel, Microsoft Agent Framework, and LLM observability
+- Writing engineering notes at [reshetnik.vercel.app](https://reshetnik.vercel.app)
 
 ---
 
-### 📈 Profile Stats
-[![Nikita Reshetnik profile views](https://u8views.com/api/v1/github/profiles/45916288/views/day-week-month-total-count.svg)](https://u8views.com/github/grafanaKibana)
+## Featured
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3>Engineering Blog</h3>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3>Knowledge Sanctuary</h3>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      Notes, experiments, and long-form thoughts about software engineering, AI systems, and developer tooling.
+    </td>
+    <td valign="top">
+      My personal knowledge base for learning, research, engineering notes, and structured thinking.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">
+      <a href="https://reshetnik.vercel.app">
+        <img src="https://img.shields.io/badge/Open-Blog-22C55E?style=for-the-badge&logo=rss&logoColor=white&labelColor=111827" />
+      </a>
+    </td>
+    <td align="center" valign="bottom">
+      <a href="https://devbook.zip">
+        <img src="https://img.shields.io/badge/Open-Knowledge%20Base-8B5CF6?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=111827" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Tech Stack
+
+<table>
+  <tr>
+    <td width="180"><b>AI Systems</b></td>
+    <td>
+      Agent workflows, LLM applications, orchestration, evaluation, and observability.<br /><br />
+      <img src="https://img.shields.io/badge/Microsoft%20Agent%20Framework-512BD4?style=flat-square&logo=microsoft&logoColor=white" />
+      <img src="https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=flat-square&logo=microsoft&logoColor=white" />
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/Langfuse-10B981?style=flat-square&logo=langfuse&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>
+      APIs, domain logic, data access, integrations, and production service design.<br /><br />
+      <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
+      <img src="https://img.shields.io/badge/F%23-378BBA?style=flat-square&logo=fsharp&logoColor=white" />
+      <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/Entity%20Framework-6D28D9?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Cloud & Delivery</b></td>
+    <td>
+      Cloud-native systems, CI/CD, repositories, automation, and deployment pipelines.<br /><br />
+      <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+      <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Observability</b></td>
+    <td>
+      Metrics, dashboards, logs, tracing signals, and production feedback loops.<br /><br />
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Workspace</b></td>
+    <td>
+      IDEs, database tools, API clients, and day-to-day engineering workflow.<br /><br />
+      <img src="https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white" />
+      <img src="https://img.shields.io/badge/DataGrip-000000?style=flat-square&logo=datagrip&logoColor=white" />
+      <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" />
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+## AI Usage
+
+[![Tokscale Stats](https://tokscale.ai/api/embed/grafanaKibana/svg?template=graph&theme=light&color=YlGnBu&graph=1&sort=cost)](https://tokscale.ai/u/grafanaKibana)
