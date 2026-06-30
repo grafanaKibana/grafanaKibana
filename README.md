@@ -1,9 +1,9 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=42&duration=2200&pause=500&color=22C55E&background=00000000&center=true&vCenter=true&repeat=false&width=1000&height=140&lines=Hi%2C+I'm+Nikita+Reshetnik;AI+Engineer+%7C+.NET+%7C+Azure+%7C+Agents"
-    alt="Typing SVG"
+ <img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=42&duration=2200&pause=500&color=22C55E&background=00000000&center=true&vCenter=true&repeat=true&width=1000&height=140&lines=I'm+Nikita+Reshetnik;Backend+%26+AI+systems+engineer;.NET+%C2%B7+Azure+%C2%B7+AI+across+the+stack"
+  alt="Nikita Reshetnik — Backend & AI systems engineer, .NET, Azure, AI across the stack"
   />
 </a>
 
@@ -27,8 +27,6 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
 - Designing backend systems with .NET, Azure, and SQL
 - Exploring Semantic Kernel, Microsoft Agent Framework, and LLM observability
 - Writing engineering notes at [reshetnik.vercel.app](https://reshetnik.vercel.app)
-
----
 
 ## Featured
 
@@ -62,8 +60,6 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
     </td>
   </tr>
 </table>
-
----
 
 ## Tech Stack
 
@@ -121,6 +117,6 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
   </tr>
 </table>
 
-## AI Usage
+## Me burning tokens
 
 [![Tokscale Stats](https://tokscale.ai/api/embed/grafanaKibana/svg?template=graph&theme=light&color=YlGnBu&graph=1&sort=cost)](https://tokscale.ai/u/grafanaKibana)
