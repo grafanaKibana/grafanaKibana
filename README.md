@@ -33,15 +33,15 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
-      <h3>Engineering Blog</h3>
+      <h3>Personal Page</h3>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>Knowledge Sanctuary</h3>
+      <h3>My Knowledge Wiki</h3>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      Notes, experiments, and long-form thoughts about software engineering, AI systems, and developer tooling.
+      Details of my path. Notes, experiments, and long-form thoughts about software engineering, AI systems, and developer tooling, that i dont want to forget.
     </td>
     <td valign="top">
       My personal knowledge base for learning, research, engineering notes, and structured thinking.
@@ -50,12 +50,12 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
   <tr>
     <td align="center" valign="bottom">
       <a href="https://reshetnik.vercel.app">
-        <img src="https://img.shields.io/badge/Open-Blog-22C55E?style=for-the-badge&logo=rss&logoColor=white&labelColor=111827" />
+        <img src="https://img.shields.io/badge/Open-reshetnik.vercel.app-22C55E?style=for-the-badge&logo=rss&logoColor=white&labelColor=111827" />
       </a>
     </td>
     <td align="center" valign="bottom">
       <a href="https://devbook.zip">
-        <img src="https://img.shields.io/badge/Open-Knowledge%20Base-8B5CF6?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=111827" />
+        <img src="https://img.shields.io/badge/Open-devbook.zip-8B5CF6?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=111827" />
       </a>
     </td>
   </tr>
