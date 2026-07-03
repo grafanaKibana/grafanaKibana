@@ -117,6 +117,6 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
   </tr>
 </table>
 
-## Me burning tokens
+## My token burnings
 
 [![Tokscale Stats](https://tokscale.ai/api/embed/grafanaKibana/svg?template=graph&theme=light&color=YlGnBu&graph=1&sort=cost)](https://tokscale.ai/u/grafanaKibana)
