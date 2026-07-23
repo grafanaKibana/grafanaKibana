@@ -14,6 +14,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827)](mailto:reshetnik.nikita@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=111827)](https://telegram.im/@reshetnigram)
 [![Ask Me](https://img.shields.io/badge/Ask%20Me-Anything-F59E0B?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
+[![Download cv.pdf](https://img.shields.io/badge/CV-Download-38bdf8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/LatexCV/releases/latest/download/cv.pdf)
 
 </div>
 
