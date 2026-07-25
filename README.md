@@ -9,12 +9,11 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/grafanaKibana?style=for-the-badge&logo=github&logoColor=white&labelColor=111827&color=22c55e)](https://github.com/grafanaKibana)
 [![GitHub stars](https://img.shields.io/github/stars/grafanaKibana?style=for-the-badge&logo=github&logoColor=white&labelColor=111827&color=38bdf8)](https://github.com/grafanaKibana?tab=repositories)
-
+[![Ask Me](https://img.shields.io/badge/Ask%20Me-Anything-F59E0B?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827)](https://www.linkedin.com/in/nikitareshetnik/)
 [![Gmail](https://img.shields.io/badge/Gmail-Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827)](mailto:reshetnik.nikita@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=111827)](https://telegram.im/@reshetnigram)
-[![Ask Me](https://img.shields.io/badge/Ask%20Me-Anything-F59E0B?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/grafanaKibana/issues/new)
 
 [![Download cv.pdf](https://img.shields.io/badge/CV-Download-38bdf8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/LatexCV/releases/latest/download/cv.pdf)
 
