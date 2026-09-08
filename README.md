@@ -13,9 +13,10 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827)](https://www.linkedin.com/in/nikitareshetnik/)
 [![Gmail](https://img.shields.io/badge/Gmail-Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827)](mailto:reshetnik.nikita@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=111827)](https://telegram.im/@reshetnigram)
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=111827)](https://t.me/reshetnigram)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=111827)](https://leetcode.com/u/grafanaKibana/)
 
-[![Download cv.pdf](https://img.shields.io/badge/CV-Download-38bdf8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/LatexCV/releases/latest/download/cv.pdf)
+[![Download resume.pdf](https://img.shields.io/badge/R%C3%A9sum%C3%A9-Download-38bdf8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=111827)](https://github.com/grafanaKibana/LatexCV/releases/latest/download/resume.pdf)
 
 </div>
 
@@ -32,92 +33,25 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
 
 ## Featured
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <h3>Personal Page</h3>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <h3>My Knowledge Wiki</h3>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      Details of my path. Notes, experiments, and long-form thoughts about software engineering, AI systems, and developer tooling, that i dont want to forget.
-    </td>
-    <td valign="top">
-      My personal knowledge base for learning, research, engineering notes, and structured thinking.
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="bottom">
-      <a href="https://reshetnik.vercel.app">
-        <img src="https://img.shields.io/badge/Open-reshetnik.vercel.app-22C55E?style=for-the-badge&logo=rss&logoColor=white&labelColor=111827" />
-      </a>
-    </td>
-    <td align="center" valign="bottom">
-      <a href="https://devbook.zip">
-        <img src="https://img.shields.io/badge/Open-devbook.zip-8B5CF6?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=111827" />
-      </a>
-    </td>
-  </tr>
-</table>
+| Project | Description |
+| --- | --- |
+| [web-portfolio-v2](https://github.com/grafanaKibana/web-portfolio-v2) | Next.js editorial portfolio, combining typed structured data with local MDX for statically rendered work and writing. [Website](https://reshetnik.vercel.app) |
+| [DevBook](https://github.com/grafanaKibana/devbook.zip) | Engineering knowledge base authored in Obsidian, published with Quartz, and used for practical .NET retrieval experiments. [Website](https://devbook.zip) |
+| [obsidian-tabsdown](https://github.com/grafanaKibana/obsidian-tabsdown) | Plugins for accessible, theme-aware tabs in Obsidian with Quartz support. |
+| [quartz-tabsdown](https://github.com/grafanaKibana/quartz-tabsdown) | Plugins for accessible, theme-aware tabs in Obsidian with Quartz support. |
+| [obsidian-colsdown](https://github.com/grafanaKibana/obsidian-colsdown) | Obsidian plugin that turns fenced Markdown into responsive columns and stacks with mobile reflow. |
 
 ## Tech Stack
 
-<table>
-  <tr>
-    <td width="180"><b>AI Systems</b></td>
-    <td>
-      Agent workflows, LLM applications, orchestration, evaluation, and observability.<br /><br />
-      <img src="https://img.shields.io/badge/Microsoft%20Agent%20Framework-512BD4?style=flat-square&logo=microsoft&logoColor=white" />
-      <img src="https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=flat-square&logo=microsoft&logoColor=white" />
-      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-      <img src="https://img.shields.io/badge/Langfuse-10B981?style=flat-square&logo=langfuse&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td>
-      APIs, domain logic, data access, integrations, and production service design.<br /><br />
-      <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
-      <img src="https://img.shields.io/badge/F%23-378BBA?style=flat-square&logo=fsharp&logoColor=white" />
-      <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-      <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-      <img src="https://img.shields.io/badge/Entity%20Framework-6D28D9?style=flat-square&logo=dotnet&logoColor=white" />
-      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Cloud & Delivery</b></td>
-    <td>
-      Cloud-native systems, CI/CD, repositories, automation, and deployment pipelines.<br /><br />
-      <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-      <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" />
-      <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Observability</b></td>
-    <td>
-      Metrics, dashboards, logs, tracing signals, and production feedback loops.<br /><br />
-      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
-      <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" />
-      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Workspace</b></td>
-    <td>
-      IDEs, database tools, API clients, and day-to-day engineering workflow.<br /><br />
-      <img src="https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white" />
-      <img src="https://img.shields.io/badge/DataGrip-000000?style=flat-square&logo=datagrip&logoColor=white" />
-      <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" />
-      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-    </td>
-  </tr>
-</table>
+| Category | Skills |
+| --- | --- |
+| **AI / Machine Learning** | Microsoft Agent Framework · Semantic Kernel · Microsoft.Extensions.AI · Large Language Models · LLM Evaluation · Retrieval-Augmented Generation · Azure AI Foundry · Langfuse |
+| **Programming Languages** | C# · Python · TypeScript · SQL |
+| **Backend** | .NET · ASP.NET Web API · Entity Framework · REST API |
+| **Data** | Microsoft SQL Server · PostgreSQL · Elasticsearch · MongoDB · Kafka |
+| **Cloud & DevOps** | Microsoft Azure · Amazon Web Services · Vercel · Docker · Kubernetes · Argo CD · Jenkins |
+| **Observability & CI/CD** | Grafana · Prometheus · Kibana · Azure DevOps · GitHub Actions · GitLab CI/CD |
+| **AI Development Tools** | Claude Code · Claude Design · Codex · OpenCode · Pi · Cursor · CodeRabbit · GitHub Copilot |
 
 ## My token burnings
 
