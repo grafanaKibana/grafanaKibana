@@ -64,46 +64,32 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <h3>obsidian-tabsdown</h3>
+      <h3>Tabsdown</h3>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>quartz-tabsdown</h3>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      Plugins for accessible, theme-aware tabs in Obsidian with Quartz support.
-    </td>
-    <td valign="top">
-      Plugins for accessible, theme-aware tabs in Obsidian with Quartz support.
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="bottom">
-      <a href="https://github.com/grafanaKibana/obsidian-tabsdown">
-        <img src="https://img.shields.io/badge/Open-Repository-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
-      </a>
-    </td>
-    <td align="center" valign="bottom">
-      <a href="https://github.com/grafanaKibana/quartz-tabsdown">
-        <img src="https://img.shields.io/badge/Open-Repository-06B6D4?style=for-the-badge&logo=quartz&logoColor=white&labelColor=111827" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
       <h3>obsidian-colsdown</h3>
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td valign="top">
+      Plugins for accessible, theme-aware tabs in Obsidian with Quartz support.
+    </td>
+    <td valign="top">
       Obsidian plugin that turns fenced Markdown into responsive columns and stacks with mobile reflow.
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center" valign="bottom">
-      <a href="https://github.com/grafanaKibana/obsidian-colsdown">
-        <img src="https://img.shields.io/badge/Open-Repository-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
+    <td align="center" valign="bottom">
+      <a href="https://obsidian.md/plugins?id=tabsdown">
+        <img src="https://img.shields.io/badge/Open-Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
+      </a>
+      <a href="https://github.com/grafanaKibana/quartz-tabsdown">
+        <img src="https://img.shields.io/badge/Open-Quartz-06B6D4?style=for-the-badge&logo=quartz&logoColor=white&labelColor=111827" />
+      </a>
+    </td>
+    <td align="center" valign="bottom">
+      <a href="https://obsidian.md/plugins?id=colsdown">
+        <img src="https://img.shields.io/badge/Open-Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
       </a>
     </td>
   </tr>
