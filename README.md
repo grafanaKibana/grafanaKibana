@@ -33,25 +33,149 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
 
 ## Featured
 
-| Project | Description |
-| --- | --- |
-| [web-portfolio-v2](https://github.com/grafanaKibana/web-portfolio-v2) | Next.js editorial portfolio, combining typed structured data with local MDX for statically rendered work and writing. [Website](https://reshetnik.vercel.app) |
-| [DevBook](https://github.com/grafanaKibana/devbook.zip) | Engineering knowledge base authored in Obsidian, published with Quartz, and used for practical .NET retrieval experiments. [Website](https://devbook.zip) |
-| [obsidian-tabsdown](https://github.com/grafanaKibana/obsidian-tabsdown) | Plugins for accessible, theme-aware tabs in Obsidian with Quartz support. |
-| [quartz-tabsdown](https://github.com/grafanaKibana/quartz-tabsdown) | Plugins for accessible, theme-aware tabs in Obsidian with Quartz support. |
-| [obsidian-colsdown](https://github.com/grafanaKibana/obsidian-colsdown) | Obsidian plugin that turns fenced Markdown into responsive columns and stacks with mobile reflow. |
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3>web-portfolio-v2</h3>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3>DevBook</h3>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      Next.js editorial portfolio, combining typed structured data with local MDX for statically rendered work and writing.
+    </td>
+    <td valign="top">
+      Engineering knowledge base authored in Obsidian, published with Quartz, and used for practical .NET retrieval experiments.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">
+      <a href="https://reshetnik.vercel.app">
+        <img src="https://img.shields.io/badge/Open-reshetnik.vercel.app-22C55E?style=for-the-badge&logo=rss&logoColor=white&labelColor=111827" />
+      </a>
+    </td>
+    <td align="center" valign="bottom">
+      <a href="https://devbook.zip">
+        <img src="https://img.shields.io/badge/Open-devbook.zip-8B5CF6?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=111827" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3>Tabsdown</h3>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3>Colsdown</h3>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      Plugins for accessible, theme-aware tabs in Obsidian with Quartz support.
+    </td>
+    <td valign="top">
+      Obsidian plugin that turns fenced Markdown into responsive columns and stacks with mobile reflow.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="bottom">
+      <a href="https://obsidian.md/plugins?id=tabsdown">
+        <img src="https://img.shields.io/badge/Store-Listing-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
+      </a>
+      <a href="https://github.com/grafanaKibana/quartz-tabsdown">
+        <img src="https://img.shields.io/badge/Quartz-Repository-06B6D4?style=for-the-badge&logo=quartz&logoColor=white&labelColor=111827" />
+      </a>
+    </td>
+    <td align="center" valign="bottom">
+      <a href="https://obsidian.md/plugins?id=colsdown">
+        <img src="https://img.shields.io/badge/Store-Listing-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Tech Stack
 
-| Category | Skills |
-| --- | --- |
-| **AI / Machine Learning** | Microsoft Agent Framework · Semantic Kernel · Microsoft.Extensions.AI · Large Language Models · LLM Evaluation · Retrieval-Augmented Generation · Azure AI Foundry · Langfuse |
-| **Programming Languages** | C# · Python · TypeScript · SQL |
-| **Backend** | .NET · ASP.NET Web API · Entity Framework · REST API |
-| **Data** | Microsoft SQL Server · PostgreSQL · Elasticsearch · MongoDB · Kafka |
-| **Cloud & DevOps** | Microsoft Azure · Amazon Web Services · Vercel · Docker · Kubernetes · Argo CD · Jenkins |
-| **Observability & CI/CD** | Grafana · Prometheus · Kibana · Azure DevOps · GitHub Actions · GitLab CI/CD |
-| **AI Development Tools** | Claude Code · Claude Design · Codex · OpenCode · Pi · Cursor · CodeRabbit · GitHub Copilot |
+<table>
+  <tr>
+    <td width="180"><b>AI / Machine Learning</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Microsoft%20Agent%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/Microsoft.Extensions.AI-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/Large%20Language%20Models-412991?style=flat-square&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/LLM%20Evaluation-10B981?style=flat-square&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/Retrieval--Augmented%20Generation-8B5CF6?style=flat-square&logo=databricks&logoColor=white" />
+      <img src="https://img.shields.io/badge/Azure%20AI%20Foundry-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+      <img src="https://img.shields.io/badge/Langfuse-10B981?style=flat-square&logo=langfuse&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="180"><b>Programming Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="180"><b>Backend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/ASP.NET%20Web%20API-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/Entity%20Framework-6D28D9?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/REST%20API-009688?style=flat-square&logo=swagger&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="180"><b>Data</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="180"><b>Cloud &amp; DevOps</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+      <img src="https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="180"><b>Observability &amp; CI/CD</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" />
+      <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="180"><b>AI Development Tools</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Claude%20Design-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/OpenCode-111827?style=flat-square&logo=opencode&logoColor=white" />
+      <img src="https://img.shields.io/badge/Pi-111827?style=flat-square&logo=probot&logoColor=white" />
+      <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
+      <img src="https://img.shields.io/badge/CodeRabbit-FF570A?style=flat-square&logo=coderabbit&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ## My token burnings
 
