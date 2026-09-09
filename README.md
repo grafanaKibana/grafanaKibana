@@ -67,7 +67,7 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
       <h3>Tabsdown</h3>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>obsidian-colsdown</h3>
+      <h3>Colsdown</h3>
     </td>
   </tr>
   <tr>
@@ -81,15 +81,15 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
   <tr>
     <td align="center" valign="bottom">
       <a href="https://obsidian.md/plugins?id=tabsdown">
-        <img src="https://img.shields.io/badge/Open-Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
+        <img src="https://img.shields.io/badge/Store-Listing-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
       </a>
       <a href="https://github.com/grafanaKibana/quartz-tabsdown">
-        <img src="https://img.shields.io/badge/Open-Quartz-06B6D4?style=for-the-badge&logo=quartz&logoColor=white&labelColor=111827" />
+        <img src="https://img.shields.io/badge/Quartz-Repository-06B6D4?style=for-the-badge&logo=quartz&logoColor=white&labelColor=111827" />
       </a>
     </td>
     <td align="center" valign="bottom">
       <a href="https://obsidian.md/plugins?id=colsdown">
-        <img src="https://img.shields.io/badge/Open-Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
+        <img src="https://img.shields.io/badge/Store-Listing-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111827" />
       </a>
     </td>
   </tr>
@@ -101,8 +101,8 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
   <tr>
     <td width="180"><b>AI / Machine Learning</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Microsoft%20Agent%20Framework-512BD4?style=flat-square&logo=microsoft&logoColor=white" />
-      <img src="https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=flat-square&logo=microsoft&logoColor=white" />
+      <img src="https://img.shields.io/badge/Microsoft%20Agent%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      <img src="https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
       <img src="https://img.shields.io/badge/Microsoft.Extensions.AI-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
       <img src="https://img.shields.io/badge/Large%20Language%20Models-412991?style=flat-square&logo=openai&logoColor=white" />
       <img src="https://img.shields.io/badge/LLM%20Evaluation-10B981?style=flat-square&logo=openai&logoColor=white" />
