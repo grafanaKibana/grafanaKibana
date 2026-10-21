@@ -29,7 +29,7 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
 - Building agentic and RAG workflows and LLM-powered developer tools
 - Designing backend systems with .NET, Azure, and SQL
 - Exploring Microsoft Agent Framework, Semantic Kernel, Microsoft.Extensions.AI and LLM evaluation
-- My career path [here](https://reshetnik.vercel.app)
+- My career path [here](https://reshetnik.dev)
 
 ## Featured
 
@@ -52,8 +52,8 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
   </tr>
   <tr>
     <td align="center" valign="bottom">
-      <a href="https://reshetnik.vercel.app">
-        <img src="https://img.shields.io/badge/Open-reshetnik.vercel.app-22C55E?style=for-the-badge&logo=rss&logoColor=white&labelColor=111827" />
+      <a href="https://reshetnik.dev">
+        <img src="https://img.shields.io/badge/Open-reshetnik.dev-22C55E?style=for-the-badge&logo=rss&logoColor=white&labelColor=111827" />
       </a>
     </td>
     <td align="center" valign="bottom">
