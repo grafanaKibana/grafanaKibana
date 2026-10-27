@@ -16,9 +16,6 @@
 <a href="https://www.linkedin.com/in/nikitareshetnik/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/LinkedIn.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=dark&amp;logo=ri%3AFaLinkedin&amp;logoColor=0a66c2&amp;valueColor=fafafa&amp;labelTextColor=fafafa"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=light&amp;logo=ri%3AFaLinkedin&amp;logoColor=0a66c2&amp;valueColor=18181b&amp;labelTextColor=18181b"></picture></a>
 <a href="mailto:reshetnik.nikita@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Gmail.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=dark&amp;logo=gmail&amp;logoColor=ea4335&amp;valueColor=fafafa&amp;labelTextColor=fafafa"><img alt="Gmail" src="https://shieldcn.dev/badge/Gmail.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=light&amp;logo=gmail&amp;logoColor=ea4335&amp;valueColor=18181b&amp;labelTextColor=18181b"></picture></a>
 <a href="https://t.me/reshetnigram"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Telegram.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=dark&amp;logo=telegram&amp;logoColor=26a5e4&amp;valueColor=fafafa&amp;labelTextColor=fafafa"><img alt="Telegram" src="https://shieldcn.dev/badge/Telegram.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=light&amp;logo=telegram&amp;logoColor=26a5e4&amp;valueColor=18181b&amp;labelTextColor=18181b"></picture></a>
-</p>
-
-<p align="center">
 <a href="https://leetcode.com/u/grafanaKibana/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/LeetCode.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=dark&amp;logo=leetcode&amp;color=ffa116&amp;logoColor=ffa116&amp;valueColor=fafafa&amp;labelTextColor=fafafa"><img alt="LeetCode" src="https://shieldcn.dev/badge/LeetCode.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=light&amp;logo=leetcode&amp;color=ffa116&amp;logoColor=ffa116&amp;valueColor=18181b&amp;labelTextColor=18181b"></picture></a>
 <a href="https://github.com/grafanaKibana/grafanaKibana/issues/new"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Ask%20Me-Anything.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=dark&amp;logo=github&amp;color=8b949e&amp;logoColor=fafafa&amp;valueColor=fafafa&amp;labelTextColor=fafafa"><img alt="Ask Me" src="https://shieldcn.dev/badge/Ask%20Me-Anything.svg?variant=outline&amp;size=sm&amp;font=geist&amp;mode=light&amp;logo=github&amp;color=6b7280&amp;logoColor=18181b&amp;valueColor=18181b&amp;labelTextColor=18181b"></picture></a>
 </p>
@@ -34,7 +31,6 @@ I work on AI systems, backend engineering, and observability-heavy platforms.
 - Building agentic and RAG workflows and LLM-powered developer tools
 - Designing backend systems with .NET, Azure, and SQL
 - Exploring Microsoft Agent Framework, Semantic Kernel, Microsoft.Extensions.AI and LLM evaluation
-- My career path [here](https://reshetnik.dev)
 
 ## Featured
 
