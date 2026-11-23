@@ -1,0 +1,51 @@
+name: Refresh profile assets
+
+on:
+  schedule:
+    - cron: '27 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+      - name: Build profile asset generator
+        run: dotnet build .github/scripts/ProfileAssets.csproj -c Release -o "$RUNNER_TEMP/profile-assets"
+      - name: Refresh public GitHub counts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: dotnet "$RUNNER_TEMP/profile-assets/ProfileAssets.dll" counters
+      - name: Ensure the cover image codec is available
+        run: |
+          if ! dpkg -s libgd3 2>/dev/null | grep -qx 'Status: install ok installed'; then
+            sudo apt-get update -qq
+            sudo apt-get install -y --no-install-recommends libgd3
+          fi
+      - name: Fit desktop portfolio covers to their project row
+        run: dotnet "$RUNNER_TEMP/profile-assets/ProfileAssets.dll" covers
+      - name: Refresh public Tokscale activity
+        id: tokscale
+        continue-on-error: true
+        run: dotnet "$RUNNER_TEMP/profile-assets/ProfileAssets.dll" tokscale
+      - name: Save changed assets
+        run: |
+          git add -- assets/hero/profile-stats.svg assets/featured/portfolio-{light,dark}.jpg assets/tokscale/activity.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh profile assets'
+          git push
+      - name: Report Tokscale refresh failure
+        if: steps.tokscale.outcome == 'failure'
+        run: exit 1

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="108" role="img">
+  <title>Tabsdown</title>
+  <desc id="dark">Plugins for accessible, theme-aware tabs in Obsidian with Quartz support.</desc>
+  <style>
+    .body { box-sizing: border-box; height: 100%; display: grid; align-content: center; padding: 8px 15px; border: 1px solid #d1d9e0; border-width: 1px 1px 0; background: #f6f8fa; color: #1f2328; font: 400 14px/21px "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; }
+    p { margin: 0; color: #414951; }
+    #dark:target ~ foreignObject .body { color: #f0f6fc; background: #151b23; border-color: #343d48; }
+    #dark:target ~ foreignObject p { color: #c0c8d0; }
+    @media (max-width: 260px) { .body { padding: 4px 10px; } }
+  </style>
+  <foreignObject width="100%" height="100%"><div xmlns="http://www.w3.org/1999/xhtml" class="body"><p>Plugins for accessible, theme-aware tabs in Obsidian with Quartz support.</p></div></foreignObject>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" role="img">
+  <title>Programming Languages</title>
+  <desc id="wide-light">Wide panel, light palette</desc>
+  <desc id="wide-dark">Wide panel, dark palette</desc>
+  <desc id="stacked-light">Stacked panel, light palette</desc>
+  <desc id="stacked-dark">Stacked panel, dark palette</desc>
+  <desc id="phone-light">Phone panel, light palette</desc>
+  <desc id="phone-dark">Phone panel, dark palette</desc>
+  <style>
+    .frame, .panel, .badge { box-sizing: border-box; }
+    .frame { height: 100%; padding-bottom: 8px; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .frame { padding-right: 5px; }
+    .panel {
+      height: 100%; display: flex; flex-direction: column; gap: 6px; padding: 9px 10px;
+      border: 1px solid #d1d9e0; background: #f6f8fa; color: #1f2328;
+      font-family: "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    h3 { margin: 0; font-size: 14px; line-height: 20px; font-weight: 600; }
+    .badges {
+      flex: 1; display: flex; flex-wrap: wrap; column-gap: 4px; align-content: space-between;
+    }
+    .badge {
+      height: 32px; display: flex; flex: 1 1 0; min-width: max-content;
+      align-items: center; justify-content: center; gap: 4px; padding-inline: 4px;
+      font-size: 14px; line-height: 21px; font-weight: 500; white-space: nowrap;
+      background: #fff; border: 1px solid color-mix(in srgb, var(--edge) 18%, #e9edf1);
+    }
+    .row-break { display: none; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .break-wide,
+    :is(#phone-light, #phone-dark):target ~ foreignObject .break-phone {
+      display: block; flex: 0 0 100%; height: 0;
+    }
+    @media (max-width: 305px) {
+      .badge { gap: 2px; padding-inline: 2px; }
+      .badge > svg { width: 12px; }
+    }
+    .badge svg { flex: none; color: var(--icon); }
+    :is(#wide-dark, #stacked-dark, #phone-dark):target ~ foreignObject .panel { color: #e6edf3; background: #151b23; border-color: #30363d; }
+    :is(#wide-dark, #stacked-dark, #phone-dark):target ~ foreignObject .badge { background: #0d1117; border-color: color-mix(in srgb, var(--edge-dark) 18%, #212830); }
+    :is(#wide-dark, #stacked-dark, #phone-dark):target ~ foreignObject .badge svg { color: var(--icon-dark); }
+  </style>
+  <defs>
+    <symbol id="ri-tbbrandcsharp" viewBox="9 6 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10 9A3 3 0 0 0 7 6H6.5A3.5 3.5 0 0 0 3 9.5V14.5A3.5 3.5 0 0 0 6.5 18H7A3 3 0 0 0 10 15" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M16 7 15 17" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M20 7 19 17" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M14 10H21.5" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M21 14H13.5" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="python" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M14.3.2 15 .4 16 .6 16.5 1 16.9 1.3 17.3 1.6 17.5 1.9 17.7 2.3V2.6L17.9 2.8V9.1L17.6 9.7 17.4 10 17.2 10.5 16.9 10.8 16.5 11.1 16.2 11.3 15.8 11.4 15.5 11.5H15.2L15 11.7H8.1L7.5 11.9 7 12.1 6.6 12.3 6.3 12.6 6 13 5.8 13.4 5.6 13.7V14.1L5.4 14.4V14.7L5.3 14.9V17.9H2.7L2.4 17.6 2 17.5 1.6 17.3 1.3 16.9.9 16.5.6 15.9.3 15 .1 14.2 0 13.2V10.7L.2 9.7.4 8.8.7 8.1 1.1 7.6 1.5 7 1.9 6.8 2.3 6.5 2.7 6.4 3.1 6.3H12V5.3H6.2V2L6.3 1.6 6.5 1.4 6.7 1 7 .9 7.4.7 8 .5 8.4.3H9L9.6 0H13.2zM7.9 2.2 7.8 2.5V3.3L8 3.7 8.4 3.9H9L9.4 3.7 9.7 3.3V2.5L9.4 2.2 9.1 1.9H8.3zM21 6.2H21.6L22 6.6 22.4 6.7 22.7 7.1 23.1 7.6 23.4 8 23.7 9 23.9 9.8 24 10.8V13.3L23.8 14.3 23.6 15.2 23.3 15.9 22.9 16.4 22.5 17 22.1 17.2 21.7 17.5 21.3 17.6 20.9 17.7H12V18.7H17.8V22L17.7 22.4 17.5 22.6 17.3 23 17 23.1 16.6 23.3 16 23.5 15.6 23.7H15.1L14.4 24H10.8L9.8 23.8 8.8 23.6 8.2 23.4 7.5 23 7.1 22.7 6.7 22.4 6.5 22.1 6.3 21.7V21.4L6.1 21.2V14.9L6.4 14.3 6.6 14 6.8 13.5 7.1 13.2 7.5 12.9 7.8 12.7 8.2 12.6 8.5 12.5H8.8L9 12.3H15.9L16.5 12.1 17 12 17.4 11.7 17.8 11.4 18 11 18.2 10.6 18.4 10.3V9.9L18.6 9.6V9.3L18.7 9.1V6.1H20.8zM14.6 20.3 14.3 20.7V21.5L14.6 21.8 14.9 22.1H15.7L16.1 21.8 16.3 21.5V20.7L16 20.4 15.7 20H15z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="typescript" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M1.1 0Q.1.1 0 1.1V23Q.1 23.9 1.1 24H23Q23.9 23.9 24 22.9V1Q23.9.1 22.9 0zM18.5 9.8H20L21.4 10.3V12.7L20.8 12.3 20 12 18.6 11.8 17.8 12 17.2 12.2Q16.9 12.2 16.8 12.5L16.7 13 16.8 13.6 17.3 14 18 14.4 18.9 14.8Q19.7 15.1 20 15.5L21.1 16.2Q21.6 16.6 21.7 17.2 22 17.6 22 18.4 22 19.4 21.6 20.1L20.6 21 19 21.9H17.3L15.4 21.8 14 21.3V18.7A5 5 0 0 0 17.2 19.9L18 19.8 18.7 19.5 19 19.1A1 1 0 0 0 19 18.1L18.4 17.4 17.6 17.1 16.6 16.7Q15.1 16 14.6 15.3A3 3 0 0 1 13.9 13.3Q13.9 12.3 14.2 11.7 14.6 11 15.2 10.6L16.7 10zM3.4 9.9H12.9V12.1H9.5V21.8H6.8V12H3.4z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="postgresql" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M23.6 14.7Q23.3 14.2 22.5 14.4 20.1 14.7 20 14.4 22 11 23 7.5C23.3 6.5 23.8 4 23.1 2.8L23 2.6A7 7 0 0 0 17.5 0C16 0 14.7.3 14.4.5L13.9.4 12.6.3Q10.8.3 9.6 1C8.5.8 4.6-.5 2.2 1.1Q.3 2.7.4 6.4A32 32 0 0 0 3.1 15.6Q4 17.1 4.8 17.4 5.6 18 6.7 16.7L8.7 14.5 10 14.9 9.8 15.2C9.4 15.6 9.4 15.7 8.3 15.9 8 16 7 16.1 7 16.7L7.2 17.1C7.4 17.5 8.2 17.7 8.2 17.7Q10.2 18 11.6 17C11.6 19.2 11.6 21.4 11.9 22.1 12.2 22.6 12.7 24 14.4 24H15.2Q17.8 23.3 18.1 21L18.7 16.8H19.4Q21 16.8 22 16.4C22.6 16 23.8 15.4 23.6 14.7M2.4 12C1.6 9.4 1.2 6.9 1.2 6.3Q1 3 2.7 1.8C4.6.5 7.6 1.3 8.8 1.7 6.8 3.7 6.8 7.2 6.8 7.4V7.8Q7 8.8 6.9 10.8A4 4 0 0 0 8 14L6.1 16.2Q5.1 17.1 5.1 16.7 4.3 16.5 3.7 15.4 3 14.2 2.4 11.9M8.4 16.9H7.9L8.4 16.6C9.7 16.4 10 16.2 10.4 15.6L10.6 15.2V15.1Q11.2 14.9 11.3 15 11.5 15 11.6 15.4V16A3 3 0 0 1 8.3 17M10.4 13V13.2L10.1 14.1Q9 14.1 8.3 13.3A3 3 0 0 1 7.5 10.8Q7.7 8.8 7.5 7.8V7.5C8 7.3 9.3 6.5 10.3 6.8Q10.8 6.8 11 7.7C11.6 10.4 11.1 11.5 10.7 12.4zM17.9 17.6V18.1L17.6 18.6 17.5 19.7 17.3 20.6Q17.3 22.6 15 23.2C13.4 23.5 13.1 22.7 12.9 22L12.8 21.7Q12.6 20.8 12.6 19.2A8 8 0 0 0 12.3 16.5V15.3Q12 14.6 11.5 14.3H10.8L11 13.3 11.3 12.6C11.8 11.7 12.3 10.5 11.7 7.5Q11.4 6 9.5 6 8.3 6.2 7.8 6.6H7.6C7.6 5.7 8 3.6 9.3 2.3L9.6 1.9H9.8Q10.9 1 12.6 1L13.7 1.1Q16.7 1.9 17.7 3.5A8 8 0 0 1 19.3 5.9Q17.2 5.8 16.5 6.7C15.5 8.1 17.1 11 17.8 12.2L18.1 12.7Q18.5 13.6 19 14V14.3C18.7 14.3 18 14.6 18 16L17.8 16.8zM18.8 16Q18.7 15 19.2 15H19.5Q20.6 15.7 22.7 15.2A4 4 0 0 1 19.9 16.1L18.7 15.9M19.2 6.7V7.7L19 8.8V10.2Q19.6 11.5 19 12.9L18.8 12.5 18.4 11.9C17.8 10.8 16.4 8.2 17.1 7 17.5 6.6 18.5 6.6 19.3 6.7M19.5 13.7H19.3Q20.3 11.5 19.9 10L19.8 8.9V7.8L20 6.2C20 5.7 19.4 4.2 18.3 3A8 8 0 0 0 15.6 1Q16.4.6 17.6.6 20.6.8 22.4 3L22.5 3.1C23.2 4.5 22.2 9.4 19.5 13.7M10.7 7.6Q10.7 7.9 10.1 8L9.4 7.7V7.2H10.2Q10.6 7.1 10.7 7.5M18.7 7 18.4 7.5 18 7.7Q17.5 7.6 17.4 7.3T18 7z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+  </defs>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="frame">
+      <section class="panel">
+        <h3>Programming Languages</h3>
+        <div class="badges">
+          <span class="badge" style="--edge:#512bd4; --edge-dark:#ad93ff; --icon:#512bd4; --icon-dark:#ad93ff">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#ri-tbbrandcsharp" width="14" height="14"/></svg>
+            <span>C#</span>
+          </span>
+          <span class="badge" style="--edge:#3776ab; --edge-dark:#3776ab; --icon:#3776ab; --icon-dark:#3776ab">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#python" width="14" height="14"/></svg>
+            <span>Python</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-wide break-phone"></span>
+          <span class="badge" style="--edge:#3178c6; --edge-dark:#3178c6; --icon:#3178c6; --icon-dark:#3178c6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#typescript" width="14" height="14"/></svg>
+            <span>TypeScript</span>
+          </span>
+          <span class="badge" style="--edge:#4169e1; --edge-dark:#4169e1; --icon:#4169e1; --icon-dark:#4169e1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#postgresql" width="14" height="14"/></svg>
+            <span>SQL</span>
+          </span>
+        </div>
+      </section>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" role="img">
+  <title>Observability &amp; CI/CD</title>
+  <desc id="wide-light">Wide panel, light palette</desc>
+  <desc id="wide-dark">Wide panel, dark palette</desc>
+  <desc id="stacked-light">Stacked panel, light palette</desc>
+  <desc id="stacked-dark">Stacked panel, dark palette</desc>
+  <style>
+    .frame, .panel, .badge { box-sizing: border-box; }
+    .frame { height: 100%; padding-bottom: 8px; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .frame { padding-right: 5px; }
+    .panel {
+      height: 100%; display: flex; flex-direction: column; gap: 6px; padding: 9px 10px;
+      border: 1px solid #d1d9e0; background: #f6f8fa; color: #1f2328;
+      font-family: "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    h3 { margin: 0; font-size: 14px; line-height: 20px; font-weight: 600; }
+    .badges {
+      flex: 1; display: flex; flex-wrap: wrap; column-gap: 4px; align-content: space-between;
+    }
+    .badge {
+      height: 32px; display: flex; flex: 1 1 0; min-width: max-content;
+      align-items: center; justify-content: center; gap: 4px; padding-inline: 4px;
+      font-size: 14px; line-height: 21px; font-weight: 500; white-space: nowrap;
+      background: #fff; border: 1px solid color-mix(in srgb, var(--edge) 18%, #e9edf1);
+    }
+    .row-break { display: none; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .break-wide,
+    :is(#stacked-light, #stacked-dark):target ~ foreignObject .break-stacked {
+      display: block; flex: 0 0 100%; height: 0;
+    }
+    @media (max-width: 305px) {
+      .badge { gap: 2px; padding-inline: 2px; }
+      .badge > svg { width: 12px; }
+    }
+    .badge svg { flex: none; color: var(--icon); }
+    :is(#wide-dark, #stacked-dark):target ~ foreignObject .panel { color: #e6edf3; background: #151b23; border-color: #30363d; }
+    :is(#wide-dark, #stacked-dark):target ~ foreignObject .badge { background: #0d1117; border-color: color-mix(in srgb, var(--edge-dark) 18%, #212830); }
+    :is(#wide-dark, #stacked-dark):target ~ foreignObject .badge svg { color: var(--icon-dark); }
+  </style>
+  <defs>
+    <symbol id="grafana" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M23 10.6A9 9 0 0 0 22.2 7.6 9 9 0 0 0 20.4 5C20.7 3.8 20 2.6 20 2.6Q18 2.7 17.5 3.2H17.4L16 2.7 15.1 2.6C14.6.8 13 0 13 0 11.1 1.1 10.8 2.7 10.8 2.7V2.8L10.5 3 10 3.1 9.7 3.2 8 4.1C5.4 3 3.2 4.3 3.2 4.3A7 7 0 0 0 4.6 8.9L3.9 11.5C1.6 12.7 1 15 1 15 3 17.2 5.2 17.4 5.2 17.4L6.6 19.4C5.9 21.4 6.7 23 6.7 23A6 6 0 0 0 10.6 22 10 10 0 0 0 13.7 22.4H14C15 23.8 17 24 17 24A4 4 0 0 0 18.2 21L18.9 20.2 20.4 18.6C21.8 18.7 22.8 17.8 22.8 17.8 22.6 16.3 21.8 15.5 21.5 15.4V13.7A6 6 0 0 0 19.3 9.8 6 6 0 0 0 16.2 8.4H15A5 5 0 0 0 11.7 10Q11 10.7 10.9 11.4L10.6 13.2V13.6A4 4 0 0 0 11.3 15.3 4 4 0 0 0 13.1 16.6L14.1 16.7H14.7L15.8 16.1A.2.2 0 0 0 15.9 15.7H15.2L14.7 16H14.2L13.4 15.8 12.8 15.3A3 3 0 0 1 12 13.8V13.2A3 3 0 0 1 13.2 10.9L14.3 10.4H15.1L17 10.8A4 4 0 0 1 18.5 12.5L19 14V15.2L18.5 16 17.9 17.2A5 5 0 0 1 14.7 19.2L14.1 19.3H13.6L12 19A7 7 0 0 1 8.6 16.8L8 15.6A7 7 0 0 1 7.2 13V11.6L7.5 10.3 8 9A7 7 0 0 1 9.4 7L10.4 6.1 10.9 5.9 11.2 5.7H11.3L12 5.4H12.3L12.6 5.2H12.8L12.9 5.1H13.4L13.5 5H16.1L18.1 5.8 19.9 7H20V7.2H20.2L20.4 7.4 20.5 7.6 22 9.6V9.9L22.3 10V10.1L22.7 11.5 22.9 11.6 23 11.4z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="prometheus" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M12 0A12 12 0 1 0 12 24 12 12 0 0 0 12 0M12 22.5C10.1 22.5 8.6 21.2 8.6 19.6H15.4C15.4 21.2 14 22.5 12 22.5M17.6 18.7H6.4V16.7H17.6zM17.6 15.7H6.4L6.3 15.4A8 8 0 0 1 4.6 12.6L8.2 13.4Q7.2 12 7.1 10.4C7.1 8 8.9 5.9 8.3 4.2Q9.3 4.3 9.7 7.6C10.4 6.6 10.7 4.9 10.7 3.8S11.3 1.4 12 1.4C11.5 2.4 12.3 3.4 13 5.7 13.3 6.5 13.2 7.9 13.4 8.9 13.5 6.9 13.8 4.2 15 3.2 14.5 4.4 15.1 6 15.5 6.7A6 6 0 0 1 16.6 10.4 5 5 0 0 1 15.5 13.4L16.8 13 19.4 12.6S19 14.1 17.6 15.6" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="kibana" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M2.6 0V21.6L21.4 0zM13.5 12.5 3.5 24H21A19 19 0 0 0 13.5 12.5" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="ri-vscazuredevops" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M15 3.6V12.1L11.5 15 6.1 13V15L3 11 12 11.7V4zM12 4 7 1V3L2.4 4.4 1 6V10.1L3 11.2V5.8z" transform="matrix(.75 0 0 .75 9 6)"/>
+    </symbol>
+    <symbol id="githubactions" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M11 13.8 10.6 13.7 10 12.9A.5.5 0 1 1 10.6 12.2L11 12.6 12.2 11.4A.5.5 0 0 1 12.9 12.3L11.3 13.7zM20.3 13.7 22 12.2A.5.5 0 0 0 21.2 11.5L20 12.5 19.6 12.2A.5.5 0 1 0 18.9 13L19.6 13.7zM4.5 7.5 7.1 5.9A1 1 0 0 0 7 4.2L4.5 2.6A1 1 0 0 0 3 3.4V6.6A1 1 0 0 0 4.5 7.5M6.5 5 4 6.6V3.4zM24 12.5C24 14.5 22.4 16 20.5 16A3.5 3.5 0 0 1 17 13H15A3.5 3.5 0 0 1 11.5 16 3.5 3.5 0 0 1 8 13H7.5Q5.9 13 5 12V17A3 3 0 0 0 8 20 3.5 3.5 0 1 1 11.5 24 3.5 3.5 0 0 1 8 21 4 4 0 0 1 4 17V9.9A5 5 0 0 1 0 5 5 5 0 0 1 10 5 5 5 0 0 1 5 10 2.5 2.5 0 0 0 7.5 12H8C8.3 10.3 9.7 9 11.5 9A3.5 3.5 0 0 1 15 12H17A3.5 3.5 0 0 1 20.5 9C22.5 9 24 10.6 24 12.5M9 20.5A2.5 2.5 0 1 0 14 20.5 2.5 2.5 0 0 0 9 20.5M5 9A4 4 0 1 0 5 1 4 4 0 0 0 5 9M14 12.5A2.5 2.5 0 1 0 9 12.5 2.5 2.5 0 0 0 14 12.5M23 12.5A2.5 2.5 0 1 0 18 12.5 2.5 2.5 0 0 0 23 12.5M10 20.5A.5.5 0 1 0 11 20.5.5.5 0 0 0 10 20.5M12 20.5A.5.5 0 1 0 13 20.5.5.5 0 0 0 12 20.5M24 20.5C24 22.5 22.4 24 20.5 24A3.5 3.5 0 0 1 17 21H16.5A.5.5 0 0 1 16.5 20H17A3.5 3.5 0 0 1 20.5 17C22.5 17 24 18.6 24 20.5M23 20.5A2.5 2.5 0 1 0 18 20.5 2.5 2.5 0 0 0 23 20.5" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="gitlab" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M23.6 9.6 20.3 1 20 .6A1 1 0 0 0 19 .6L18.7 1.1 16.5 7.8H7.5L5.3 1.1 5 .6A1 1 0 0 0 4 .6L3.7 1 .4 9.5A6 6 0 0 0 2.4 16.7L7.5 20.4 10 22.2 11.4 23.3A1 1 0 0 0 12.6 23.3L14.1 22.3 16.6 20.2 21.6 16.7A6 6 0 0 0 23.6 9.6" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+  </defs>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="frame">
+      <section class="panel">
+        <h3>Observability &amp; CI/CD</h3>
+        <div class="badges">
+          <span class="badge" style="--edge:#f46800; --edge-dark:#f46800; --icon:#e36100; --icon-dark:#f46800">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#grafana" width="14" height="14"/></svg>
+            <span>Grafana</span>
+          </span>
+          <span class="badge" style="--edge:#e6522c; --edge-dark:#e6522c; --icon:#e6522c; --icon-dark:#e6522c">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#prometheus" width="14" height="14"/></svg>
+            <span>Prometheus</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-wide break-stacked"></span>
+          <span class="badge" style="--edge:#c72f76; --edge-dark:#f04e98; --icon:#c72f76; --icon-dark:#f04e98">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#kibana" width="14" height="14"/></svg>
+            <span>Kibana</span>
+          </span>
+          <span class="badge" style="--edge:#0078d7; --edge-dark:#0078d7; --icon:#0078d7; --icon-dark:#0078d7">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#ri-vscazuredevops" width="14" height="14"/></svg>
+            <span>Azure DevOps</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-wide break-stacked"></span>
+          <span class="badge" style="--edge:#2088ff; --edge-dark:#2088ff; --icon:#2087fc; --icon-dark:#2088ff">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#githubactions" width="14" height="14"/></svg>
+            <span>GitHub Actions</span>
+          </span>
+          <span class="badge" style="--edge:#fc6d26; --edge-dark:#fc6d26; --icon:#e06122; --icon-dark:#fc6d26">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#gitlab" width="14" height="14"/></svg>
+            <span>GitLab CI/CD</span>
+          </span>
+        </div>
+      </section>
+    </div>
+  </foreignObject>
+</svg>

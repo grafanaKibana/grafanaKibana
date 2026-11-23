@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="46">
+  <desc id="dark">Dark palette</desc>
+  <desc id="first">First of two actions</desc>
+  <desc id="first-dark">First of two actions, dark palette</desc>
+  <defs>
+    <radialGradient id="surface-light" cx=".5" cy="0" r=".84">
+      <stop stop-color="#7c3aed" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity=".025"/>
+    </radialGradient>
+    <radialGradient id="surface-dark" href="#surface-light">
+      <stop stop-color="#a079ff" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#a079ff" stop-opacity=".035"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .frame { fill: #f6f8fa; stroke: #d1d9e0; }
+    [id$="dark"]:target ~ .frame { fill: #151b23; stroke: #343d48; }
+    .surface { x: 15px; width: calc(100% - 30px); }
+    .label-offset { transform: translateX(0px); }
+    [id^="first"]:target ~ .frame .right { display: none; }
+    [id^="first"]:target ~ svg .surface { width: calc(100% - 18px); }
+    [id^="first"]:target ~ svg .label-offset { transform: translateX(6px); }
+    .surface { color: #7c3aed; fill: url(#surface-light); stroke: currentColor; stroke-opacity: .4; }
+    .icon { color: #7548be; }
+    text { fill: #24292f; font: 500 14px/21px "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .content { transform-box: fill-box; transform: translateX(-50%); }
+    [id$="dark"]:target ~ svg .surface { fill: url(#surface-dark); color: #a079ff; }
+    [id$="dark"]:target ~ svg .icon { color: #b99aef; }
+    [id$="dark"]:target ~ svg text { fill: #e6edf3; }
+    @media (max-width: 72px) {
+      .content { transform: none; }
+      .icon { transform: translate(-7px, 2px); }
+      text { text-anchor: middle; transform: translate(-19px, 7px); }
+    }
+  </style>
+  <g class="frame">
+    <rect width="100%" height="46" stroke="none"/>
+    <line x2="100%" y1="45.5" y2="45.5"/>
+    <path d="M.5 0v46"/>
+    <line class="right" x1="100%" x2="100%" y2="46" stroke-width="2"/>
+  </g>
+  <svg width="100%" height="46">
+    <rect class="surface" y="1" height="30"/>
+  </svg>
+  <svg x="50%" overflow="visible">
+    <g class="label-offset"><g class="content">
+      <g class="icon" transform="translate(0 9)" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m2 5 1.2-3h7.6L12 5v1a1.7 1.7 0 0 1-2.5 1.4 1.8 1.8 0 0 1-2.5 0 1.8 1.8 0 0 1-2.5 0A1.7 1.7 0 0 1 2 6ZM3 8v4h8V8"/>
+      </g>
+      <text x="19" y="20.5">Store</text>
+    </g></g>
+  </svg>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" role="img">
+  <title>AI Development Tools</title>
+  <desc id="wide-light">Wide panel, light palette</desc>
+  <desc id="wide-dark">Wide panel, dark palette</desc>
+  <desc id="stacked-light">Stacked panel, light palette</desc>
+  <desc id="stacked-dark">Stacked panel, dark palette</desc>
+  <desc id="phone-light">Phone panel, light palette</desc>
+  <desc id="phone-dark">Phone panel, dark palette</desc>
+  <style>
+    .frame, .panel, .badge { box-sizing: border-box; }
+    .frame { height: 100%; padding-bottom: 8px; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .frame { padding-left: 5px; }
+    .panel {
+      height: 100%; display: flex; flex-direction: column; gap: 6px; padding: 9px 10px;
+      border: 1px solid #d1d9e0; background: #f6f8fa; color: #1f2328;
+      font-family: "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    h3 { margin: 0; font-size: 14px; line-height: 20px; font-weight: 600; }
+    .badges {
+      flex: 1; display: flex; flex-wrap: wrap; column-gap: 4px; align-content: space-between;
+    }
+    .badge {
+      height: 32px; display: flex; flex: 1 1 0; min-width: max-content;
+      align-items: center; justify-content: center; gap: 4px; padding-inline: 4px;
+      font-size: 14px; line-height: 21px; font-weight: 500; white-space: nowrap;
+      background: #fff; border: 1px solid color-mix(in srgb, var(--edge) 18%, #e9edf1);
+    }
+    .row-break { display: none; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .break-wide,
+    :is(#stacked-light, #stacked-dark):target ~ foreignObject .break-stacked,
+    :is(#phone-light, #phone-dark):target ~ foreignObject .break-phone {
+      display: block; flex: 0 0 100%; height: 0;
+    }
+    @media (max-width: 305px) {
+      .badge { gap: 2px; padding-inline: 2px; }
+      .badge > svg { width: 12px; }
+    }
+    .badge svg { flex: none; color: var(--icon); }
+    :is(#wide-dark, #stacked-dark, #phone-dark):target ~ foreignObject .panel { color: #e6edf3; background: #151b23; border-color: #30363d; }
+    :is(#wide-dark, #stacked-dark, #phone-dark):target ~ foreignObject .badge { background: #0d1117; border-color: color-mix(in srgb, var(--edge-dark) 18%, #212830); }
+    :is(#wide-dark, #stacked-dark, #phone-dark):target ~ foreignObject .badge svg { color: var(--icon-dark); }
+  </style>
+  <defs>
+    <symbol id="anthropic" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M17.3 3.5H13.6L20.3 20.5H24ZM6.7 3.5 0 20.5H3.7L5.1 16.9H12.1L13.5 20.5H17.2L10.5 3.5ZM6.3 13.8 8.6 7.8 11 13.8Z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="ri-tbbrandopenai" viewBox="9 6 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11.2 19.4A3.5 3.5 0 0 0 18 18.2V13L12 9.7" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M5.2 15A3.5 3.5 0 0 0 9.7 20.3L14 17.7V10.8" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M6 7.6Q3.7 7.3 2.5 9.3A3.5 3.5 0 0 0 3.7 14.1L8 16.6 14 13.2" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M12.8 4.6A3.5 3.5 0 0 0 6 5.8V11L12 14.4" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M18.8 9A3.5 3.5 0 0 0 14.3 3.7L10 6.3V13.2" transform="matrix(.5 0 0 .5 9 6)"/>
+      <path d="M18 16.3Q20.3 16.6 21.5 14.6A3.5 3.5 0 0 0 20.3 10L16 7.4 10 10.8" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="opencode" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M22 24H2V0H22zM17 4.8H7V19.2H17z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="probot" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M12 0A1.7 1.7 0 0 0 11.5 3.4L10.8 6H2.5A2.5 2.5 0 0 0 0 8.5V21.5A2.5 2.5 0 0 0 2.5 24H21.5C23 24 24 22.9 24 21.5V8.5C24 7 22.9 6 21.5 6H13.1L12.5 3.4A1.7 1.7 0 0 0 12 0M4 8H20A2 2 0 0 1 22 9.9V19.9A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20V10Q2 8 4 7.9M7.1 10.2A4.6 4.6 0 1 0 7.2 19.3 4.6 4.6 0 0 0 7.2 10.2M16.9 10.2A4.6 4.6 0 1 0 17 19.3 4.6 4.6 0 0 0 17 10.2M7.2 11.2A3.5 3.5 0 1 1 7.2 18.3 3.5 3.5 0 0 1 7.2 11.3M16.9 11.3A3.5 3.5 0 1 1 17 18.3 3.5 3.5 0 0 1 17 11.3M7.2 13A1.8 1.8 0 1 0 7.2 16.6 1.8 1.8 0 0 0 7.2 13M16.9 13A1.8 1.8 0 1 0 17 16.6 1.8 1.8 0 0 0 17 13M10 19.4V21.6H10.7V19.4zM11 19.4V21.6H11.9V19.4zM12.3 19.4V21.6H12.9V19.4zM13.2 19.4V21.6H14V19.4zM14.3 19.4V21.7A1 1 0 0 0 15.1 20.6Q15.1 19.5 14.3 19.4M9.6 19.5A1 1 0 0 0 9 20.6Q8.9 21.3 9.6 21.5z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="cursor" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M11.5.1 1.9 5.7 1.5 6.4V17.6Q1.5 18 1.9 18.3L11.5 24A1 1 0 0 0 12.5 23.9L22.1 18.3 22.5 17.6V6.4L22.1 5.7 12.5 0A1 1 0 0 0 11.5.1M2.7 6.3H21.2Q21.6 6.3 21.5 7L12.2 22.9 12 23V12.3L11.7 11.8 2.6 6.6z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="coderabbit" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M24 13A12 12 0 1 0 2.2 20.4Q3.5 22.4 5.7 22.5C3.7 20.3 5.4 18.4 5.4 18.4 4.6 18.6 4.2 19.9 4.2 19.9 2.7 19 3.1 18 3.1 18 3 17.7 3.4 17 4.6 17.3 6.8 9.9 14.2 13.7 14.2 13.7L13.7 12.2C9 11.5 7.3 8 7.3 8 11.7 6.7 14.5 10.4 14.5 10.4 13.2 7.4 10.2 8.6 9.5 3.6 14.6 4.4 15.4 8.6 15.5 9.4Q15.3 9 17.7 9C20.3 9.2 22.4 11.9 22.4 11.9 22.4 17.4 15.8 16.1 15.8 20.2 15.8 21.2 16.8 21 17.2 21.5Q17.5 22.1 17.2 22.5H18Q20.3 22.5 21.7 20.5A12 12 0 0 0 24 13M15.6 22.5C14.4 22 13.3 19.5 11.9 19.5 14 20.7 13.1 22.2 13 22.5z" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="githubcopilot" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M24 17C23 18.5 18 22 12 22S1 18.5 0 17V13.7C.5 12.7 1.5 11.4 2.8 11L3.3 9.5V8.4Q3.2 6.4 4.3 5L6 4C7.3 3 9.2 2 11.9 2S16.8 3 18.2 4L19.6 5Q20.8 6.3 20.7 8.4V9.4L21.3 11C22.6 11.4 23.6 12.7 24 13.7zM12.1 11H11.8L11.5 11.5Q10.3 13 8 13 5.4 13 4.2 11.7H4V18.3C5.4 19.1 8.5 20.5 12 20.5S18.6 19.1 20 18.3V11.7H19.9Q18.5 13.1 16 13 13.7 13 12.5 11.5zM14.5 14.3Q15.4 14.3 15.5 15.3V17.3Q15.4 18.2 14.5 18.3A1 1 0 0 1 13.5 17.3V15.3Q13.6 14.3 14.5 14.3M9.5 14.3Q10.4 14.3 10.5 15.3V17.3Q10.4 18.2 9.5 18.3A1 1 0 0 1 8.5 17.3V15.3Q8.6 14.3 9.5 14.3M12.8 8Q13 9.7 13.7 10.6T16 11.6Q18.3 11.4 18.7 10.7 19.3 10 19.3 8.4T18.5 6Q18 5.3 15.7 5T13.2 5.5Q12.8 6 12.8 7.2zM11.2 8V7Q11.3 6.2 10.9 5.7 10.4 4.9 8.3 5 6 5.3 5.5 6 4.8 6.9 4.8 8.5T5.3 10.8C5.7 11.2 6.3 11.5 8 11.5Q9.8 11.5 10.3 10.5A5 5 0 0 0 11.2 8.2" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+  </defs>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="frame">
+      <section class="panel">
+        <h3>AI Development Tools</h3>
+        <div class="badges">
+          <span class="badge" style="--edge:#d97757; --edge-dark:#d97757; --icon:#cc7052; --icon-dark:#d97757">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#anthropic" width="14" height="14"/></svg>
+            <span>Claude Code</span>
+          </span>
+          <span class="badge" style="--edge:#d97757; --edge-dark:#d97757; --icon:#cc7052; --icon-dark:#d97757">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#anthropic" width="14" height="14"/></svg>
+            <span>Claude Design</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-wide break-stacked break-phone"></span>
+          <span class="badge" style="--edge:#6b7280; --edge-dark:#8b949e; --icon:#18181b; --icon-dark:#fafafa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#ri-tbbrandopenai" width="14" height="14"/></svg>
+            <span>Codex</span>
+          </span>
+          <span class="badge" style="--edge:#6b7280; --edge-dark:#8b949e; --icon:#18181b; --icon-dark:#fafafa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#cursor" width="14" height="14"/></svg>
+            <span>Cursor</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-phone"></span>
+          <span class="badge" style="--edge:#ff570a; --edge-dark:#ff570a; --icon:#f05209; --icon-dark:#ff570a">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#coderabbit" width="14" height="14"/></svg>
+            <span>CodeRabbit</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-wide break-stacked"></span>
+          <span class="badge" style="--edge:#6b7280; --edge-dark:#8b949e; --icon:#18181b; --icon-dark:#fafafa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#opencode" width="14" height="14"/></svg>
+            <span>OpenCode</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-phone"></span>
+          <span class="badge" style="--edge:#4d9abf; --edge-dark:#4d9abf; --icon:#4891b4; --icon-dark:#4d9abf">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#probot" width="14" height="14"/></svg>
+            <span>Pi</span>
+          </span>
+          <span class="badge" style="--edge:#6b7280; --edge-dark:#8b949e; --icon:#18181b; --icon-dark:#fafafa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#githubcopilot" width="14" height="14"/></svg>
+            <span>GitHub Copilot</span>
+          </span>
+        </div>
+      </section>
+    </div>
+  </foreignObject>
+</svg>

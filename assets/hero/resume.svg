@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="48" role="img">
+  <title>Download résumé</title>
+  <style>
+    .button {
+      box-sizing: border-box; width: calc(100% - 8px); height: calc(100% - 2px); margin: 0 4px;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+      position: relative; overflow: hidden;
+      --brand: #437100; --ink: #24292f; --edge: #76839066; --wash: 18%;
+      padding: 4px 6px; border: 1px solid var(--edge); color: var(--ink);
+      --core-width: 25px; --bloom-width: 52px;
+      --reflection: 255 249 226; --core: .11; --bloom: .035;
+      background-color: color-mix(in srgb, var(--brand) 10%, transparent);
+      background-image: radial-gradient(ellipse 80% 130% at 50% -35%, color-mix(in srgb, var(--brand) var(--wash), transparent), transparent);
+    }
+    #dark:target ~ foreignObject .button {
+      --brand: #84cc16; --ink: #e6edf3; --edge: #8c959f55; --wash: 22%;
+      --reflection: 255 255 241; --core: .30; --bloom: .095;
+    }
+    .icon { color: var(--brand); }
+    .label { font: 500 14px/21px "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; white-space: nowrap; }
+    .icon, .label { display: block; flex: none; }
+    .compact { display: none; }
+    @media (max-width: 155px) {
+      .button { gap: 4px; padding: 4px 3px; --core-width: 16px; --bloom-width: 28px; }
+      .full { display: none; }
+      .compact { display: block; }
+    }
+    @media (max-width: 88px) {
+      .button { flex-direction: column; gap: 1px; }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .button::before {
+        content: ""; position: absolute; inset: -96px 0; pointer-events: none;
+        background:
+          radial-gradient(ellipse var(--core-width) 82px at 50% 50%,
+            rgb(var(--reflection) / var(--core)), transparent 100%),
+          radial-gradient(ellipse var(--bloom-width) 102px at 48% 51%,
+            rgb(255 238 187 / var(--bloom)), transparent 100%);
+        opacity: .50;
+        animation: sheen 12s ease-in-out infinite;
+      }
+      .icon, .label { position: relative; }
+      @keyframes sheen {
+        0% { transform: translate(-115%, -18px) skewX(-24deg); }
+        10%, 100% { transform: translate(115%, 18px) skewX(-24deg); }
+      }
+    }
+  </style>
+  <desc id="dark">Dark appearance</desc>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="button">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></svg>
+      <span class="label full">Download résumé</span>
+      <span class="label compact">Résumé</span>
+    </div>
+  </foreignObject>
+</svg>

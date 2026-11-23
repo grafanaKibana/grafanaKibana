@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" role="img">
+  <title>Backend</title>
+  <desc id="wide-light">Wide panel, light palette</desc>
+  <desc id="wide-dark">Wide panel, dark palette</desc>
+  <desc id="stacked-light">Stacked panel, light palette</desc>
+  <desc id="stacked-dark">Stacked panel, dark palette</desc>
+  <style>
+    .frame, .panel, .badge { box-sizing: border-box; }
+    .frame { height: 100%; padding-bottom: 8px; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .frame { padding-left: 5px; }
+    .panel {
+      height: 100%; display: flex; flex-direction: column; gap: 6px; padding: 9px 10px;
+      border: 1px solid #d1d9e0; background: #f6f8fa; color: #1f2328;
+      font-family: "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    h3 { margin: 0; font-size: 14px; line-height: 20px; font-weight: 600; }
+    .badges {
+      flex: 1; display: flex; flex-wrap: wrap; column-gap: 4px; align-content: space-between;
+    }
+    .badge {
+      height: 32px; display: flex; flex: 1 1 0; min-width: max-content;
+      align-items: center; justify-content: center; gap: 4px; padding-inline: 4px;
+      font-size: 14px; line-height: 21px; font-weight: 500; white-space: nowrap;
+      background: #fff; border: 1px solid color-mix(in srgb, var(--edge) 18%, #e9edf1);
+    }
+    .row-break { display: none; }
+    :is(#wide-light, #wide-dark):target ~ foreignObject .break-wide,
+    :is(#stacked-light, #stacked-dark):target ~ foreignObject .break-stacked {
+      display: block; flex: 0 0 100%; height: 0;
+    }
+    @media (max-width: 305px) {
+      .badge { gap: 2px; padding-inline: 2px; }
+      .badge > svg { width: 12px; }
+    }
+    .badge svg { flex: none; color: var(--icon); }
+    :is(#wide-dark, #stacked-dark):target ~ foreignObject .panel { color: #e6edf3; background: #151b23; border-color: #30363d; }
+    :is(#wide-dark, #stacked-dark):target ~ foreignObject .badge { background: #0d1117; border-color: color-mix(in srgb, var(--edge-dark) 18%, #212830); }
+    :is(#wide-dark, #stacked-dark):target ~ foreignObject .badge svg { color: var(--icon-dark); }
+  </style>
+  <defs>
+    <symbol id="dotnet" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M24 8.8H21.5V16.3H20.1V8.8H17.6V7.5H24zM17.1 16.3H12.3V7.5H17V8.8H13.8V11.3H16.7V12.5H13.7V15.1H17.2zM10.4 16.3H9L4.8 10 4.5 9.4V16.3H3.2V7.5H4.8L8.8 14 9 14.4V7.5H10.4zM1.7 15.6A1 1 0 0 1 1 16.5 1 1 0 0 1 0 15.6 1 1 0 0 1 .9 14.8 1 1 0 0 1 1.7 15.6" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+    <symbol id="swagger" viewBox="9 6 12 12">
+      <path fill="currentColor" d="M12 0A12 12 0 1 0 12 24 12 12 0 0 0 12 0M12 1.1A10.9 10.9 0 1 1 12 23 10.9 10.9 0 0 1 12 1M8.4 6H7.9Q6.4 5.9 6.2 7.3L6.1 9.3 6 10.5Q5.8 11.2 5 11.2H4.6V12.8Q6.2 12.6 6 14.4V15.7L6.2 16.9Q6.7 18.4 8.8 18V16.8H8.3Q7.6 16.8 7.6 16.3V14.6C7.4 13.6 7.3 12.6 6.3 12Q7.2 11.4 7.4 10.6L7.5 9.4V8Q7.6 7.1 8.6 7.2H8.8V5.9zM16 5.9H15V7.2H15.8Q16.3 7.2 16.4 7.7V8.7Q16.4 9.7 16.7 10.7 16.7 11.6 17.6 12 16.5 13 16.6 14.2L16.3 16Q16.4 17 15.7 16.8H15.2V18.1H16Q17.5 18.1 17.8 16.7L17.9 15.2V13.8Q18.2 12.8 19.2 12.8H19.3V11.2H19Q18.3 11.1 18 10.4V9.5L17.8 7.7Q17.7 5.9 15.9 5.9M9 11.2A.8.8 0 0 0 9 12.8 1 1 0 0 0 10 12.1.8.8 0 0 0 9 11zM12 11.2A1 1 0 0 0 11.2 11.9V12Q11.2 12.8 12 12.8T12.8 12 12 11.2M15 11.2A1 1 0 0 0 14 12Q14 12.8 15 12.8 15.6 12.8 15.7 12 15.8 11.3 15 11.2" transform="matrix(.5 0 0 .5 9 6)"/>
+    </symbol>
+  </defs>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="frame">
+      <section class="panel">
+        <h3>Backend</h3>
+        <div class="badges">
+          <span class="badge" style="--edge:#512bd4; --edge-dark:#ad93ff; --icon:#512bd4; --icon-dark:#ad93ff">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#dotnet" width="14" height="14"/></svg>
+            <span>.NET</span>
+          </span>
+          <span class="badge" style="--edge:#512bd4; --edge-dark:#ad93ff; --icon:#512bd4; --icon-dark:#ad93ff">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#dotnet" width="14" height="14"/></svg>
+            <span>ASP.NET Web API</span>
+          </span>
+          <span aria-hidden="true" class="row-break break-wide break-stacked"></span>
+          <span class="badge" style="--edge:#512bd4; --edge-dark:#ad93ff; --icon:#512bd4; --icon-dark:#ad93ff">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#dotnet" width="14" height="14"/></svg>
+            <span>Entity Framework</span>
+          </span>
+          <span class="badge" style="--edge:#85ea2d; --edge-dark:#85ea2d; --icon:#599d1e; --icon-dark:#85ea2d">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use href="#swagger" width="14" height="14"/></svg>
+            <span>REST API</span>
+          </span>
+        </div>
+      </section>
+    </div>
+  </foreignObject>
+</svg>
