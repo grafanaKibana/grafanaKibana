@@ -175,18 +175,21 @@ internal static class Tokscale
 
         var metrics = new StringBuilder();
         var description = new StringBuilder($"{usage.Tokens:N0} lifetime tokens.");
-        AppendMetric(metrics, palette, left, mobile ? 21 : 25, "Lifetime tokens", Compact(usage.Tokens), mobile ? 20 : 32, mobile);
+        AppendMetric(metrics, palette, mobile ? 21 : 25, "Lifetime tokens", Compact(usage.Tokens), mobile ? 20 : 32, mobile);
+        string? rankText = usage.Rank is long rank ? $"#{rank:N0}" : null;
         if (usage.Cost is double cost)
         {
             string formatted = cost >= 100 ? $"${cost:N0}" : $"${cost:N2}";
-            AppendMetric(metrics, palette, mobile ? "42%" : "528", mobile ? 21 : 25, "Estimated cost", formatted, mobile ? 16 : 22, mobile);
+            int rankSpace = rankText is null ? 0
+                : Math.Max(mobile ? 50 : 60, rankText.Length * (mobile ? 10 : 14)) + (mobile ? 12 : 20);
+            AppendMetric(metrics, palette, mobile ? 21 : 25, "Estimated cost", formatted, mobile ? 16 : 22, mobile, rightInset: 16 + rankSpace);
             description.Append($" Estimated cost {formatted}.");
         }
 
-        if (usage.Rank is long rank)
+        if (rankText is not null)
         {
-            AppendMetric(metrics, palette, mobile ? right : "688", mobile ? 21 : 25, "Cost rank", $"#{rank:N0}", mobile ? 16 : 22, mobile, mobile ? "end" : "start");
-            description.Append($" All-time cost rank #{rank:N0}.");
+            AppendMetric(metrics, palette, mobile ? 21 : 25, "Cost rank", rankText, mobile ? 16 : 22, mobile, rightInset: 16);
+            description.Append($" All-time cost rank {rankText}.");
         }
 
         description.Append($" Daily tokens from {period}, with {activeDays} active days. Weeks start on Sunday.");
@@ -211,7 +214,6 @@ internal static class Tokscale
               }
               @media (min-width: 380px) {
                 .expanded { display: inline }
-                .cost { transform: translateX(14%) }
                 .swatches { transform: translateX(31px) }
               }
             </style>
@@ -241,21 +243,23 @@ internal static class Tokscale
             """;
     }
 
-    private static void AppendMetric(StringBuilder metrics, Palette palette, string x, int y,
-        string label, string value, int size, bool mobile, string anchor = "start")
+    private static void AppendMetric(StringBuilder metrics, Palette palette, int y,
+        string label, string value, int size, bool mobile, int? rightInset = null)
     {
         int baseline = y + (mobile ? 22 : 31);
-        string cssClass = mobile && label == "Estimated cost" ? " class=\"cost\"" : "";
+        string position = rightInset.HasValue
+            ? $"x=\"100%\" dx=\"-{rightInset.Value}\" text-anchor=\"end\""
+            : "x=\"16\" text-anchor=\"start\"";
+
         if (mobile && label is "Lifetime tokens" or "Estimated cost")
         {
             string shortLabel = label == "Lifetime tokens" ? "Tokens" : "Est. cost";
             label = $"""<tspan class="metric-long">{label}</tspan><tspan class="short">{shortLabel}</tspan>""";
         }
 
-        string inset = mobile && anchor == "end" ? " dx=\"-16\"" : "";
         metrics.Append($"""
-            <text{cssClass} fill="{palette.Muted}" x="{x}"{inset} y="{y}" text-anchor="{anchor}" font-size="{(mobile ? 12 : 14)}">{label}</text>
-              <text{cssClass} fill="{palette.Ink}" x="{x}"{inset} y="{baseline}" text-anchor="{anchor}" font-size="{size}" font-weight="600">{value}</text>
+            <text fill="{palette.Muted}" {position} y="{y}" font-size="{(mobile ? 12 : 14)}">{label}</text>
+              <text fill="{palette.Ink}" {position} y="{baseline}" font-size="{size}" font-weight="600">{value}</text>
             """);
     }
 

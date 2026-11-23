@@ -12,14 +12,13 @@
   }
   @media (min-width: 380px) {
     .expanded { display: inline }
-    .cost { transform: translateX(14%) }
     .swatches { transform: translateX(31px) }
   }
 </style>
-  <text fill="#59636e" x="16" y="21" text-anchor="start" font-size="12"><tspan class="metric-long">Lifetime tokens</tspan><tspan class="short">Tokens</tspan></text>
-  <text fill="#1f2328" x="16" y="43" text-anchor="start" font-size="20" font-weight="600">60.25B</text><text class="cost" fill="#59636e" x="42%" y="21" text-anchor="start" font-size="12"><tspan class="metric-long">Estimated cost</tspan><tspan class="short">Est. cost</tspan></text>
-  <text class="cost" fill="#1f2328" x="42%" y="43" text-anchor="start" font-size="16" font-weight="600">$36,990</text><text fill="#59636e" x="100%" dx="-16" y="21" text-anchor="end" font-size="12">Cost rank</text>
-  <text fill="#1f2328" x="100%" dx="-16" y="43" text-anchor="end" font-size="16" font-weight="600">#502</text>
+  <text fill="#59636e" x="16" text-anchor="start" y="21" font-size="12"><tspan class="metric-long">Lifetime tokens</tspan><tspan class="short">Tokens</tspan></text>
+  <text fill="#1f2328" x="16" text-anchor="start" y="43" font-size="20" font-weight="600">60.25B</text><text fill="#59636e" x="100%" dx="-78" text-anchor="end" y="21" font-size="12"><tspan class="metric-long">Estimated cost</tspan><tspan class="short">Est. cost</tspan></text>
+  <text fill="#1f2328" x="100%" dx="-78" text-anchor="end" y="43" font-size="16" font-weight="600">$36,990</text><text fill="#59636e" x="100%" dx="-16" text-anchor="end" y="21" font-size="12">Cost rank</text>
+  <text fill="#1f2328" x="100%" dx="-16" text-anchor="end" y="43" font-size="16" font-weight="600">#502</text>
   <text fill="#1f2328" x="16" y="80" font-size="14" font-weight="600">Daily tokens</text>
   <text fill="#59636e" x="100%" dx="-16" y="80" text-anchor="end" font-size="12">167 active days</text>
   <text fill="#59636e" x="3.704%" dx="14.815" y="97" font-size="12">Jun</text>
