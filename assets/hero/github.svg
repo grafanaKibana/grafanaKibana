@@ -27,8 +27,8 @@
       <stop class="base" offset="1" stop-color="#fbfbfb"/>
     </radialGradient>
   </defs>
-  <svg class="art" y="1" width="100%" height="44" overflow="hidden">
-    <rect class="frame" width="100%" height="100%" fill="url(#wash)" stroke="#b4bdc6" stroke-width="2"/>
+  <svg class="art" y="2" width="100%" height="44" overflow="hidden">
+    <rect class="frame" x="2.5" y=".5" width="calc(100% - 5px)" height="43" fill="url(#wash)" stroke="#b4bdc6" stroke-width="1"/>
     <g class="mark" color="#59636e" transform="translate(-34 14)"><svg x="50%" viewBox="13 8 16 16" width="16" height="16" fill="currentColor"><path fill="currentColor" d="M12 .3A12 12 0 0 0 8.2 23.7Q9 23.7 9 23V21.1C5.7 21.8 5 19.5 5 19.5 4.4 18 3.6 17.7 3.6 17.7 2.6 17 3.7 17 3.7 17 5 17 5.6 18.2 5.6 18.2 6.6 20 8.4 19.5 9 19.2Q9.2 18 9.8 17.6C7.1 17.3 4.3 16.3 4.3 11.6Q4.3 9.8 5.6 8.6C5.4 8 5 6.9 5.6 5.3 5.7 5.3 6.7 5 9 6.5A12 12 0 0 1 15 6.5C17.3 5 18.3 5.3 18.3 5.3 18.9 6.9 18.5 8 18.3 8.5Q19.7 9.7 19.7 11.7C19.6 16.3 16.8 17.3 14.1 17.6Q15 18 15 19.8V23.1Q14.8 23.7 15.7 23.7A12 12 0 0 0 12 .3" transform="translate(13 8)scale(.66667)" /></svg></g>
     <text class="caption" x="50%" y="27" transform="translate(11 0)" text-anchor="middle" fill="#24292f"
         font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="14" font-weight="500">Ask me</text>
