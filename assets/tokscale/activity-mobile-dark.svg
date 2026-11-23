@@ -1,16 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width='100%' height="283" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width='100%' height="100%" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
   <title id="title">Tokscale token usage</title>
   <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #502. Daily tokens from May 24, 2026 to Nov 23, 2026, with 167 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
   <rect width="100%" height="100%" fill="#0d1117"/>
-  <rect width="100%" height="100" fill="#151b23"/>
-  <line x2="100%" y1="100" y2="100" stroke="#343d48"/>
-  <text fill="#a0aab4" x="4%" y="21" font-size="12">Lifetime tokens</text>
-  <text fill="#f0f6fc" x="4%" y="43" font-size="20" font-weight="600">60.25B</text><text fill="#a0aab4" x="4%" y="68" font-size="12">Estimated cost</text>
-  <text fill="#f0f6fc" x="4%" y="90" font-size="16" font-weight="600">$36,990</text><text fill="#a0aab4" x="54%" y="68" font-size="12">Cost rank</text>
-  <text fill="#f0f6fc" x="54%" y="90" font-size="16" font-weight="600">#502</text>
-  <text fill="#f0f6fc" x="4%" y="121" font-size="14" font-weight="600">Daily tokens</text>
-  <text fill="#a0aab4" x="96%" y="121" text-anchor="end" font-size="12">167 active days</text>
-  <svg x="4%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d0" x="0" y="0" width="8" height="8" fill="#212830"/>
+  <rect width="100%" height="59" fill="#151b23"/>
+  <line x2="100%" y1="59" y2="59" stroke="#343d48"/>
+<style>
+  .expanded, .metric-long { display: none }
+  @media (min-width: 300px) {
+    .metric-long { display: inline }
+    .short { display: none }
+  }
+  @media (min-width: 380px) {
+    .expanded { display: inline }
+    .cost { transform: translateX(14%) }
+    .swatches { transform: translateX(31px) }
+  }
+</style>
+<svg x="16" width="92%" height="100%">
+  <set attributeName="width" to="100%"/>
+  <animate attributeName="width" values="-32;-32" dur="1s" fill="freeze" additive="sum"/>
+  <text fill="#a0aab4" x="0" y="21" text-anchor="start" font-size="12"><tspan class="metric-long">Lifetime tokens</tspan><tspan class="short">Tokens</tspan></text>
+  <text fill="#f0f6fc" x="0" y="43" text-anchor="start" font-size="20" font-weight="600">60.25B</text><text class="cost" fill="#a0aab4" x="42%" y="21" text-anchor="start" font-size="12"><tspan class="metric-long">Estimated cost</tspan><tspan class="short">Est. cost</tspan></text>
+  <text class="cost" fill="#f0f6fc" x="42%" y="43" text-anchor="start" font-size="16" font-weight="600">$36,990</text><text fill="#a0aab4" x="100%" y="21" text-anchor="end" font-size="12">Cost rank</text>
+  <text fill="#f0f6fc" x="100%" y="43" text-anchor="end" font-size="16" font-weight="600">#502</text>
+  <text fill="#f0f6fc" x="0" y="80" font-size="14" font-weight="600">Daily tokens</text>
+  <text fill="#a0aab4" x="100%" y="80" text-anchor="end" font-size="12">167 active days</text>
+  <svg x="0%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d0" x="0" y="0" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="0" y="10" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="0" y="20" width="8" height="8" fill="#212830"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -18,8 +33,8 @@
 <rect class="d1" x="0" y="50" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="60" width="8" height="8" fill="#234934"/>
 </svg>
-<text fill="#a0aab4" x="7.407%" y="138" font-size="12">Jun</text>
-<svg x="7.407%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d0" x="0" y="0" width="8" height="8" fill="#212830"/>
+<text fill="#a0aab4" x="3.704%" y="97" font-size="12">Jun</text>
+<svg x="3.704%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d0" x="0" y="0" width="8" height="8" fill="#212830"/>
 <rect class="d1" x="0" y="10" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="20" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -27,7 +42,7 @@
 <rect class="d1" x="0" y="50" width="8" height="8" fill="#234934"/>
 <rect class="d2" x="0" y="60" width="8" height="8" fill="#39744a"/>
 </svg>
-<svg x="10.815%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
+<svg x="7.407%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="10" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="20" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -35,7 +50,7 @@
 <rect class="d2" x="0" y="50" width="8" height="8" fill="#39744a"/>
 <rect class="d2" x="0" y="60" width="8" height="8" fill="#39744a"/>
 </svg>
-<svg x="14.222%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
+<svg x="11.111%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="10" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="20" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -43,7 +58,7 @@
 <rect class="d2" x="0" y="50" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="60" width="8" height="8" fill="#6aa354"/>
 </svg>
-<svg x="17.63%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<svg x="14.815%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d2" x="0" y="10" width="8" height="8" fill="#39744a"/>
 <rect class="d1" x="0" y="20" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -51,8 +66,8 @@
 <rect class="d2" x="0" y="50" width="8" height="8" fill="#39744a"/>
 <rect class="d2" x="0" y="60" width="8" height="8" fill="#39744a"/>
 </svg>
-<text fill="#a0aab4" x="21.037%" y="138" font-size="12">Jul</text>
-<svg x="21.037%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<text fill="#a0aab4" x="18.519%" y="97" font-size="12">Jul</text>
+<svg x="18.519%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d1" x="0" y="10" width="8" height="8" fill="#234934"/>
 <rect class="d2" x="0" y="20" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="30" width="8" height="8" fill="#6aa354"/>
@@ -60,7 +75,7 @@
 <rect class="d3" x="0" y="50" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="60" width="8" height="8" fill="#6aa354"/>
 </svg>
-<svg x="24.444%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
+<svg x="22.222%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
 <rect class="d2" x="0" y="10" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="20" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="30" width="8" height="8" fill="#6aa354"/>
@@ -68,7 +83,7 @@
 <rect class="d3" x="0" y="50" width="8" height="8" fill="#6aa354"/>
 <rect class="d2" x="0" y="60" width="8" height="8" fill="#39744a"/>
 </svg>
-<svg x="27.852%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<svg x="25.926%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="10" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="20" width="8" height="8" fill="#6aa354"/>
 <rect class="d4" x="0" y="30" width="8" height="8" fill="#a7d760"/>
@@ -76,7 +91,7 @@
 <rect class="d4" x="0" y="50" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<svg x="31.259%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
+<svg x="29.63%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
 <rect class="d2" x="0" y="10" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="20" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="30" width="8" height="8" fill="#6aa354"/>
@@ -84,8 +99,8 @@
 <rect class="d1" x="0" y="50" width="8" height="8" fill="#234934"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<text fill="#a0aab4" x="34.667%" y="138" font-size="12">Aug</text>
-<svg x="34.667%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d4" x="0" y="0" width="8" height="8" fill="#a7d760"/>
+<text fill="#a0aab4" x="33.333%" y="97" font-size="12">Aug</text>
+<svg x="33.333%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d4" x="0" y="0" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="10" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="20" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="30" width="8" height="8" fill="#a7d760"/>
@@ -93,7 +108,7 @@
 <rect class="d4" x="0" y="50" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<svg x="38.074%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d4" x="0" y="0" width="8" height="8" fill="#a7d760"/>
+<svg x="37.037%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d4" x="0" y="0" width="8" height="8" fill="#a7d760"/>
 <rect class="d3" x="0" y="10" width="8" height="8" fill="#6aa354"/>
 <rect class="d2" x="0" y="20" width="8" height="8" fill="#39744a"/>
 <rect class="d2" x="0" y="30" width="8" height="8" fill="#39744a"/>
@@ -101,7 +116,7 @@
 <rect class="d2" x="0" y="50" width="8" height="8" fill="#39744a"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<svg x="41.481%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
+<svg x="40.741%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
 <rect class="d4" x="0" y="10" width="8" height="8" fill="#a7d760"/>
 <rect class="d0" x="0" y="20" width="8" height="8" fill="#212830"/>
 <rect class="d4" x="0" y="30" width="8" height="8" fill="#a7d760"/>
@@ -109,7 +124,7 @@
 <rect class="d3" x="0" y="50" width="8" height="8" fill="#6aa354"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<svg x="44.889%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
+<svg x="44.444%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
 <rect class="d0" x="0" y="10" width="8" height="8" fill="#212830"/>
 <rect class="d1" x="0" y="20" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -117,7 +132,7 @@
 <rect class="d3" x="0" y="50" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="60" width="8" height="8" fill="#6aa354"/>
 </svg>
-<svg x="48.296%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<svg x="48.148%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="10" width="8" height="8" fill="#6aa354"/>
 <rect class="d4" x="0" y="20" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="30" width="8" height="8" fill="#a7d760"/>
@@ -125,8 +140,8 @@
 <rect class="d4" x="0" y="50" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<text fill="#a0aab4" x="51.704%" y="138" font-size="12">Sep</text>
-<svg x="51.704%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
+<text fill="#a0aab4" x="51.852%" y="97" font-size="12">Sep</text>
+<svg x="51.852%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
 <rect class="d4" x="0" y="10" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="20" width="8" height="8" fill="#a7d760"/>
 <rect class="d2" x="0" y="30" width="8" height="8" fill="#39744a"/>
@@ -134,7 +149,7 @@
 <rect class="d4" x="0" y="50" width="8" height="8" fill="#a7d760"/>
 <rect class="d3" x="0" y="60" width="8" height="8" fill="#6aa354"/>
 </svg>
-<svg x="55.111%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
+<svg x="55.556%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
 <rect class="d2" x="0" y="10" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="20" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="30" width="8" height="8" fill="#6aa354"/>
@@ -142,7 +157,7 @@
 <rect class="d0" x="0" y="50" width="8" height="8" fill="#212830"/>
 <rect class="d3" x="0" y="60" width="8" height="8" fill="#6aa354"/>
 </svg>
-<svg x="58.519%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
+<svg x="59.259%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
 <rect class="d4" x="0" y="10" width="8" height="8" fill="#a7d760"/>
 <rect class="d3" x="0" y="20" width="8" height="8" fill="#6aa354"/>
 <rect class="d2" x="0" y="30" width="8" height="8" fill="#39744a"/>
@@ -150,7 +165,7 @@
 <rect class="d2" x="0" y="50" width="8" height="8" fill="#39744a"/>
 <rect class="d1" x="0" y="60" width="8" height="8" fill="#234934"/>
 </svg>
-<svg x="61.926%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<svg x="62.963%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d1" x="0" y="10" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="20" width="8" height="8" fill="#234934"/>
 <rect class="d2" x="0" y="30" width="8" height="8" fill="#39744a"/>
@@ -158,8 +173,8 @@
 <rect class="d2" x="0" y="50" width="8" height="8" fill="#39744a"/>
 <rect class="d2" x="0" y="60" width="8" height="8" fill="#39744a"/>
 </svg>
-<text fill="#a0aab4" x="65.333%" y="138" font-size="12">Oct</text>
-<svg x="65.333%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
+<text fill="#a0aab4" x="66.667%" y="97" font-size="12">Oct</text>
+<svg x="66.667%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
 <rect class="d2" x="0" y="10" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="20" width="8" height="8" fill="#6aa354"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -167,7 +182,7 @@
 <rect class="d2" x="0" y="50" width="8" height="8" fill="#39744a"/>
 <rect class="d1" x="0" y="60" width="8" height="8" fill="#234934"/>
 </svg>
-<svg x="68.741%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
+<svg x="70.37%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
 <rect class="d2" x="0" y="10" width="8" height="8" fill="#39744a"/>
 <rect class="d1" x="0" y="20" width="8" height="8" fill="#234934"/>
 <rect class="d0" x="0" y="30" width="8" height="8" fill="#212830"/>
@@ -175,7 +190,7 @@
 <rect class="d1" x="0" y="50" width="8" height="8" fill="#234934"/>
 <rect class="d1" x="0" y="60" width="8" height="8" fill="#234934"/>
 </svg>
-<svg x="72.148%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
+<svg x="74.074%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d1" x="0" y="0" width="8" height="8" fill="#234934"/>
 <rect class="d4" x="0" y="10" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="20" width="8" height="8" fill="#a7d760"/>
 <rect class="d3" x="0" y="30" width="8" height="8" fill="#6aa354"/>
@@ -183,7 +198,7 @@
 <rect class="d4" x="0" y="50" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<svg x="75.556%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<svg x="77.778%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d0" x="0" y="10" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="0" y="20" width="8" height="8" fill="#212830"/>
 <rect class="d4" x="0" y="30" width="8" height="8" fill="#a7d760"/>
@@ -191,7 +206,7 @@
 <rect class="d3" x="0" y="50" width="8" height="8" fill="#6aa354"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<svg x="78.963%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<svg x="81.481%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d0" x="0" y="10" width="8" height="8" fill="#212830"/>
 <rect class="d4" x="0" y="20" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="30" width="8" height="8" fill="#a7d760"/>
@@ -199,8 +214,8 @@
 <rect class="d4" x="0" y="50" width="8" height="8" fill="#a7d760"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<text fill="#a0aab4" x="82.37%" y="138" font-size="12">Nov</text>
-<svg x="82.37%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<text fill="#a0aab4" x="85.185%" y="97" font-size="12">Nov</text>
+<svg x="85.185%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d4" x="0" y="10" width="8" height="8" fill="#a7d760"/>
 <rect class="d2" x="0" y="20" width="8" height="8" fill="#39744a"/>
 <rect class="d3" x="0" y="30" width="8" height="8" fill="#6aa354"/>
@@ -208,7 +223,7 @@
 <rect class="d3" x="0" y="50" width="8" height="8" fill="#6aa354"/>
 <rect class="d0" x="0" y="60" width="8" height="8" fill="#212830"/>
 </svg>
-<svg x="85.778%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
+<svg x="88.889%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d2" x="0" y="0" width="8" height="8" fill="#39744a"/>
 <rect class="d4" x="0" y="10" width="8" height="8" fill="#a7d760"/>
 <rect class="d3" x="0" y="20" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="30" width="8" height="8" fill="#6aa354"/>
@@ -216,7 +231,7 @@
 <rect class="d3" x="0" y="50" width="8" height="8" fill="#6aa354"/>
 <rect class="d4" x="0" y="60" width="8" height="8" fill="#a7d760"/>
 </svg>
-<svg x="89.185%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
+<svg x="92.593%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d3" x="0" y="0" width="8" height="8" fill="#6aa354"/>
 <rect class="d3" x="0" y="10" width="8" height="8" fill="#6aa354"/>
 <rect class="d2" x="0" y="20" width="8" height="8" fill="#39744a"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -224,15 +239,16 @@
 <rect class="d0" x="0" y="50" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="0" y="60" width="8" height="8" fill="#212830"/>
 </svg>
-<svg x="92.593%" y="145" width="3.407%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d0" x="0" y="0" width="8" height="8" fill="#212830"/>
+<svg x="96.296%" y="104" width="3.704%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet"><rect class="d0" x="0" y="0" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="0" y="10" width="8" height="8" fill="#212830"/>
 </svg>
-  <g fill="#a0aab4" font-size="12">
-    <svg x="4%" y="235" width="140" height="18">
-      <text y="13">Less</text><rect class="d0" x="31" y="4" width="9" height="9" fill="#212830"/><rect class="d1" x="43" y="4" width="9" height="9" fill="#234934"/><rect class="d2" x="55" y="4" width="9" height="9" fill="#39744a"/><rect class="d3" x="67" y="4" width="9" height="9" fill="#6aa354"/><rect class="d4" x="79" y="4" width="9" height="9" fill="#a7d760"/><text x="95" y="13">More</text>
+  <g transform="translate(0 -29)"><svg y="100%" width="100%" height="24" fill="#a0aab4" font-size="12">
+    <svg x="0" width="140" height="18">
+      <text class="expanded" y="13">Less</text><g class="swatches" transform="translate(0)"><rect class="d0" x="0" y="4" width="9" height="9" fill="#212830"/><rect class="d1" x="12" y="4" width="9" height="9" fill="#234934"/><rect class="d2" x="24" y="4" width="9" height="9" fill="#39744a"/><rect class="d3" x="36" y="4" width="9" height="9" fill="#6aa354"/><rect class="d4" x="48" y="4" width="9" height="9" fill="#a7d760"/></g><text class="expanded" x="95" y="13">More</text>
     </svg>
-    <text x="4%" y="269" text-anchor="start">Updated Nov 19, 2026</text>
-    <text fill="#f0f6fc" x="96%" y="248" text-anchor="end">Tokscale ↗</text>
-  </g>
+    <text x="50%" y="13" text-anchor="middle"><tspan class="expanded">Updated </tspan>Nov 19<tspan class="expanded">, 2026</tspan></text>
+    <text fill="#f0f6fc" x="100%" y="13" text-anchor="end">Tokscale ↗</text>
+  </svg></g>
+</svg>
   <rect width="100%" height="100%" fill="none" stroke="#343d48" stroke-width="2"/>
 </svg>

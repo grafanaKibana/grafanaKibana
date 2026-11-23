@@ -4,10 +4,12 @@
   <rect width="100%" height="100%" fill="#ffffff"/>
   <rect width="100%" height="76" fill="#f6f8fa"/>
   <line x2="100%" y1="76" y2="76" stroke="#d1d9e0"/>
-  <text fill="#59636e" x="16" y="25" font-size="14">Lifetime tokens</text>
-  <text fill="#1f2328" x="16" y="56" font-size="32" font-weight="600">60.25B</text><text fill="#59636e" x="528" y="25" font-size="14">Estimated cost</text>
-  <text fill="#1f2328" x="528" y="56" font-size="22" font-weight="600">$36,990</text><text fill="#59636e" x="688" y="25" font-size="14">Cost rank</text>
-  <text fill="#1f2328" x="688" y="56" font-size="22" font-weight="600">#502</text>
+
+
+  <text fill="#59636e" x="16" y="25" text-anchor="start" font-size="14">Lifetime tokens</text>
+  <text fill="#1f2328" x="16" y="56" text-anchor="start" font-size="32" font-weight="600">60.25B</text><text fill="#59636e" x="528" y="25" text-anchor="start" font-size="14">Estimated cost</text>
+  <text fill="#1f2328" x="528" y="56" text-anchor="start" font-size="22" font-weight="600">$36,990</text><text fill="#59636e" x="688" y="25" text-anchor="start" font-size="14">Cost rank</text>
+  <text fill="#1f2328" x="688" y="56" text-anchor="start" font-size="22" font-weight="600">#502</text>
   <text fill="#1f2328" x="16" y="101" font-size="15" font-weight="600">Daily tokens</text>
   <text fill="#59636e" x="784" y="101" text-anchor="end" font-size="13">245 active days</text>
   <rect class="d0" x="16" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
@@ -388,12 +390,13 @@
 <rect class="d0" x="755.02" y="218.94" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="769.51" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="769.51" y="146.49" width="11.49" height="11.49" fill="#e9edf1"/>
-  <g fill="#59636e" font-size="13">
-    <svg x="16" y="245" width="140" height="18">
-      <text y="13">Less</text><rect class="d0" x="31" y="4" width="9" height="9" fill="#e9edf1"/><rect class="d1" x="43" y="4" width="9" height="9" fill="#c4ddac"/><rect class="d2" x="55" y="4" width="9" height="9" fill="#93c76e"/><rect class="d3" x="67" y="4" width="9" height="9" fill="#579342"/><rect class="d4" x="79" y="4" width="9" height="9" fill="#336b2c"/><text x="95" y="13">More</text>
+  <g transform="translate(0 0)"><svg y="245" width="100%" height="24" fill="#59636e" font-size="13">
+    <svg x="16" width="140" height="18">
+      <text class="expanded" y="13">Less</text><g class="swatches" transform="translate(31)"><rect class="d0" x="0" y="4" width="9" height="9" fill="#e9edf1"/><rect class="d1" x="12" y="4" width="9" height="9" fill="#c4ddac"/><rect class="d2" x="24" y="4" width="9" height="9" fill="#93c76e"/><rect class="d3" x="36" y="4" width="9" height="9" fill="#579342"/><rect class="d4" x="48" y="4" width="9" height="9" fill="#336b2c"/></g><text class="expanded" x="95" y="13">More</text>
     </svg>
-    <text x="688" y="258" text-anchor="end">Updated Nov 19, 2026</text>
-    <text fill="#1f2328" x="784" y="258" text-anchor="end">Tokscale ↗</text>
-  </g>
+    <text x="688" y="13" text-anchor="end">Updated Nov 19, 2026</text>
+    <text fill="#1f2328" x="784" y="13" text-anchor="end">Tokscale ↗</text>
+  </svg></g>
+
   <rect width="100%" height="100%" fill="none" stroke="#d1d9e0" stroke-width="2"/>
 </svg>

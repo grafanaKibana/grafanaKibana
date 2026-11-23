@@ -159,16 +159,15 @@ internal static class Tokscale
 
     private static string Render(Usage usage, DateOnly start, DateOnly end, Palette palette, bool mobile)
     {
-        int secondRow = mobile && usage.Cost.HasValue ? 42 : 0;
-        int height = mobile ? 241 + secondRow : 278;
-        int summaryHeight = mobile ? 58 + secondRow : 76;
+        string height = mobile ? "100%" : "278";
+        int summaryHeight = mobile ? 59 : 76;
         // The compact viewport is fluid. Only the calendar columns scale with available width.
         string viewport = mobile ? "width='100%'" : "width='800' viewBox='0 0 800 278'";
-        string left = mobile ? "4%" : "16";
-        string right = mobile ? "96%" : "784";
+        string left = mobile ? "0" : "16";
+        string right = mobile ? "100%" : "784";
         int headingY = summaryHeight + (mobile ? 21 : 25);
         int calendarY = headingY + (mobile ? 24 : 31);
-        int footerY = mobile ? 206 + secondRow : 258;
+        string footerTop = mobile ? "100%" : "245";
         int activeDays = usage.Active.Count(date => date >= start && date <= end);
         string period = $"{start:MMM d, yyyy} to {end:MMM d, yyyy}";
         string stamp = usage.Updated is DateOnly updated ? $"Updated {updated:MMM d, yyyy}" : "";
@@ -179,13 +178,13 @@ internal static class Tokscale
         if (usage.Cost is double cost)
         {
             string formatted = cost >= 100 ? $"${cost:N0}" : $"${cost:N2}";
-            AppendMetric(metrics, palette, mobile ? left : "528", mobile ? 68 : 25, "Estimated cost", formatted, mobile ? 16 : 22, mobile);
+            AppendMetric(metrics, palette, mobile ? "42%" : "528", mobile ? 21 : 25, "Estimated cost", formatted, mobile ? 16 : 22, mobile);
             description.Append($" Estimated cost {formatted}.");
         }
 
         if (usage.Rank is long rank)
         {
-            AppendMetric(metrics, palette, mobile ? "54%" : "688", mobile ? 68 : 25, "Cost rank", $"#{rank:N0}", mobile ? 16 : 22, mobile);
+            AppendMetric(metrics, palette, mobile ? right : "688", mobile ? 21 : 25, "Cost rank", $"#{rank:N0}", mobile ? 16 : 22, mobile, mobile ? "end" : "start");
             description.Append($" All-time cost rank #{rank:N0}.");
         }
 
@@ -195,11 +194,33 @@ internal static class Tokscale
             description.Append($" {stamp} UTC.");
         }
 
-        string stampX = mobile ? left : "688";
-        int stampY = mobile ? footerY + 21 : footerY;
-        string dateAnchor = mobile ? "start" : "end";
+        string stampX = mobile ? "50%" : "688";
+        string dateAnchor = mobile ? "middle" : "end";
+        string stampText = mobile && usage.Updated is DateOnly date
+            ? $"""<tspan class="expanded">Updated </tspan>{date:MMM d}<tspan class="expanded">, {date:yyyy}</tspan>"""
+            : stamp;
         string legend = string.Concat(palette.Cells.Select((color, i) =>
-            $"""<rect class="d{i}" x="{31 + i * 12}" y="4" width="9" height="9" fill="{color}"/>"""));
+            $"""<rect class="d{i}" x="{i * 12}" y="4" width="9" height="9" fill="{color}"/>"""));
+        string compactStyles = mobile ? """
+            <style>
+              .expanded, .metric-long { display: none }
+              @media (min-width: 300px) {
+                .metric-long { display: inline }
+                .short { display: none }
+              }
+              @media (min-width: 380px) {
+                .expanded { display: inline }
+                .cost { transform: translateX(14%) }
+                .swatches { transform: translateX(31px) }
+              }
+            </style>
+            """ : "";
+        // SVG geometry in WebKit cannot use calc(). A constant additive length resolves against the fluid width.
+        string inset = mobile ? """
+            <svg x="16" width="92%" height="100%">
+              <set attributeName="width" to="100%"/>
+              <animate attributeName="width" values="-32;-32" dur="1s" fill="freeze" additive="sum"/>
+            """ : "";
         return $$"""
             <svg xmlns="http://www.w3.org/2000/svg" {{viewport}} height="{{height}}" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
               <title id="title">Tokscale token usage</title>
@@ -207,17 +228,20 @@ internal static class Tokscale
               <rect width="100%" height="100%" fill="{{palette.Canvas}}"/>
               <rect width="100%" height="{{summaryHeight}}" fill="{{palette.Surface}}"/>
               <line x2="100%" y1="{{summaryHeight}}" y2="{{summaryHeight}}" stroke="{{palette.Border}}"/>
+            {{compactStyles}}
+            {{inset}}
               {{metrics}}
               <text fill="{{palette.Ink}}" x="{{left}}" y="{{headingY}}" font-size="{{(mobile ? 14 : 15)}}" font-weight="600">Daily tokens</text>
               <text fill="{{palette.Muted}}" x="{{right}}" y="{{headingY}}" text-anchor="end" font-size="{{(mobile ? 12 : 13)}}">{{activeDays}} active days</text>
               {{Calendar(usage.Daily, start, end, calendarY, mobile, palette)}}
-              <g fill="{{palette.Muted}}" font-size="{{(mobile ? 12 : 13)}}">
-                <svg x="{{left}}" y="{{footerY - 13}}" width="140" height="18">
-                  <text y="13">Less</text>{{legend}}<text x="95" y="13">More</text>
+              <g transform="translate(0 {{(mobile ? -29 : 0)}})"><svg y="{{footerTop}}" width="100%" height="24" fill="{{palette.Muted}}" font-size="{{(mobile ? 12 : 13)}}">
+                <svg x="{{left}}" width="140" height="18">
+                  <text class="expanded" y="13">Less</text><g class="swatches" transform="translate({{(mobile ? 0 : 31)}})">{{legend}}</g><text class="expanded" x="95" y="13">More</text>
                 </svg>
-                <text x="{{stampX}}" y="{{stampY}}" text-anchor="{{dateAnchor}}">{{stamp}}</text>
-                <text fill="{{palette.Ink}}" x="{{right}}" y="{{footerY}}" text-anchor="end">Tokscale ↗</text>
-              </g>
+                <text x="{{stampX}}" y="13" text-anchor="{{dateAnchor}}">{{stampText}}</text>
+                <text fill="{{palette.Ink}}" x="{{right}}" y="13" text-anchor="end">Tokscale ↗</text>
+              </svg></g>
+            {{(mobile ? "</svg>" : "")}}
               <rect width="100%" height="100%" fill="none" stroke="{{palette.Border}}" stroke-width="2"/>
             </svg>
 
@@ -225,12 +249,19 @@ internal static class Tokscale
     }
 
     private static void AppendMetric(StringBuilder metrics, Palette palette, string x, int y,
-        string label, string value, int size, bool mobile)
+        string label, string value, int size, bool mobile, string anchor = "start")
     {
         int baseline = y + (mobile ? 22 : 31);
+        string cssClass = mobile && label == "Estimated cost" ? " class=\"cost\"" : "";
+        if (mobile && label is "Lifetime tokens" or "Estimated cost")
+        {
+            string shortLabel = label == "Lifetime tokens" ? "Tokens" : "Est. cost";
+            label = $"""<tspan class="metric-long">{label}</tspan><tspan class="short">{shortLabel}</tspan>""";
+        }
+
         metrics.Append($"""
-            <text fill="{palette.Muted}" x="{x}" y="{y}" font-size="{(mobile ? 12 : 14)}">{label}</text>
-              <text fill="{palette.Ink}" x="{x}" y="{baseline}" font-size="{size}" font-weight="600">{value}</text>
+            <text{cssClass} fill="{palette.Muted}" x="{x}" y="{y}" text-anchor="{anchor}" font-size="{(mobile ? 12 : 14)}">{label}</text>
+              <text{cssClass} fill="{palette.Ink}" x="{x}" y="{baseline}" text-anchor="{anchor}" font-size="{size}" font-weight="600">{value}</text>
             """);
     }
 
@@ -251,7 +282,7 @@ internal static class Tokscale
         var chart = new StringBuilder();
         for (var column = 0; column < weeks; column++)
         {
-            string x = mobile ? $"{4 + 92d * column / weeks:0.###}%" : $"{16 + column * step:0.##}";
+            string x = mobile ? $"{100d * column / weeks:0.###}%" : $"{16 + column * step:0.##}";
             var cells = new StringBuilder();
             for (var weekday = 0; weekday < 7; weekday++)
             {
@@ -275,7 +306,7 @@ internal static class Tokscale
 
             if (mobile)
             {
-                chart.AppendLine($"""<svg x="{x}" y="{top}" width="{92d / weeks:0.###}%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet">{cells}</svg>""");
+                chart.AppendLine($"""<svg x="{x}" y="{top}" width="{100d / weeks:0.###}%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet">{cells}</svg>""");
             }
             else
             {
