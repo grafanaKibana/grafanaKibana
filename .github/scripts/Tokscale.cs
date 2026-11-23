@@ -163,7 +163,8 @@ internal static class Tokscale
         int summaryHeight = mobile ? 59 : 76;
         // The compact viewport is fluid. Only the calendar columns scale with available width.
         string viewport = mobile ? "width='100%'" : "width='800' viewBox='0 0 800 278'";
-        string left = mobile ? "0" : "16";
+        const string left = "16";
+        string rightInset = mobile ? " dx=\"-16\"" : "";
         string right = mobile ? "100%" : "784";
         int headingY = summaryHeight + (mobile ? 21 : 25);
         int calendarY = headingY + (mobile ? 24 : 31);
@@ -215,12 +216,6 @@ internal static class Tokscale
               }
             </style>
             """ : "";
-        // SVG geometry in WebKit cannot use calc(). A constant additive length resolves against the fluid width.
-        string inset = mobile ? """
-            <svg x="16" width="92%" height="100%">
-              <set attributeName="width" to="100%"/>
-              <animate attributeName="width" values="-32;-32" dur="1s" fill="freeze" additive="sum"/>
-            """ : "";
         return $$"""
             <svg xmlns="http://www.w3.org/2000/svg" {{viewport}} height="{{height}}" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
               <title id="title">Tokscale token usage</title>
@@ -229,19 +224,17 @@ internal static class Tokscale
               <rect width="100%" height="{{summaryHeight}}" fill="{{palette.Surface}}"/>
               <line x2="100%" y1="{{summaryHeight}}" y2="{{summaryHeight}}" stroke="{{palette.Border}}"/>
             {{compactStyles}}
-            {{inset}}
               {{metrics}}
               <text fill="{{palette.Ink}}" x="{{left}}" y="{{headingY}}" font-size="{{(mobile ? 14 : 15)}}" font-weight="600">Daily tokens</text>
-              <text fill="{{palette.Muted}}" x="{{right}}" y="{{headingY}}" text-anchor="end" font-size="{{(mobile ? 12 : 13)}}">{{activeDays}} active days</text>
+              <text fill="{{palette.Muted}}" x="{{right}}"{{rightInset}} y="{{headingY}}" text-anchor="end" font-size="{{(mobile ? 12 : 13)}}">{{activeDays}} active days</text>
               {{Calendar(usage.Daily, start, end, calendarY, mobile, palette)}}
               <g transform="translate(0 {{(mobile ? -29 : 0)}})"><svg y="{{footerTop}}" width="100%" height="24" fill="{{palette.Muted}}" font-size="{{(mobile ? 12 : 13)}}">
                 <svg x="{{left}}" width="140" height="18">
                   <text class="expanded" y="13">Less</text><g class="swatches" transform="translate({{(mobile ? 0 : 31)}})">{{legend}}</g><text class="expanded" x="95" y="13">More</text>
                 </svg>
                 <text x="{{stampX}}" y="13" text-anchor="{{dateAnchor}}">{{stampText}}</text>
-                <text fill="{{palette.Ink}}" x="{{right}}" y="13" text-anchor="end">Tokscale ↗</text>
+                <text fill="{{palette.Ink}}" x="{{right}}"{{rightInset}} y="13" text-anchor="end">Tokscale ↗</text>
               </svg></g>
-            {{(mobile ? "</svg>" : "")}}
               <rect width="100%" height="100%" fill="none" stroke="{{palette.Border}}" stroke-width="2"/>
             </svg>
 
@@ -259,9 +252,10 @@ internal static class Tokscale
             label = $"""<tspan class="metric-long">{label}</tspan><tspan class="short">{shortLabel}</tspan>""";
         }
 
+        string inset = mobile && anchor == "end" ? " dx=\"-16\"" : "";
         metrics.Append($"""
-            <text{cssClass} fill="{palette.Muted}" x="{x}" y="{y}" text-anchor="{anchor}" font-size="{(mobile ? 12 : 14)}">{label}</text>
-              <text{cssClass} fill="{palette.Ink}" x="{x}" y="{baseline}" text-anchor="{anchor}" font-size="{size}" font-weight="600">{value}</text>
+            <text{cssClass} fill="{palette.Muted}" x="{x}"{inset} y="{y}" text-anchor="{anchor}" font-size="{(mobile ? 12 : 14)}">{label}</text>
+              <text{cssClass} fill="{palette.Ink}" x="{x}"{inset} y="{baseline}" text-anchor="{anchor}" font-size="{size}" font-weight="600">{value}</text>
             """);
     }
 
@@ -280,10 +274,12 @@ internal static class Tokscale
             positive[(positive.Length - 1) / 2], positive[(positive.Length - 1) * 3 / 4]];
 
         var chart = new StringBuilder();
+        var cells = new StringBuilder();
         for (var column = 0; column < weeks; column++)
         {
             string x = mobile ? $"{100d * column / weeks:0.###}%" : $"{16 + column * step:0.##}";
-            var cells = new StringBuilder();
+            string monthInset = mobile ? $" dx=\"{16 - 32d * column / weeks:0.###}\"" : "";
+            string cellX = mobile ? (column * 10).ToString(CultureInfo.InvariantCulture) : x;
             for (var weekday = 0; weekday < 7; weekday++)
             {
                 DateOnly date = sunday.AddDays(column * 7 + weekday);
@@ -295,23 +291,30 @@ internal static class Tokscale
                 bool monthFits = mobile ? column <= weeks - 3 : 16 + column * step + 24 <= 788;
                 if (date.Day == 1 && monthFits)
                 {
-                    chart.AppendLine($"""<text fill="{palette.Muted}" x="{x}" y="{top - 7}" font-size="12">{date:MMM}</text>""");
+                    chart.AppendLine($"""<text fill="{palette.Muted}" x="{x}"{monthInset} y="{top - 7}" font-size="12">{date:MMM}</text>""");
                 }
 
                 long value = daily.GetValueOrDefault(date);
                 int level = value == 0 ? 0 : 1 + cuts.Count(cut => value > cut);
                 double y = mobile ? 10 * weekday : top + weekday * step;
-                cells.AppendLine($"""<rect class="d{level}" x="{(mobile ? "0" : x)}" y="{y:0.##}" width="{side:0.##}" height="{side:0.##}" fill="{palette.Cells[level]}"/>""");
+                cells.AppendLine($"""<rect class="d{level}" x="{cellX}" y="{y:0.##}" width="{side:0.##}" height="{side:0.##}" fill="{palette.Cells[level]}"/>""");
             }
 
-            if (mobile)
-            {
-                chart.AppendLine($"""<svg x="{x}" y="{top}" width="{100d / weeks:0.###}%" height="175" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet">{cells}</svg>""");
-            }
-            else
+            if (!mobile)
             {
                 chart.Append(cells);
+                cells.Clear();
             }
+        }
+
+        if (mobile)
+        {
+            // The grid uses one coordinate system so every day scales by the same amount on resize.
+            chart.AppendLine($"""
+                <defs><pattern id="weeks" width="1" height="1" viewBox="0 0 {weeks * 10} 70" preserveAspectRatio="xMinYMin meet">
+                {cells}</pattern></defs>
+                <rect x="16" y="{top}" width="calc(100% - 32px)" height="175" fill="url(#weeks)"/>
+                """);
         }
 
         return chart.ToString().TrimEnd();
