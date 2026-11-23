@@ -8,9 +8,9 @@
       .mark { color: #84cc16; }
       .caption { fill: #e6edf3; }
     }
-    @media (min-width: 152px) {
+    @media (min-width: 146px) {
       .mark { transform: translate(-68px, 14px); }
-      .caption { text-anchor: middle; transform: translate(11px, 0); }
+      .caption { font-size: 14px; text-anchor: middle; transform: translate(10px, 0); }
     }
     .reflection { opacity: 0; }
     @media (prefers-reduced-motion: no-preference) {
@@ -47,10 +47,8 @@
   <svg class="art" y="1" width="100%" height="44" overflow="hidden">
     <rect class="frame" width="100%" height="100%" fill="url(#wash)" stroke="#b4bdc6" stroke-width="2"/>
     <g class="reflection" opacity="0"><ellipse cx="50%" cy="22" rx="45" ry="92" fill="url(#sheen)"/></g>
-  <svg x="50%" width="1" height="44" overflow="visible">
-      <g class="mark" color="#437100" transform="translate(-8 3)"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></svg></g>
-      <text class="caption" y="27" transform="translate(0 8)" text-anchor="middle" fill="#24292f"
-        font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="14" font-weight="500">Download résumé</text>
-    </svg>
+    <g class="mark" color="#437100" transform="translate(-8 3)"><svg x="50%" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></svg></g>
+    <text class="caption" x="50%" y="27" transform="translate(0 8)" text-anchor="middle" fill="#24292f"
+        font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="500">Download résumé</text>
   </svg>
 </svg>

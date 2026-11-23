@@ -29,10 +29,8 @@
   </defs>
   <svg class="art" y="1" width="100%" height="44" overflow="hidden">
     <rect class="frame" width="100%" height="100%" fill="url(#wash)" stroke="#b4bdc6" stroke-width="2"/>
-    <svg x="50%" width="1" height="44" overflow="visible">
-      <g class="mark" color="#c63d31" transform="translate(-28 14)"><svg viewBox="13 8 16 16" width="16" height="16" fill="currentColor"><path fill="currentColor" d="M24 5.5V19.4Q23.9 20.9 22.4 21H18.5V11.7L12 16.7 5.5 11.6V21H1.6A1.6 1.6 0 0 1 0 19.4V5.4C0 3.5 2.3 2.4 4 3.5L5.4 4.7 12 9.6 18.5 4.5 20.1 3.5C21.7 2.3 24 3.5 24 5.5" transform="translate(13 8)scale(.66667)" /></svg></g>
-      <text class="caption" y="27" transform="translate(11 0)" text-anchor="middle" fill="#24292f"
+    <g class="mark" color="#c63d31" transform="translate(-28 14)"><svg x="50%" viewBox="13 8 16 16" width="16" height="16" fill="currentColor"><path fill="currentColor" d="M24 5.5V19.4Q23.9 20.9 22.4 21H18.5V11.7L12 16.7 5.5 11.6V21H1.6A1.6 1.6 0 0 1 0 19.4V5.4C0 3.5 2.3 2.4 4 3.5L5.4 4.7 12 9.6 18.5 4.5 20.1 3.5C21.7 2.3 24 3.5 24 5.5" transform="translate(13 8)scale(.66667)" /></svg></g>
+    <text class="caption" x="50%" y="27" transform="translate(11 0)" text-anchor="middle" fill="#24292f"
         font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="14" font-weight="500">Gmail</text>
-    </svg>
   </svg>
 </svg>

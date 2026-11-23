@@ -29,10 +29,8 @@
   </defs>
   <svg class="art" y="1" width="100%" height="44" overflow="hidden">
     <rect class="frame" width="100%" height="100%" fill="url(#wash)" stroke="#b4bdc6" stroke-width="2"/>
-    <svg x="50%" width="1" height="44" overflow="visible">
-      <g class="mark" color="#087da9" transform="translate(-40 14)"><svg viewBox="13 8 16 16" width="16" height="16" fill="currentColor"><path fill="currentColor" d="M12 0A12 12 0 0 0 0 12 12 12 0 0 0 12 24 12 12 0 0 0 24 12 12 12 0 0 0 12 0M17 7.2 17.3 7.4 17.5 7.7V8.2C17.5 10 16.7 14.7 16.3 16.8Q15.9 18 15.4 18 14.4 18 13.4 17.1L10.9 15.3C9.6 14.5 10.4 14.1 11.1 13.4L14.4 10.2V10H14L9 13.2Q8.2 13.8 7.7 13.8 6.9 13.7 5.8 13.3 4.6 13.1 4.5 12.5 4.5 12.2 5.5 12z" transform="translate(13 8)scale(.66667)" /></svg></g>
-      <text class="caption" y="27" transform="translate(11 0)" text-anchor="middle" fill="#24292f"
+    <g class="mark" color="#087da9" transform="translate(-40 14)"><svg x="50%" viewBox="13 8 16 16" width="16" height="16" fill="currentColor"><path fill="currentColor" d="M12 0A12 12 0 0 0 0 12 12 12 0 0 0 12 24 12 12 0 0 0 24 12 12 12 0 0 0 12 0M17 7.2 17.3 7.4 17.5 7.7V8.2C17.5 10 16.7 14.7 16.3 16.8Q15.9 18 15.4 18 14.4 18 13.4 17.1L10.9 15.3C9.6 14.5 10.4 14.1 11.1 13.4L14.4 10.2V10H14L9 13.2Q8.2 13.8 7.7 13.8 6.9 13.7 5.8 13.3 4.6 13.1 4.5 12.5 4.5 12.2 5.5 12z" transform="translate(13 8)scale(.66667)" /></svg></g>
+    <text class="caption" x="50%" y="27" transform="translate(11 0)" text-anchor="middle" fill="#24292f"
         font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="14" font-weight="500">Telegram</text>
-    </svg>
   </svg>
 </svg>

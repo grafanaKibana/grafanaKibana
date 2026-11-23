@@ -8,7 +8,7 @@
       .mark { color: #e9b837; }
       .caption { fill: #e6edf3; }
     }
-    @media (min-width: 152px) {
+    @media (min-width: 146px) {
       .mark { transform: translate(-36px, 14px); }
       .caption { text-anchor: start; transform: translate(-14px, 0); }
     }
@@ -33,10 +33,8 @@
   </defs>
   <svg class="art" y="1" width="100%" height="44" overflow="hidden">
     <rect class="frame" width="100%" height="100%" fill="url(#wash)" stroke="#b4bdc6" stroke-width="2"/>
-    <svg x="50%" width="1" height="44" overflow="visible">
-      <g class="mark" color="#9a6700" transform="translate(-8 3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3-5.6-3-5.6 3 1.1-6.3L3 9.6l6.2-.9z"/></svg></g>
-      <text class="caption" y="27" transform="translate(0 8)" text-anchor="middle" fill="#24292f"
+    <g class="mark" color="#9a6700" transform="translate(-8 3)"><svg x="50%" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3-5.6-3-5.6 3 1.1-6.3L3 9.6l6.2-.9z"/></svg></g>
+    <text class="caption" x="50%" y="27" transform="translate(0 8)" text-anchor="middle" fill="#24292f"
         font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="14" font-weight="500">Stars <tspan font-weight="600" data-count="stars">22</tspan></text>
-    </svg>
   </svg>
 </svg>
