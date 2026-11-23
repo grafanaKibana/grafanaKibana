@@ -1,21 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="278" viewBox="0 0 800 278" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width='800' viewBox='0 0 800 278' height="278" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
   <title id="title">Tokscale token usage</title>
   <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #502. Daily tokens from Nov 23, 2025 to Nov 23, 2026, with 245 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
-  <rect class="panel" x=".5" y=".5" width="799" height="277" fill="#ffffff" stroke="#d1d9e0"/>
-  <rect class="summary" x="1" y="1" width="798" height="75" fill="#f6f8fa"/>
-  <path class="rule" d="M1 76h798" stroke="#d1d9e0"/>
-  <g transform="translate(16 25)">
-    <text class="muted" fill="#59636e" font-size="14">Lifetime tokens</text>
-    <text class="ink" fill="#1f2328" y="31" font-size="32" font-weight="600">60.25B</text>
-  </g><g transform="translate(528 25)">
-    <text class="muted" fill="#59636e" font-size="14">Estimated cost</text>
-    <text class="ink" fill="#1f2328" y="31" font-size="22" font-weight="600">$36,990</text>
-  </g><g transform="translate(688 25)">
-    <text class="muted" fill="#59636e" font-size="14">Cost rank</text>
-    <text class="ink" fill="#1f2328" y="31" font-size="22" font-weight="600">#502</text>
-  </g>
-  <text class="ink" fill="#1f2328" x="16" y="101" font-size="15" font-weight="600">Daily tokens</text>
-  <text class="muted" fill="#59636e" x="784" y="101" text-anchor="end" font-size="13">245 active days</text>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect width="100%" height="76" fill="#f6f8fa"/>
+  <line x2="100%" y1="76" y2="76" stroke="#d1d9e0"/>
+  <text fill="#59636e" x="16" y="25" font-size="14">Lifetime tokens</text>
+  <text fill="#1f2328" x="16" y="56" font-size="32" font-weight="600">60.25B</text><text fill="#59636e" x="528" y="25" font-size="14">Estimated cost</text>
+  <text fill="#1f2328" x="528" y="56" font-size="22" font-weight="600">$36,990</text><text fill="#59636e" x="688" y="25" font-size="14">Cost rank</text>
+  <text fill="#1f2328" x="688" y="56" font-size="22" font-weight="600">#502</text>
+  <text fill="#1f2328" x="16" y="101" font-size="15" font-weight="600">Daily tokens</text>
+  <text fill="#59636e" x="784" y="101" text-anchor="end" font-size="13">245 active days</text>
   <rect class="d0" x="16" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="16" y="146.49" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="16" y="160.98" width="11.49" height="11.49" fill="#e9edf1"/>
@@ -23,8 +17,8 @@
 <rect class="d0" x="16" y="189.96" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="16" y="204.45" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="16" y="218.94" width="11.49" height="11.49" fill="#e9edf1"/>
+<text fill="#59636e" x="30.49" y="125" font-size="12">Dec</text>
 <rect class="d0" x="30.49" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
-<text class="muted" fill="#59636e" x="30.49" y="125" font-size="12">Dec</text>
 <rect class="d0" x="30.49" y="146.49" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="30.49" y="160.98" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="30.49" y="175.47" width="11.49" height="11.49" fill="#e9edf1"/>
@@ -52,11 +46,11 @@
 <rect class="d1" x="73.96" y="189.96" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d0" x="73.96" y="204.45" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="73.96" y="218.94" width="11.49" height="11.49" fill="#e9edf1"/>
+<text fill="#59636e" x="88.45" y="125" font-size="12">Jan</text>
 <rect class="d0" x="88.45" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="88.45" y="146.49" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="88.45" y="160.98" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="88.45" y="175.47" width="11.49" height="11.49" fill="#e9edf1"/>
-<text class="muted" fill="#59636e" x="88.45" y="125" font-size="12">Jan</text>
 <rect class="d0" x="88.45" y="189.96" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d1" x="88.45" y="204.45" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d1" x="88.45" y="218.94" width="11.49" height="11.49" fill="#c4ddac"/>
@@ -88,7 +82,7 @@
 <rect class="d0" x="146.42" y="189.96" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="146.42" y="204.45" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d1" x="146.42" y="218.94" width="11.49" height="11.49" fill="#c4ddac"/>
-<text class="muted" fill="#59636e" x="160.91" y="125" font-size="12">Feb</text>
+<text fill="#59636e" x="160.91" y="125" font-size="12">Feb</text>
 <rect class="d3" x="160.91" y="132" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d1" x="160.91" y="146.49" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d1" x="160.91" y="160.98" width="11.49" height="11.49" fill="#c4ddac"/>
@@ -117,7 +111,7 @@
 <rect class="d1" x="204.38" y="189.96" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d3" x="204.38" y="204.45" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d3" x="204.38" y="218.94" width="11.49" height="11.49" fill="#579342"/>
-<text class="muted" fill="#59636e" x="218.87" y="125" font-size="12">Mar</text>
+<text fill="#59636e" x="218.87" y="125" font-size="12">Mar</text>
 <rect class="d2" x="218.87" y="132" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d3" x="218.87" y="146.49" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d2" x="218.87" y="160.98" width="11.49" height="11.49" fill="#93c76e"/>
@@ -146,10 +140,10 @@
 <rect class="d0" x="262.34" y="189.96" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="262.34" y="204.45" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="262.34" y="218.94" width="11.49" height="11.49" fill="#e9edf1"/>
+<text fill="#59636e" x="276.83" y="125" font-size="12">Apr</text>
 <rect class="d0" x="276.83" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="276.83" y="146.49" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="276.83" y="160.98" width="11.49" height="11.49" fill="#e9edf1"/>
-<text class="muted" fill="#59636e" x="276.83" y="125" font-size="12">Apr</text>
 <rect class="d0" x="276.83" y="175.47" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="276.83" y="189.96" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="276.83" y="204.45" width="11.49" height="11.49" fill="#e9edf1"/>
@@ -175,12 +169,12 @@
 <rect class="d2" x="320.3" y="189.96" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d0" x="320.3" y="204.45" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="320.3" y="218.94" width="11.49" height="11.49" fill="#e9edf1"/>
+<text fill="#59636e" x="334.79" y="125" font-size="12">May</text>
 <rect class="d0" x="334.79" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d1" x="334.79" y="146.49" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d0" x="334.79" y="160.98" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="334.79" y="175.47" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d1" x="334.79" y="189.96" width="11.49" height="11.49" fill="#c4ddac"/>
-<text class="muted" fill="#59636e" x="334.79" y="125" font-size="12">May</text>
 <rect class="d1" x="334.79" y="204.45" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d1" x="334.79" y="218.94" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d1" x="349.28" y="132" width="11.49" height="11.49" fill="#c4ddac"/>
@@ -211,8 +205,8 @@
 <rect class="d2" x="392.75" y="189.96" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d2" x="392.75" y="204.45" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d1" x="392.75" y="218.94" width="11.49" height="11.49" fill="#c4ddac"/>
+<text fill="#59636e" x="407.25" y="125" font-size="12">Jun</text>
 <rect class="d0" x="407.25" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
-<text class="muted" fill="#59636e" x="407.25" y="125" font-size="12">Jun</text>
 <rect class="d1" x="407.25" y="146.49" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d2" x="407.25" y="160.98" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d2" x="407.25" y="175.47" width="11.49" height="11.49" fill="#93c76e"/>
@@ -240,10 +234,10 @@
 <rect class="d1" x="450.72" y="189.96" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d2" x="450.72" y="204.45" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d3" x="450.72" y="218.94" width="11.49" height="11.49" fill="#579342"/>
+<text fill="#59636e" x="465.21" y="125" font-size="12">Jul</text>
 <rect class="d2" x="465.21" y="132" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d2" x="465.21" y="146.49" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d3" x="465.21" y="160.98" width="11.49" height="11.49" fill="#579342"/>
-<text class="muted" fill="#59636e" x="465.21" y="125" font-size="12">Jul</text>
 <rect class="d3" x="465.21" y="175.47" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d3" x="465.21" y="189.96" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d3" x="465.21" y="204.45" width="11.49" height="11.49" fill="#579342"/>
@@ -269,13 +263,13 @@
 <rect class="d4" x="508.68" y="189.96" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d2" x="508.68" y="204.45" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d4" x="508.68" y="218.94" width="11.49" height="11.49" fill="#336b2c"/>
+<text fill="#59636e" x="523.17" y="125" font-size="12">Aug</text>
 <rect class="d4" x="523.17" y="132" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="523.17" y="146.49" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="523.17" y="160.98" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="523.17" y="175.47" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="523.17" y="189.96" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="523.17" y="204.45" width="11.49" height="11.49" fill="#336b2c"/>
-<text class="muted" fill="#59636e" x="523.17" y="125" font-size="12">Aug</text>
 <rect class="d4" x="523.17" y="218.94" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="537.66" y="132" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d3" x="537.66" y="146.49" width="11.49" height="11.49" fill="#579342"/>
@@ -305,9 +299,9 @@
 <rect class="d4" x="581.13" y="189.96" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="581.13" y="204.45" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="581.13" y="218.94" width="11.49" height="11.49" fill="#336b2c"/>
+<text fill="#59636e" x="595.62" y="125" font-size="12">Sep</text>
 <rect class="d3" x="595.62" y="132" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d4" x="595.62" y="146.49" width="11.49" height="11.49" fill="#336b2c"/>
-<text class="muted" fill="#59636e" x="595.62" y="125" font-size="12">Sep</text>
 <rect class="d4" x="595.62" y="160.98" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d3" x="595.62" y="175.47" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d2" x="595.62" y="189.96" width="11.49" height="11.49" fill="#93c76e"/>
@@ -334,11 +328,11 @@
 <rect class="d0" x="639.09" y="189.96" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d3" x="639.09" y="204.45" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d2" x="639.09" y="218.94" width="11.49" height="11.49" fill="#93c76e"/>
+<text fill="#59636e" x="653.58" y="125" font-size="12">Oct</text>
 <rect class="d1" x="653.58" y="132" width="11.49" height="11.49" fill="#c4ddac"/>
 <rect class="d3" x="653.58" y="146.49" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d3" x="653.58" y="160.98" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d2" x="653.58" y="175.47" width="11.49" height="11.49" fill="#93c76e"/>
-<text class="muted" fill="#59636e" x="653.58" y="125" font-size="12">Oct</text>
 <rect class="d3" x="653.58" y="189.96" width="11.49" height="11.49" fill="#579342"/>
 <rect class="d2" x="653.58" y="204.45" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d1" x="653.58" y="218.94" width="11.49" height="11.49" fill="#c4ddac"/>
@@ -370,7 +364,7 @@
 <rect class="d4" x="711.55" y="189.96" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="711.55" y="204.45" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d4" x="711.55" y="218.94" width="11.49" height="11.49" fill="#336b2c"/>
-<text class="muted" fill="#59636e" x="726.04" y="125" font-size="12">Nov</text>
+<text fill="#59636e" x="726.04" y="125" font-size="12">Nov</text>
 <rect class="d2" x="726.04" y="132" width="11.49" height="11.49" fill="#93c76e"/>
 <rect class="d4" x="726.04" y="146.49" width="11.49" height="11.49" fill="#336b2c"/>
 <rect class="d3" x="726.04" y="160.98" width="11.49" height="11.49" fill="#579342"/>
@@ -394,9 +388,12 @@
 <rect class="d0" x="755.02" y="218.94" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="769.51" y="132" width="11.49" height="11.49" fill="#e9edf1"/>
 <rect class="d0" x="769.51" y="146.49" width="11.49" height="11.49" fill="#e9edf1"/>
-  <g class="muted" fill="#59636e" font-size="13">
-    <text x="16" y="258">Less</text><rect class="d0" x="47" y="249" width="9" height="9" fill="#e9edf1"/><rect class="d1" x="59" y="249" width="9" height="9" fill="#c4ddac"/><rect class="d2" x="71" y="249" width="9" height="9" fill="#93c76e"/><rect class="d3" x="83" y="249" width="9" height="9" fill="#579342"/><rect class="d4" x="95" y="249" width="9" height="9" fill="#336b2c"/><text x="111" y="258">More</text>
+  <g fill="#59636e" font-size="13">
+    <svg x="16" y="245" width="140" height="18">
+      <text y="13">Less</text><rect class="d0" x="31" y="4" width="9" height="9" fill="#e9edf1"/><rect class="d1" x="43" y="4" width="9" height="9" fill="#c4ddac"/><rect class="d2" x="55" y="4" width="9" height="9" fill="#93c76e"/><rect class="d3" x="67" y="4" width="9" height="9" fill="#579342"/><rect class="d4" x="79" y="4" width="9" height="9" fill="#336b2c"/><text x="95" y="13">More</text>
+    </svg>
     <text x="688" y="258" text-anchor="end">Updated Nov 19, 2026</text>
-    <text class="ink" fill="#1f2328" x="784" y="258" text-anchor="end">Tokscale ↗</text>
+    <text fill="#1f2328" x="784" y="258" text-anchor="end">Tokscale ↗</text>
   </g>
+  <rect width="100%" height="100%" fill="none" stroke="#d1d9e0" stroke-width="2"/>
 </svg>

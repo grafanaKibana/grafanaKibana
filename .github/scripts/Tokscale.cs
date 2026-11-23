@@ -159,30 +159,33 @@ internal static class Tokscale
 
     private static string Render(Usage usage, DateOnly start, DateOnly end, Palette palette, bool mobile)
     {
-        int width = mobile ? 320 : 800;
-        int secondRow = mobile && usage.Cost.HasValue ? 49 : 0;
-        int height = mobile ? 267 + secondRow : 278;
-        int summaryHeight = 76 + secondRow;
-        int headingY = summaryHeight + 25;
-        int calendarY = headingY + 31;
-        int footerY = mobile ? 230 + secondRow : 258;
+        int secondRow = mobile && usage.Cost.HasValue ? 42 : 0;
+        int height = mobile ? 241 + secondRow : 278;
+        int summaryHeight = mobile ? 58 + secondRow : 76;
+        // The compact viewport is fluid. Only the calendar columns scale with available width.
+        string viewport = mobile ? "width='100%'" : "width='800' viewBox='0 0 800 278'";
+        string left = mobile ? "4%" : "16";
+        string right = mobile ? "96%" : "784";
+        int headingY = summaryHeight + (mobile ? 21 : 25);
+        int calendarY = headingY + (mobile ? 24 : 31);
+        int footerY = mobile ? 206 + secondRow : 258;
         int activeDays = usage.Active.Count(date => date >= start && date <= end);
         string period = $"{start:MMM d, yyyy} to {end:MMM d, yyyy}";
         string stamp = usage.Updated is DateOnly updated ? $"Updated {updated:MMM d, yyyy}" : "";
 
         var metrics = new StringBuilder();
         var description = new StringBuilder($"{usage.Tokens:N0} lifetime tokens.");
-        AppendMetric(metrics, palette, 16, 25, "Lifetime tokens", Compact(usage.Tokens), 32);
+        AppendMetric(metrics, palette, left, mobile ? 21 : 25, "Lifetime tokens", Compact(usage.Tokens), mobile ? 20 : 32, mobile);
         if (usage.Cost is double cost)
         {
             string formatted = cost >= 100 ? $"${cost:N0}" : $"${cost:N2}";
-            AppendMetric(metrics, palette, mobile ? 16 : 528, mobile ? 82 : 25, "Estimated cost", formatted, 22);
+            AppendMetric(metrics, palette, mobile ? left : "528", mobile ? 68 : 25, "Estimated cost", formatted, mobile ? 16 : 22, mobile);
             description.Append($" Estimated cost {formatted}.");
         }
 
         if (usage.Rank is long rank)
         {
-            AppendMetric(metrics, palette, mobile ? 174 : 688, mobile ? 82 : 25, "Cost rank", $"#{rank:N0}", 22);
+            AppendMetric(metrics, palette, mobile ? "54%" : "688", mobile ? 68 : 25, "Cost rank", $"#{rank:N0}", mobile ? 16 : 22, mobile);
             description.Append($" All-time cost rank #{rank:N0}.");
         }
 
@@ -192,49 +195,52 @@ internal static class Tokscale
             description.Append($" {stamp} UTC.");
         }
 
-        int stampX = mobile ? 16 : width - 112;
-        int stampY = mobile ? footerY + 23 : footerY;
+        string stampX = mobile ? left : "688";
+        int stampY = mobile ? footerY + 21 : footerY;
         string dateAnchor = mobile ? "start" : "end";
         string legend = string.Concat(palette.Cells.Select((color, i) =>
-            $"""<rect class="d{i}" x="{47 + i * 12}" y="{footerY - 9}" width="9" height="9" fill="{color}"/>"""));
+            $"""<rect class="d{i}" x="{31 + i * 12}" y="4" width="9" height="9" fill="{color}"/>"""));
         return $$"""
-            <svg xmlns="http://www.w3.org/2000/svg" width="{{width}}" height="{{height}}" viewBox="0 0 {{width}} {{height}}" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+            <svg xmlns="http://www.w3.org/2000/svg" {{viewport}} height="{{height}}" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
               <title id="title">Tokscale token usage</title>
               <desc id="desc">{{description}}</desc>
-              <rect class="panel" x=".5" y=".5" width="{{width - 1}}" height="{{height - 1}}" fill="{{palette.Canvas}}" stroke="{{palette.Border}}"/>
-              <rect class="summary" x="1" y="1" width="{{width - 2}}" height="{{summaryHeight - 1}}" fill="{{palette.Surface}}"/>
-              <path class="rule" d="M1 {{summaryHeight}}h{{width - 2}}" stroke="{{palette.Border}}"/>
+              <rect width="100%" height="100%" fill="{{palette.Canvas}}"/>
+              <rect width="100%" height="{{summaryHeight}}" fill="{{palette.Surface}}"/>
+              <line x2="100%" y1="{{summaryHeight}}" y2="{{summaryHeight}}" stroke="{{palette.Border}}"/>
               {{metrics}}
-              <text class="ink" fill="{{palette.Ink}}" x="16" y="{{headingY}}" font-size="15" font-weight="600">Daily tokens</text>
-              <text class="muted" fill="{{palette.Muted}}" x="{{width - 16}}" y="{{headingY}}" text-anchor="end" font-size="13">{{activeDays}} active days</text>
-              {{Calendar(usage.Daily, start, end, width, calendarY, mobile, palette)}}
-              <g class="muted" fill="{{palette.Muted}}" font-size="13">
-                <text x="16" y="{{footerY}}">Less</text>{{legend}}<text x="111" y="{{footerY}}">More</text>
+              <text fill="{{palette.Ink}}" x="{{left}}" y="{{headingY}}" font-size="{{(mobile ? 14 : 15)}}" font-weight="600">Daily tokens</text>
+              <text fill="{{palette.Muted}}" x="{{right}}" y="{{headingY}}" text-anchor="end" font-size="{{(mobile ? 12 : 13)}}">{{activeDays}} active days</text>
+              {{Calendar(usage.Daily, start, end, calendarY, mobile, palette)}}
+              <g fill="{{palette.Muted}}" font-size="{{(mobile ? 12 : 13)}}">
+                <svg x="{{left}}" y="{{footerY - 13}}" width="140" height="18">
+                  <text y="13">Less</text>{{legend}}<text x="95" y="13">More</text>
+                </svg>
                 <text x="{{stampX}}" y="{{stampY}}" text-anchor="{{dateAnchor}}">{{stamp}}</text>
-                <text class="ink" fill="{{palette.Ink}}" x="{{width - 16}}" y="{{footerY}}" text-anchor="end">Tokscale ↗</text>
+                <text fill="{{palette.Ink}}" x="{{right}}" y="{{footerY}}" text-anchor="end">Tokscale ↗</text>
               </g>
+              <rect width="100%" height="100%" fill="none" stroke="{{palette.Border}}" stroke-width="2"/>
             </svg>
 
             """;
     }
 
-    private static void AppendMetric(StringBuilder metrics, Palette palette, int x, int y, string label, string value, int size)
+    private static void AppendMetric(StringBuilder metrics, Palette palette, string x, int y,
+        string label, string value, int size, bool mobile)
     {
+        int baseline = y + (mobile ? 22 : 31);
         metrics.Append($"""
-            <g transform="translate({x} {y})">
-                <text class="muted" fill="{palette.Muted}" font-size="14">{label}</text>
-                <text class="ink" fill="{palette.Ink}" y="31" font-size="{size}" font-weight="600">{value}</text>
-              </g>
+            <text fill="{palette.Muted}" x="{x}" y="{y}" font-size="{(mobile ? 12 : 14)}">{label}</text>
+              <text fill="{palette.Ink}" x="{x}" y="{baseline}" font-size="{size}" font-weight="600">{value}</text>
             """);
     }
 
     private static string Calendar(Dictionary<DateOnly, long> daily, DateOnly start, DateOnly end,
-        int width, int top, bool mobile, Palette palette)
+        int top, bool mobile, Palette palette)
     {
         DateOnly sunday = start.AddDays(-(int)start.DayOfWeek);
         int weeks = (end.DayNumber - sunday.DayNumber) / 7 + 1;
-        double step = Math.Min(mobile ? 11 : 15, (width - 32d) / weeks);
-        double side = step - (mobile ? 2 : 3);
+        double step = Math.Min(15, 768d / weeks);
+        double side = mobile ? 8 : step - 3;
 
         // Use the positive days in the displayed period for the four heatmap quartiles.
         long[] positive = daily.Where(day => day.Key >= start && day.Key <= end && day.Value > 0)
@@ -243,19 +249,38 @@ internal static class Tokscale
             positive[(positive.Length - 1) / 2], positive[(positive.Length - 1) * 3 / 4]];
 
         var chart = new StringBuilder();
-        for (DateOnly date = start; date <= end; date = date.AddDays(1))
+        for (var column = 0; column < weeks; column++)
         {
-            int column = (date.DayNumber - sunday.DayNumber) / 7;
-            double x = 16 + column * step;
-            double y = top + (int)date.DayOfWeek * step;
-            if (date.Day == 1 && x + 24 <= width - 12)
+            string x = mobile ? $"{4 + 92d * column / weeks:0.###}%" : $"{16 + column * step:0.##}";
+            var cells = new StringBuilder();
+            for (var weekday = 0; weekday < 7; weekday++)
             {
-                chart.AppendLine($"""<text class="muted" fill="{palette.Muted}" x="{x:0.##}" y="{top - 7}" font-size="12">{date:MMM}</text>""");
+                DateOnly date = sunday.AddDays(column * 7 + weekday);
+                if (date < start || date > end)
+                {
+                    continue;
+                }
+
+                bool monthFits = mobile ? column <= weeks - 3 : 16 + column * step + 24 <= 788;
+                if (date.Day == 1 && monthFits)
+                {
+                    chart.AppendLine($"""<text fill="{palette.Muted}" x="{x}" y="{top - 7}" font-size="12">{date:MMM}</text>""");
+                }
+
+                long value = daily.GetValueOrDefault(date);
+                int level = value == 0 ? 0 : 1 + cuts.Count(cut => value > cut);
+                double y = mobile ? 10 * weekday : top + weekday * step;
+                cells.AppendLine($"""<rect class="d{level}" x="{(mobile ? "0" : x)}" y="{y:0.##}" width="{side:0.##}" height="{side:0.##}" fill="{palette.Cells[level]}"/>""");
             }
 
-            long value = daily.GetValueOrDefault(date);
-            int level = value == 0 ? 0 : 1 + cuts.Count(cut => value > cut);
-            chart.AppendLine($"""<rect class="d{level}" x="{x:0.##}" y="{y:0.##}" width="{side:0.##}" height="{side:0.##}" fill="{palette.Cells[level]}"/>""");
+            if (mobile)
+            {
+                chart.AppendLine($"""<svg x="{x}" y="{top}" width="{92d / weeks:0.###}%" height="76" viewBox="0 0 10 70" preserveAspectRatio="xMinYMin meet">{cells}</svg>""");
+            }
+            else
+            {
+                chart.Append(cells);
+            }
         }
 
         return chart.ToString().TrimEnd();
