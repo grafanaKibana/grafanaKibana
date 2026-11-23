@@ -1,57 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="48" role="img">
-  <title>Download résumé</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="48" role="img" aria-labelledby="title">
+  <title id="title">Download résumé</title>
   <style>
-    .button {
-      box-sizing: border-box; width: calc(100% - 8px); height: calc(100% - 2px); margin: 0 4px;
-      display: flex; align-items: center; justify-content: center; gap: 6px;
-      position: relative; overflow: hidden;
-      --brand: #437100; --ink: #24292f; --edge: #76839066; --wash: 18%;
-      padding: 4px 6px; border: 1px solid var(--edge); color: var(--ink);
-      --core-width: 25px; --bloom-width: 52px;
-      --reflection: 255 249 226; --core: .11; --bloom: .035;
-      background-color: color-mix(in srgb, var(--brand) 10%, transparent);
-      background-image: radial-gradient(ellipse 80% 130% at 50% -35%, color-mix(in srgb, var(--brand) var(--wash), transparent), transparent);
+    @media (prefers-color-scheme: dark) {
+      .top { stop-color: #2e4517; }
+      .base { stop-color: #192417; }
+      .frame { stroke: #48515b; }
+      .mark { color: #84cc16; }
+      .caption { fill: #e6edf3; }
     }
-    #dark:target ~ foreignObject .button {
-      --brand: #84cc16; --ink: #e6edf3; --edge: #8c959f55; --wash: 22%;
-      --reflection: 255 255 241; --core: .30; --bloom: .095;
+    @media (min-width: 146px) {
+      .mark { transform: translate(-68px, 14px); }
+      .caption { font-size: 14px; text-anchor: middle; transform: translate(10px, 0); }
     }
-    .icon { color: var(--brand); }
-    .label { font: 500 14px/21px "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; white-space: nowrap; }
-    .icon, .label { display: block; flex: none; }
-    .compact { display: none; }
-    @media (max-width: 155px) {
-      .button { gap: 4px; padding: 4px 3px; --core-width: 16px; --bloom-width: 28px; }
-      .full { display: none; }
-      .compact { display: block; }
-    }
-    @media (max-width: 88px) {
-      .button { flex-direction: column; gap: 1px; }
-    }
+    .reflection { opacity: 0; }
     @media (prefers-reduced-motion: no-preference) {
-      .button::before {
-        content: ""; position: absolute; inset: -96px 0; pointer-events: none;
-        background:
-          radial-gradient(ellipse var(--core-width) 82px at 50% 50%,
-            rgb(var(--reflection) / var(--core)), transparent 100%),
-          radial-gradient(ellipse var(--bloom-width) 102px at 48% 51%,
-            rgb(255 238 187 / var(--bloom)), transparent 100%);
-        opacity: .50;
-        animation: sheen 12s ease-in-out infinite;
-      }
-      .icon, .label { position: relative; }
+      .reflection { opacity: .5; animation: sheen 12s ease-in-out infinite; }
       @keyframes sheen {
         0% { transform: translate(-115%, -18px) skewX(-24deg); }
         10%, 100% { transform: translate(115%, 18px) skewX(-24deg); }
       }
     }
+    #light:target ~ defs .top { stop-color: #d8e1c9; }
+    #light:target ~ defs .base { stop-color: #ecf1e6; }
+    #light:target ~ .art .frame { stroke: #b4bdc6; }
+    #light:target ~ .art .mark { color: #437100; }
+    #light:target ~ .art .caption { fill: #24292f; }
+    #dark:target ~ defs .top { stop-color: #2e4517; }
+    #dark:target ~ defs .base { stop-color: #192417; }
+    #dark:target ~ .art .frame { stroke: #48515b; }
+    #dark:target ~ .art .mark { color: #84cc16; }
+    #dark:target ~ .art .caption { fill: #e6edf3; }
   </style>
+  <desc id="light">Light appearance</desc>
   <desc id="dark">Dark appearance</desc>
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="button">
-      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></svg>
-      <span class="label full">Download résumé</span>
-      <span class="label compact">Résumé</span>
-    </div>
-  </foreignObject>
+  <defs>
+    <radialGradient id="wash" cx="50%" cy="-35%" r="125%">
+      <stop class="top" stop-color="#d8e1c9"/>
+      <stop class="base" offset="1" stop-color="#ecf1e6"/>
+    </radialGradient>
+    <clipPath id="surface"><use href="#badge-frame"/></clipPath>
+    <radialGradient id="sheen">
+      <stop stop-color="#fff9db" stop-opacity=".33"/>
+      <stop offset=".44" stop-color="#fff4ca" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#fff4ca" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <svg class="art" y="2" width="100%" height="44" overflow="hidden">
+    <rect id="badge-frame" class="frame" x="2.5" y=".5" width="calc(100% - 5px)" height="43" fill="url(#wash)" stroke="#b4bdc6" stroke-width="1"/>
+    <g clip-path="url(#surface)"><g class="reflection" opacity="0"><ellipse cx="50%" cy="22" rx="45" ry="92" fill="url(#sheen)"/></g></g>
+    <g class="mark" color="#437100" transform="translate(-8 3)"><svg x="50%" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></svg></g>
+    <text class="caption" x="50%" y="27" transform="translate(0 8)" text-anchor="middle" fill="#24292f"
+        font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="500">Download résumé</text>
+  </svg>
 </svg>
