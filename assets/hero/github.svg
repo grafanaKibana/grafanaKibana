@@ -1,38 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="48" role="img">
-  <title>Ask me</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="48" role="img" aria-labelledby="title">
+  <title id="title">Ask a public question on GitHub</title>
   <style>
-    .button {
-      box-sizing: border-box; width: calc(100% - 2px); height: calc(100% - 2px); margin: 2px 0px 0 2px;
-      --brand: #59636e;
-      --ink: #24292f;
-      --edge: #76839066;
-      --wash: 11%;
-      display: flex; align-items: center; justify-content: center; gap: 7px;
-      padding: 4px 6px; border: 1px solid var(--edge); color: var(--ink);
-      background-color: color-mix(in srgb, var(--brand) 3%, transparent);
-      background-image: radial-gradient(ellipse 80% 130% at 50% -35%, color-mix(in srgb, var(--brand) var(--wash), transparent), transparent);
+    @media (prefers-color-scheme: dark) {
+      .top { stop-color: #22272d; }
+      .base { stop-color: #12161d; }
+      .frame { stroke: #48515b; }
+      .mark { color: #a5adb6; }
+      .caption { fill: #e6edf3; }
     }
-    #dark:target ~ foreignObject .button {
-      --brand: #a5adb6; --ink: #e6edf3; --edge: #8c959f55; --wash: 15%;
-    }
-    .icon { color: var(--brand); }
-    .label { font: 500 14px/21px "Mona Sans VF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; white-space: nowrap; }
-    .icon, .label { display: block; flex: none; }
-    .compact { display: none; }
-    @media (max-width: 110px) {
-      .button { flex-direction: column; gap: 2px; padding: 2px; }
-    }
-    @media (max-width: 55px) {
-      .full { display: none; }
-      .compact { display: block; }
-    }
+    #light:target ~ defs .top { stop-color: #edeeef; }
+    #light:target ~ defs .base { stop-color: #fbfbfb; }
+    #light:target ~ .art .frame { stroke: #b4bdc6; }
+    #light:target ~ .art .mark { color: #59636e; }
+    #light:target ~ .art .caption { fill: #24292f; }
+    #dark:target ~ defs .top { stop-color: #22272d; }
+    #dark:target ~ defs .base { stop-color: #12161d; }
+    #dark:target ~ .art .frame { stroke: #48515b; }
+    #dark:target ~ .art .mark { color: #a5adb6; }
+    #dark:target ~ .art .caption { fill: #e6edf3; }
   </style>
+  <desc id="light">Light appearance</desc>
   <desc id="dark">Dark appearance</desc>
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="button">
-      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="13 8 16 16" width="16" height="16" fill="currentColor"><path fill="currentColor" d="M12 .3A12 12 0 0 0 8.2 23.7Q9 23.7 9 23V21.1C5.7 21.8 5 19.5 5 19.5 4.4 18 3.6 17.7 3.6 17.7 2.6 17 3.7 17 3.7 17 5 17 5.6 18.2 5.6 18.2 6.6 20 8.4 19.5 9 19.2Q9.2 18 9.8 17.6C7.1 17.3 4.3 16.3 4.3 11.6Q4.3 9.8 5.6 8.6C5.4 8 5 6.9 5.6 5.3 5.7 5.3 6.7 5 9 6.5A12 12 0 0 1 15 6.5C17.3 5 18.3 5.3 18.3 5.3 18.9 6.9 18.5 8 18.3 8.5Q19.7 9.7 19.7 11.7C19.6 16.3 16.8 17.3 14.1 17.6Q15 18 15 19.8V23.1Q14.8 23.7 15.7 23.7A12 12 0 0 0 12 .3" transform="translate(13 8)scale(.66667)" /></svg>
-      <span class="label full">Ask me</span>
-      <span class="label compact">Ask</span>
-    </div>
-  </foreignObject>
+  <defs>
+    <radialGradient id="wash" cx="50%" cy="-35%" r="125%">
+      <stop class="top" stop-color="#edeeef"/>
+      <stop class="base" offset="1" stop-color="#fbfbfb"/>
+    </radialGradient>
+  </defs>
+  <svg class="art" y="1" width="100%" height="44" overflow="hidden">
+    <rect class="frame" width="100%" height="100%" fill="url(#wash)" stroke="#b4bdc6" stroke-width="2"/>
+    <svg x="50%" width="1" height="44" overflow="visible">
+      <g class="mark" color="#59636e" transform="translate(-34 14)"><svg viewBox="13 8 16 16" width="16" height="16" fill="currentColor"><path fill="currentColor" d="M12 .3A12 12 0 0 0 8.2 23.7Q9 23.7 9 23V21.1C5.7 21.8 5 19.5 5 19.5 4.4 18 3.6 17.7 3.6 17.7 2.6 17 3.7 17 3.7 17 5 17 5.6 18.2 5.6 18.2 6.6 20 8.4 19.5 9 19.2Q9.2 18 9.8 17.6C7.1 17.3 4.3 16.3 4.3 11.6Q4.3 9.8 5.6 8.6C5.4 8 5 6.9 5.6 5.3 5.7 5.3 6.7 5 9 6.5A12 12 0 0 1 15 6.5C17.3 5 18.3 5.3 18.3 5.3 18.9 6.9 18.5 8 18.3 8.5Q19.7 9.7 19.7 11.7C19.6 16.3 16.8 17.3 14.1 17.6Q15 18 15 19.8V23.1Q14.8 23.7 15.7 23.7A12 12 0 0 0 12 .3" transform="translate(13 8)scale(.66667)" /></svg></g>
+      <text class="caption" y="27" transform="translate(11 0)" text-anchor="middle" fill="#24292f"
+        font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="14" font-weight="500">Ask me</text>
+    </svg>
+  </svg>
 </svg>

@@ -36,18 +36,24 @@ internal static class GitHubCounters
             }
         }
 
-        const string Asset = "assets/hero/profile-stats.svg";
-        string original = await File.ReadAllTextAsync(Asset);
-        string updated = ReplaceCount(ReplaceCount(original, "followers", followers), "stars", stars);
+        await UpdateBadgeAsync("followers", followers);
+        await UpdateBadgeAsync("stars", stars);
+    }
+
+    private static async Task UpdateBadgeAsync(string name, long count)
+    {
+        string path = $"assets/hero/{name}.svg";
+        string original = await File.ReadAllTextAsync(path);
+        string updated = ReplaceCount(original, name, count);
         if (updated != original)
         {
-            await File.WriteAllTextAsync(Asset, updated);
+            await File.WriteAllTextAsync(path, updated);
         }
     }
 
     private static string ReplaceCount(string svg, string name, long count)
     {
-        var marker = new Regex($"""(?<=data-count="{name}">)[^<]*(?=</span>)""");
+        var marker = new Regex($"""(?<=data-count="{name}">)[^<]*(?=</tspan>)""");
         if (marker.Count(svg) != 1)
         {
             throw new InvalidDataException($"Expected one {name} counter.");
