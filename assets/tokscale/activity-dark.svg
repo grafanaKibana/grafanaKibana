@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width='800' viewBox='0 0 800 278' height="278" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
   <title id="title">Tokscale token usage</title>
-  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #502. Daily tokens from Nov 23, 2025 to Nov 23, 2026, with 245 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
+  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #503. Daily tokens from Nov 24, 2025 to Nov 24, 2026, with 245 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
   <rect width="100%" height="100%" fill="#0d1117"/>
   <rect width="100%" height="76" fill="#151b23"/>
   <line x2="100%" y1="76" y2="76" stroke="#343d48"/>
@@ -8,11 +8,10 @@
   <text fill="#a0aab4" x="16" text-anchor="start" y="25" font-size="14">Lifetime tokens</text>
   <text fill="#f0f6fc" x="16" text-anchor="start" y="56" font-size="32" font-weight="600">60.25B</text><text fill="#a0aab4" x="100%" dx="-96" text-anchor="end" y="25" font-size="14">Estimated cost</text>
   <text fill="#f0f6fc" x="100%" dx="-96" text-anchor="end" y="56" font-size="22" font-weight="600">$36,990</text><text fill="#a0aab4" x="100%" dx="-16" text-anchor="end" y="25" font-size="14">Cost rank</text>
-  <text fill="#f0f6fc" x="100%" dx="-16" text-anchor="end" y="56" font-size="22" font-weight="600">#502</text>
+  <text fill="#f0f6fc" x="100%" dx="-16" text-anchor="end" y="56" font-size="22" font-weight="600">#503</text>
   <text fill="#f0f6fc" x="16" y="101" font-size="15" font-weight="600">Daily tokens</text>
   <text fill="#a0aab4" x="784" y="101" text-anchor="end" font-size="13">245 active days</text>
-  <rect class="d0" x="16" y="132" width="11.49" height="11.49" fill="#212830"/>
-<rect class="d0" x="16" y="146.49" width="11.49" height="11.49" fill="#212830"/>
+  <rect class="d0" x="16" y="146.49" width="11.49" height="11.49" fill="#212830"/>
 <rect class="d0" x="16" y="160.98" width="11.49" height="11.49" fill="#212830"/>
 <rect class="d0" x="16" y="175.47" width="11.49" height="11.49" fill="#212830"/>
 <rect class="d0" x="16" y="189.96" width="11.49" height="11.49" fill="#212830"/>
@@ -389,6 +388,7 @@
 <rect class="d0" x="755.02" y="218.94" width="11.49" height="11.49" fill="#212830"/>
 <rect class="d0" x="769.51" y="132" width="11.49" height="11.49" fill="#212830"/>
 <rect class="d0" x="769.51" y="146.49" width="11.49" height="11.49" fill="#212830"/>
+<rect class="d0" x="769.51" y="160.98" width="11.49" height="11.49" fill="#212830"/>
   <g transform="translate(0 0)"><svg y="245" width="100%" height="24" fill="#a0aab4" font-size="13">
     <svg x="16" width="140" height="18">
       <text class="expanded" y="13">Less</text><g class="swatches" transform="translate(31)"><rect class="d0" x="0" y="4" width="9" height="9" fill="#212830"/><rect class="d1" x="12" y="4" width="9" height="9" fill="#234934"/><rect class="d2" x="24" y="4" width="9" height="9" fill="#39744a"/><rect class="d3" x="36" y="4" width="9" height="9" fill="#6aa354"/><rect class="d4" x="48" y="4" width="9" height="9" fill="#a7d760"/></g><text class="expanded" x="95" y="13">More</text>

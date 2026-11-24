@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width='100%' height="100%" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
   <title id="title">Tokscale token usage</title>
-  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #502. Daily tokens from May 24, 2026 to Nov 23, 2026, with 167 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
+  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #503. Daily tokens from May 25, 2026 to Nov 24, 2026, with 167 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
   <rect width="100%" height="100%" fill="#0d1117"/>
   <rect width="100%" height="59" fill="#151b23"/>
   <line x2="100%" y1="59" y2="59" stroke="#343d48"/>
@@ -18,7 +18,7 @@
   <text fill="#a0aab4" x="16" text-anchor="start" y="21" font-size="12"><tspan class="metric-long">Lifetime tokens</tspan><tspan class="short">Tokens</tspan></text>
   <text fill="#f0f6fc" x="16" text-anchor="start" y="43" font-size="20" font-weight="600">60.25B</text><text fill="#a0aab4" x="100%" dx="-78" text-anchor="end" y="21" font-size="12"><tspan class="metric-long">Estimated cost</tspan><tspan class="short">Est. cost</tspan></text>
   <text fill="#f0f6fc" x="100%" dx="-78" text-anchor="end" y="43" font-size="16" font-weight="600">$36,990</text><text fill="#a0aab4" x="100%" dx="-16" text-anchor="end" y="21" font-size="12">Cost rank</text>
-  <text fill="#f0f6fc" x="100%" dx="-16" text-anchor="end" y="43" font-size="16" font-weight="600">#502</text>
+  <text fill="#f0f6fc" x="100%" dx="-16" text-anchor="end" y="43" font-size="16" font-weight="600">#503</text>
   <text fill="#f0f6fc" x="16" y="80" font-size="14" font-weight="600">Daily tokens</text>
   <text fill="#a0aab4" x="100%" dx="-16" y="80" text-anchor="end" font-size="12">167 active days</text>
   <text fill="#a0aab4" x="3.704%" dx="14.815" y="97" font-size="12">Jun</text>
@@ -28,7 +28,6 @@
 <text fill="#a0aab4" x="66.667%" dx="-5.333" y="97" font-size="12">Oct</text>
 <text fill="#a0aab4" x="85.185%" dx="-11.259" y="97" font-size="12">Nov</text>
 <defs><pattern id="weeks" width="1" height="1" viewBox="0 0 270 70" preserveAspectRatio="xMinYMin meet">
-<rect class="d0" x="0" y="0" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="0" y="10" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="0" y="20" width="8" height="8" fill="#212830"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#234934"/>
@@ -212,6 +211,7 @@
 <rect class="d0" x="250" y="60" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="260" y="0" width="8" height="8" fill="#212830"/>
 <rect class="d0" x="260" y="10" width="8" height="8" fill="#212830"/>
+<rect class="d0" x="260" y="20" width="8" height="8" fill="#212830"/>
 </pattern></defs>
 <rect x="16" y="104" width="calc(100% - 32px)" height="175" fill="url(#weeks)"/>
   <g transform="translate(0 -29)"><svg y="100%" width="100%" height="24" fill="#a0aab4" font-size="12">
