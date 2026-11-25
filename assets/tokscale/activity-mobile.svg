@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width='100%' height="100%" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
   <title id="title">Tokscale token usage</title>
-  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #504. Daily tokens from May 25, 2026 to Nov 24, 2026, with 167 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
+  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #504. Daily tokens from May 26, 2026 to Nov 25, 2026, with 167 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
   <rect width="100%" height="100%" fill="#ffffff"/>
   <rect width="100%" height="59" fill="#f6f8fa"/>
   <line x2="100%" y1="59" y2="59" stroke="#d1d9e0"/>
@@ -28,7 +28,6 @@
 <text fill="#59636e" x="66.667%" dx="-5.333" y="97" font-size="12">Oct</text>
 <text fill="#59636e" x="85.185%" dx="-11.259" y="97" font-size="12">Nov</text>
 <defs><pattern id="weeks" width="1" height="1" viewBox="0 0 270 70" preserveAspectRatio="xMinYMin meet">
-<rect class="d0" x="0" y="10" width="8" height="8" fill="#e9edf1"/>
 <rect class="d0" x="0" y="20" width="8" height="8" fill="#e9edf1"/>
 <rect class="d1" x="0" y="30" width="8" height="8" fill="#c4ddac"/>
 <rect class="d2" x="0" y="40" width="8" height="8" fill="#93c76e"/>
@@ -212,6 +211,7 @@
 <rect class="d0" x="260" y="0" width="8" height="8" fill="#e9edf1"/>
 <rect class="d0" x="260" y="10" width="8" height="8" fill="#e9edf1"/>
 <rect class="d0" x="260" y="20" width="8" height="8" fill="#e9edf1"/>
+<rect class="d0" x="260" y="30" width="8" height="8" fill="#e9edf1"/>
 </pattern></defs>
 <rect x="16" y="104" width="calc(100% - 32px)" height="175" fill="url(#weeks)"/>
   <g transform="translate(0 -29)"><svg y="100%" width="100%" height="24" fill="#59636e" font-size="12">
