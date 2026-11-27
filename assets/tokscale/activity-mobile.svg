@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width='100%' height="100%" role="img" aria-labelledby="title desc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
   <title id="title">Tokscale token usage</title>
-  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #513. Daily tokens from May 28, 2026 to Nov 27, 2026, with 166 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
+  <desc id="desc">60,253,135,829 lifetime tokens. Estimated cost $36,990. All-time cost rank #517. Daily tokens from May 28, 2026 to Nov 27, 2026, with 166 active days. Weeks start on Sunday. Updated Nov 19, 2026 UTC.</desc>
   <rect width="100%" height="100%" fill="#ffffff"/>
   <rect width="100%" height="59" fill="#f6f8fa"/>
   <line x2="100%" y1="59" y2="59" stroke="#d1d9e0"/>
@@ -18,7 +18,7 @@
   <text fill="#59636e" x="16" text-anchor="start" y="21" font-size="12"><tspan class="metric-long">Lifetime tokens</tspan><tspan class="short">Tokens</tspan></text>
   <text fill="#1f2328" x="16" text-anchor="start" y="43" font-size="20" font-weight="600">60.25B</text><text fill="#59636e" x="100%" dx="-78" text-anchor="end" y="21" font-size="12"><tspan class="metric-long">Estimated cost</tspan><tspan class="short">Est. cost</tspan></text>
   <text fill="#1f2328" x="100%" dx="-78" text-anchor="end" y="43" font-size="16" font-weight="600">$36,990</text><text fill="#59636e" x="100%" dx="-16" text-anchor="end" y="21" font-size="12">Cost rank</text>
-  <text fill="#1f2328" x="100%" dx="-16" text-anchor="end" y="43" font-size="16" font-weight="600">#513</text>
+  <text fill="#1f2328" x="100%" dx="-16" text-anchor="end" y="43" font-size="16" font-weight="600">#517</text>
   <text fill="#1f2328" x="16" y="80" font-size="14" font-weight="600">Daily tokens</text>
   <text fill="#59636e" x="100%" dx="-16" y="80" text-anchor="end" font-size="12">166 active days</text>
   <text fill="#59636e" x="3.704%" dx="14.815" y="97" font-size="12">Jun</text>
